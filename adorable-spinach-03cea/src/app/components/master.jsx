@@ -1,22 +1,16 @@
-import React from 'react'
-import AppBar from 'material-ui/lib/app-bar'
-import IconButton from 'material-ui/lib/icon-button'
-import {
-  StylePropable,
-  StyleResizable,
-} from 'material-ui/lib/mixins'
+import React from "react";
+import AppBar from "material-ui/lib/app-bar";
+import IconButton from "material-ui/lib/icon-button";
+import { StylePropable, StyleResizable } from "material-ui/lib/mixins";
 
-import {
-  Colors,
-  getMuiTheme,
-} from 'material-ui/lib/styles'
+import { Colors, getMuiTheme } from "material-ui/lib/styles";
 
-import AppLeftNav from './app-left-nav'
-import FullWidthSection from './full-width-section'
+import AppLeftNav from "./app-left-nav";
+import FullWidthSection from "./full-width-section";
 
-import CustomBaseTheme from '../customBaseTheme'
-import appRoutes from '../app-routes'
-import apiRequest from '../api-request'
+import CustomBaseTheme from "../customBaseTheme";
+import appRoutes from "../app-routes";
+import apiRequest from "../api-request";
 
 const githubButton = (
   <IconButton
@@ -24,10 +18,9 @@ const githubButton = (
     href="https://github.com/lmaccherone/material-ui-template"
     linkButton={true}
   />
-)
+);
 
 const Master = React.createClass({
-
   propTypes: {
     children: React.PropTypes.node,
     history: React.PropTypes.object,
@@ -38,76 +31,85 @@ const Master = React.createClass({
     muiTheme: React.PropTypes.object,
   },
 
-  mixins: [
-    StylePropable,
-    StyleResizable,
-  ],
+  mixins: [StylePropable, StyleResizable],
 
   getInitialState() {
     // TODO: Upgrade before going into production to automatically populate the pendoContext. Move any necessary async calls to
-    let subscription = {id: "5668600916475904", name: "pendo-internal", displayName: "Pendo.io"}
-    let subscriptions = [subscription]
-    let user = {id: "6266382619508736", name: "larry@pendo.io", isSuperUser: true}
+    let subscription = {
+      id: "5668600916475904",
+      name: "pendo-internal",
+      displayName: "Pendo.io",
+    };
+    let subscriptions = [subscription];
+    let user = {
+      id: "6266382619508736",
+      name: "larry@pendo.io",
+      isSuperUser: true,
+    };
     let pendoContext = {
       subscription: subscription,
       user: user,
       subscriptions: subscriptions,
-    }
+    };
     return {
       muiTheme: getMuiTheme(CustomBaseTheme),
       leftNavOpen: false,
       pendoContext: pendoContext,
-    }
+    };
   },
 
   getChildContext() {
     return {
       muiTheme: this.state.muiTheme,
-    }
+    };
   },
 
   componentWillMount() {
     //this.setState({  // I have this commented out because I don't think it's necessary. I could be wrong. If the styles fail to propogate, then re-enable. Also consider adding pendoContext
     //  muiTheme: this.state.muiTheme,
     //})
-    this.setPendoContext()
+    this.setPendoContext();
   },
 
   componentWillReceiveProps(nextProps, nextContext) {
-    const newMuiTheme = nextContext.muiTheme ? nextContext.muiTheme : this.state.muiTheme
+    const newMuiTheme = nextContext.muiTheme
+      ? nextContext.muiTheme
+      : this.state.muiTheme;
     this.setState({
       muiTheme: newMuiTheme,
-    })
+    });
   },
 
-  setPendoContext() {  // TODO: Upgrade this to work in production. This and getInitialState are the only places that should need to change.
-    let {pendoContext} = this.state
+  setPendoContext() {
+    // TODO: Upgrade this to work in production. This and getInitialState are the only places that should need to change.
+    let { pendoContext } = this.state;
     if (pendoContext.user.isSuperUser) {
-      apiRequest('get', '/api/super/subscription', (err, response) => {
+      apiRequest("get", "/api/super/subscription", (err, response) => {
         if (err) {
-          throw new Error(JSON.stringify(err))
+          throw new Error(JSON.stringify(err));
         } else {
-          pendoContext.subscriptions = response
+          pendoContext.subscriptions = response;
           this.setState({
             pendoContext: pendoContext,
-          })
+          });
         }
-      })
+      });
     }
   },
 
   getStyles() {
-    const darkWhite = Colors.darkWhite
+    const darkWhite = Colors.darkWhite;
 
     const styles = {
       appBar: {
-        position: 'fixed',
+        position: "fixed",
         // Needed to overlap the examples
         zIndex: this.state.muiTheme.zIndex.appBar + 1,
         top: 0,
       },
       root: {
-        paddingTop: this.state.muiTheme.rawTheme.spacing.desktopKeylineIncrement,
+        paddingTop:
+          this.state.muiTheme.rawTheme.spacing.desktopKeylineIncrement,
         minHeight: 400,
       },
       content: {
@@ -120,13 +122,13 @@ const Master = React.createClass({
       },
       footer: {
         backgroundColor: this.state.muiTheme.rawTheme.palette.accent2Color,
-        textAlign: 'center',
+        textAlign: "center",
       },
       a: {
         color: darkWhite,
       },
       p: {
-        margin: '0 auto',
+        margin: "0 auto",
         padding: 0,
         color: Colors.lightWhite,
         maxWidth: 335,
@@ -134,70 +136,72 @@ const Master = React.createClass({
       iconButton: {
         color: darkWhite,
       },
+    };
+
+    if (
+      this.isDeviceSize(StyleResizable.statics.Sizes.MEDIUM) ||
+      this.isDeviceSize(StyleResizable.statics.Sizes.LARGE)
+    ) {
+      styles.content = this.mergeStyles(
+        styles.content,
+        styles.contentWhenMedium
+      );
     }
 
-    if (this.isDeviceSize(StyleResizable.statics.Sizes.MEDIUM) ||
-        this.isDeviceSize(StyleResizable.statics.Sizes.LARGE)) {
-      styles.content = this.mergeStyles(styles.content, styles.contentWhenMedium)
-    }
-
-    return styles
+    return styles;
   },
 
   handleTouchTapLeftIconButton() {
     this.setState({
       leftNavOpen: !this.state.leftNavOpen,
-    })
+    });
   },
 
   handleChangeRequestLeftNav(open) {
     this.setState({
       leftNavOpen: open,
-    })
+    });
   },
 
   handleRequestChangeList(event, value) {
-    this.props.history.push(value)
+    this.props.history.push(value);
     this.setState({
       leftNavOpen: false,
-    })
+    });
   },
 
   handleChangeMuiTheme(muiTheme) {
     this.setState({
       muiTheme: muiTheme,
-    })
+    });
   },
 
   render() {
-    const {
-      history,
-      location,
-      children,
-    } = this.props
+    const { history, location, children } = this.props;
 
-    let {
-      leftNavOpen,
-    } = this.state
+    let { leftNavOpen } = this.state;
 
-    const styles = this.getStyles()
+    const styles = this.getStyles();
 
-    let title = this.props.routes[1].name || ''
+    let title = this.props.routes[1].name || "";
 
-    let docked = false
-    let showMenuIconButton = true
+    let docked = false;
+    let showMenuIconButton = true;
 
-    if (this.state.muiTheme.rawTheme.leftNavStartOpen &&
-        this.isDeviceSize(StyleResizable.statics.Sizes.LARGE) && title !== '') {
-      docked = true
-      leftNavOpen = true
-      showMenuIconButton = false
+    if (
+      this.state.muiTheme.rawTheme.leftNavStartOpen &&
+      this.isDeviceSize(StyleResizable.statics.Sizes.LARGE) &&
+      title !== ""
+    ) {
+      docked = true;
+      leftNavOpen = true;
+      showMenuIconButton = false;
 
       styles.leftNav = {
         zIndex: styles.appBar.zIndex - 1,
-      }
-      styles.root.paddingLeft = this.state.muiTheme.leftNav.width
-      styles.footer.paddingLeft = this.state.muiTheme.leftNav.width
+      };
+      styles.root.paddingLeft = this.state.muiTheme.leftNav.width;
+      styles.footer.paddingLeft = this.state.muiTheme.leftNav.width;
     }
 
     return (
@@ -210,7 +214,7 @@ const Master = React.createClass({
           style={styles.appBar}
           showMenuIconButton={showMenuIconButton}
         />
-        {title !== '' ?
+        {title !== "" ? (
           <div style={this.prepareStyles(styles.root)}>
             <div style={this.prepareStyles(styles.content)}>
               {React.cloneElement(children, {
@@ -219,9 +223,9 @@ const Master = React.createClass({
               })}
             </div>
           </div>
-          :
+        ) : (
           children
-        }
+        )}
         <AppLeftNav
           style={styles.leftNav}
           history={history}
@@ -233,10 +237,14 @@ const Master = React.createClass({
         />
         <FullWidthSection style={styles.footer}>
           <p style={this.prepareStyles(styles.p)}>
-            {'Hand crafted with love by '}
-            <a style={styles.a} href="https://www.linkedin.com/in/larrymaccherone">
+            {"Hand crafted with love by "}
+            <a
+              style={styles.a}
+              href="https://www.linkedin.com/in/larrymaccherone"
+            >
               Larry Maccherone
-            </a>.
+            </a>
+            .
           </p>
           <IconButton
             iconStyle={styles.iconButton}
@@ -246,8 +254,8 @@ const Master = React.createClass({
           />
         </FullWidthSection>
       </div>
-    )
+    );
   },
-})
+});
 
-export default Master
+export default Master;

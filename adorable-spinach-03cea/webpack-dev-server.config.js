@@ -1,27 +1,27 @@
-const webpack = require('webpack')
-const path = require('path')
-const buildPath = path.resolve(__dirname, 'src/www')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require("webpack");
+const path = require("path");
+const buildPath = path.resolve(__dirname, "src/www");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const cookie = {
   name: "pendo.sess",
-  value: process.env.PENDO_SESS
-}
+  value: process.env.PENDO_SESS,
+};
 const header = {
-  Cookie: cookie.name + "=" + cookie.value
-}
+  Cookie: cookie.name + "=" + cookie.value,
+};
 
 const config = {
   //Entry point to the project
   entry: [
-    'webpack/hot/dev-server',
-    'webpack/hot/only-dev-server',
-    path.join(__dirname, '/src/app/app.jsx'),
+    "webpack/hot/dev-server",
+    "webpack/hot/only-dev-server",
+    path.join(__dirname, "/src/app/app.jsx"),
   ],
   //Webpack config options on how to obtain modules
   resolve: {
     //When requiring, you don't need to add these extensions
-    extensions: ['', '.js', '.jsx', '.md', '.txt'],
+    extensions: ["", ".js", ".jsx", ".md", ".txt"],
     //alias: {
     //  //material-ui requires will be searched in src folder, not in node_modules
     //  'material-ui/lib': path.resolve(__dirname, '../src'),
@@ -30,35 +30,35 @@ const config = {
     //Modules will be searched for in these directories
     modulesDirectories: [
       // We need /docs/node_modules to be resolved before /node_modules
-      path.resolve(__dirname, 'node_modules'),
-      'node_modules',
-      path.resolve(__dirname, '../src'),
-      path.resolve(__dirname, 'src/app/components/raw-code'),
-      path.resolve(__dirname, 'src/app/components/markdown'),
+      path.resolve(__dirname, "node_modules"),
+      "node_modules",
+      path.resolve(__dirname, "../src"),
+      path.resolve(__dirname, "src/app/components/raw-code"),
+      path.resolve(__dirname, "src/app/components/markdown"),
     ],
   },
   //Configuration for dev server
   devServer: {
-    contentBase: 'src/www',
-    devtool: 'eval',
+    contentBase: "src/www",
+    devtool: "eval",
     hot: true,
     inline: true,
     port: 3000,
     proxy: {
-      '/api/*': {target: 'http://localhost:1338', secure: false},
-    }
+      "/api/*": { target: "http://localhost:1338", secure: false },
+    },
   },
-  devtool: 'source-map',
+  devtool: "source-map",
   //Output file config
   output: {
-    path: buildPath,    //Path of output file
-    filename: 'app.js',  //Name of output file
+    path: buildPath, //Path of output file
+    filename: "app.js", //Name of output file
   },
   plugins: [
     //Used to include index.html in build folder
     new HtmlWebpackPlugin({
       inject: false,
-      template: path.join(__dirname, '/src/www/index.html'),
+      template: path.join(__dirname, "/src/www/index.html"),
     }),
     //Allows for sync with browser while developing (like BorwserSync)
     new webpack.HotModuleReplacementPlugin(),
@@ -71,33 +71,28 @@ const config = {
     //}),
   ],
   externals: {
-    fs: 'js', // To remove once https://github.com/benjamn/recast/pull/238 is released
+    fs: "js", // To remove once https://github.com/benjamn/recast/pull/238 is released
   },
   module: {
     //eslint loader
     preLoaders: [
       {
         test: /\.(js|jsx)$/,
-        loader: 'eslint-loader',
-        include: [path.resolve(__dirname, '../src')],
-        exclude: [
-          path.resolve(__dirname, '../src/svg-icons'),
-        ],
+        loader: "eslint-loader",
+        include: [path.resolve(__dirname, "../src")],
+        exclude: [path.resolve(__dirname, "../src/svg-icons")],
       },
     ],
     //Allow loading of non-es
     loaders: [
       {
         test: /\.jsx$/,
-        loaders: [
-          'react-hot',
-          'babel-loader',
-        ],
+        loaders: ["react-hot", "babel-loader"],
         exclude: /node_modules/,
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        loader: "babel-loader",
         exclude: /node_modules/,
       },
       //{
@@ -110,23 +105,23 @@ const config = {
       //},
       {
         test: /\.json$/,
-        loader: 'json-loader',
+        loader: "json-loader",
       },
       {
         test: /\.txt$/,
-        loader: 'raw-loader',
-        include: path.resolve(__dirname, 'src/app/components/raw-code'),
+        loader: "raw-loader",
+        include: path.resolve(__dirname, "src/app/components/raw-code"),
       },
       {
         test: /\.md$/,
-        loader: 'raw-loader',
+        loader: "raw-loader",
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader',
+        loader: "style-loader!css-loader",
       },
-      { test: /\.cjsx$/, loaders: ['coffee', 'cjsx']},
-      { test: /\.coffee$/, loader: 'coffee' },
+      { test: /\.cjsx$/, loaders: ["coffee", "cjsx"] },
+      { test: /\.coffee$/, loader: "coffee" },
     ],
     //postLoaders: [
     //  {
@@ -135,11 +130,21 @@ const config = {
     //],
   },
   resolve: {
-    extensions: ["", ".cjsx", ".coffee", ".js", ".jsx", ".json", ".txt", ".md", ".css"]
+    extensions: [
+      "",
+      ".cjsx",
+      ".coffee",
+      ".js",
+      ".jsx",
+      ".json",
+      ".txt",
+      ".md",
+      ".css",
+    ],
   },
   eslint: {
-    configFile: '../.eslintrc',
+    configFile: "../.eslintrc",
   },
-}
+};
 
-module.exports = config
+module.exports = config;

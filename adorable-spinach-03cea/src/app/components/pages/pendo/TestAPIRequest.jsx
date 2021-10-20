@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 //import superagent from 'superagent/lib/client'
 
-import {Mixins} from 'material-ui'
-const {StylePropable, StyleResizable} = Mixins
+import { Mixins } from "material-ui";
+const { StylePropable, StyleResizable } = Mixins;
 
-import apiRequest from '../../../api-request'
-import _ from 'lodash'
+import apiRequest from "../../../api-request";
+import _ from "lodash";
 
 export default React.createClass({
-
   // Boilerplate and React lifecycle methods
 
   propTypes: {
@@ -23,25 +22,23 @@ export default React.createClass({
 
   getInitialState() {
     return {
-      result: '',
-    }
+      result: "",
+    };
   },
 
   componentDidMount() {
-    let body = {
-
-    }
-    apiRequest('get', '/api/super/subscription', (err, response) => {
+    let body = {};
+    apiRequest("get", "/api/super/subscription", (err, response) => {
       if (err) {
         this.setState({
-          result: JSON.stringify(err, null, 2)
-        })
+          result: JSON.stringify(err, null, 2),
+        });
       } else {
         this.setState({
-          result: JSON.stringify(response, null, 2)
-        })
+          result: JSON.stringify(response, null, 2),
+        });
       }
-    })
+    });
   },
 
   // Helpers
@@ -56,8 +53,6 @@ export default React.createClass({
         <pre>{JSON.stringify(this.props.pendoContext, null, 2)}</pre>
         <pre>{this.state.result}</pre>
       </div>
-    )
-  }
-
-})
-
+    );
+  },
+});

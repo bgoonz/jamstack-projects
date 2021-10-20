@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import {Mixins} from 'material-ui'
-const {StylePropable, StyleResizable} = Mixins
+import { Mixins } from "material-ui";
+const { StylePropable, StyleResizable } = Mixins;
 
 export default React.createClass({
-
   // Boilerplate and React lifecycle methods
 
   propTypes: {
@@ -18,8 +17,7 @@ export default React.createClass({
   mixins: [StylePropable, StyleResizable],
 
   getInitialState() {
-    return {
-    }
+    return {};
   },
 
   // Helpers
@@ -28,16 +26,17 @@ export default React.createClass({
     let styles = {
       text: {
         fontSize: 12,
-        color: this.context.muiTheme.rawTheme.palette.primary1Color
-      }
-    }
+        color: this.context.muiTheme.rawTheme.palette.primary1Color,
+      },
+    };
 
     // example of a screen-size sensitive style
-    if (this.isDeviceSize(StyleResizable.statics.Sizes.MEDIUM)) {  // active for >= MEDIUM
-      styles.text.fontSize = 20
+    if (this.isDeviceSize(StyleResizable.statics.Sizes.MEDIUM)) {
+      // active for >= MEDIUM
+      styles.text.fontSize = 20;
     }
 
-    return styles
+    return styles;
   },
 
   // Event handlers
@@ -45,11 +44,7 @@ export default React.createClass({
   // None for this Blank page
 
   render() {
-    let styles = this.getStyles()
-    return (
-      <p style={styles.text}>Blank page</p>
-    )
-  }
-
-})
-
+    let styles = this.getStyles();
+    return <p style={styles.text}>Blank page</p>;
+  },
+});

@@ -5,7 +5,7 @@ models:
   page_type:
     type: page
     label: Page Type
-    match: '*'
+    match: "*"
     fields: []
   contents:
     type: data

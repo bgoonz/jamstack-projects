@@ -1,13 +1,11 @@
-import React from 'react';
-import {Link} from 'react-router';
-import {Paper, Mixins, Styles} from 'material-ui';
+import React from "react";
+import { Link } from "react-router";
+import { Paper, Mixins, Styles } from "material-ui";
 
-let {StylePropable, StyleResizable} = Mixins;
-let {Colors, Spacing, Transitions, Typography} = Styles;
-
+let { StylePropable, StyleResizable } = Mixins;
+let { Colors, Spacing, Transitions, Typography } = Styles;
 
 let HomeFeature = React.createClass({
-
   propTypes: {
     firstChild: React.PropTypes.bool,
     heading: React.PropTypes.string,
@@ -37,12 +35,12 @@ let HomeFeature = React.createClass({
     let styles = {
       root: {
         transition: Transitions.easeOut(),
-        maxWidth: '300px',
-        margin: '0 auto ' + desktopGutter + 'px auto',
+        maxWidth: "300px",
+        margin: "0 auto " + desktopGutter + "px auto",
       },
       rootWhenMedium: {
-        float: 'left',
-        width: '33%',
+        float: "left",
+        width: "33%",
         marginRight: 4,
         marginBottom: 0,
       },
@@ -59,10 +57,10 @@ let HomeFeature = React.createClass({
         fontWeight: Typography.fontWeightMedium,
         color: Typography.textDarkBlack,
         backgroundColor: Colors.grey200,
-        textAlign: 'center',
+        textAlign: "center",
         margin: 0,
         padding: 0,
-        lineHeight: desktopKeylineIncrement + 'px',
+        lineHeight: desktopKeylineIncrement + "px",
       },
       rootWhenLastChild: {
         marginBottom: 0,
@@ -76,8 +74,10 @@ let HomeFeature = React.createClass({
       },
     };
 
-    if (this.isDeviceSize(StyleResizable.statics.Sizes.MEDIUM) ||
-        this.isDeviceSize(StyleResizable.statics.Sizes.LARGE)) {
+    if (
+      this.isDeviceSize(StyleResizable.statics.Sizes.MEDIUM) ||
+      this.isDeviceSize(StyleResizable.statics.Sizes.LARGE)
+    ) {
       styles.root = this.mergeStyles(
         styles.root,
         styles.rootWhenMedium,
@@ -111,7 +111,8 @@ let HomeFeature = React.createClass({
         onMouseLeave={this._onMouseLeave}
         style={this.mergeStyles(
           styles.root,
-          this.props.lastChild && styles.rootWhenLastChild)}
+          this.props.lastChild && styles.rootWhenLastChild
+        )}
       >
         <h3 style={styles.heading}>{this.props.heading}</h3>
         <Link to={this.props.route}>
@@ -120,7 +121,6 @@ let HomeFeature = React.createClass({
       </Paper>
     );
   },
-
 });
 
 export default HomeFeature;

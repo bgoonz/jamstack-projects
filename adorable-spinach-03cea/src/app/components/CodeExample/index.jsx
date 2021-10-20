@@ -1,7 +1,7 @@
-import React from 'react';
-import CodeBlock from './CodeBlock';
-import ClearFix from 'material-ui/lib/clearfix';
-import Paper from 'material-ui/lib/paper';
+import React from "react";
+import CodeBlock from "./CodeBlock";
+import ClearFix from "material-ui/lib/clearfix";
+import Paper from "material-ui/lib/paper";
 
 class CodeExample extends React.Component {
   static propTypes = {
@@ -17,12 +17,7 @@ class CodeExample extends React.Component {
   };
 
   render() {
-
-    let {
-      children,
-      code,
-      layoutSideBySide,
-    } = this.props;
+    let { children, code, layoutSideBySide } = this.props;
 
     let palette = this.context.muiTheme.rawTheme.palette;
     let canvasColor = palette.canvasColor;
@@ -33,17 +28,22 @@ class CodeExample extends React.Component {
         marginBottom: 32,
       },
       exampleBlock: {
-        borderRadius: '0 0 2px 0',
-        padding: '14px 24px 24px',
+        borderRadius: "0 0 2px 0",
+        padding: "14px 24px 24px",
         margin: 0,
-        width: layoutSideBySide ? '45%' : null,
-        float: layoutSideBySide ? 'right' : null,
+        width: layoutSideBySide ? "45%" : null,
+        float: layoutSideBySide ? "right" : null,
       },
     };
 
     return (
       <Paper style={styles.root}>
-        <CodeBlock title={this.props.title} description={this.props.description}>{code}</CodeBlock>
+        <CodeBlock
+          title={this.props.title}
+          description={this.props.description}
+        >
+          {code}
+        </CodeBlock>
         <ClearFix style={styles.exampleBlock}>{children}</ClearFix>
       </Paper>
     );

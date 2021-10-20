@@ -1,15 +1,15 @@
-import React from 'react';
-import marked from 'marked';
-import PureRenderMixin from 'react-addons-pure-render-mixin';
-import StylePropable from 'material-ui/lib/mixins/style-propable';
+import React from "react";
+import marked from "marked";
+import PureRenderMixin from "react-addons-pure-render-mixin";
+import StylePropable from "material-ui/lib/mixins/style-propable";
 
-require('./mui-github-markdown.css');
+require("./mui-github-markdown.css");
 
 const styles = {
   root: {
     marginTop: 20,
     marginBottom: 20,
-    padding: '0 10px',
+    padding: "0 10px",
   },
 };
 
@@ -18,12 +18,10 @@ const MarkdownElement = React.createClass({
     style: React.PropTypes.object,
     text: React.PropTypes.string,
   },
-  mixins: [
-    PureRenderMixin,
-  ],
+  mixins: [PureRenderMixin],
   getDefaultProps() {
     return {
-      text: '',
+      text: "",
     };
   },
 
@@ -36,27 +34,24 @@ const MarkdownElement = React.createClass({
       sanitize: false,
       smartLists: true,
       smartypants: false,
-      highlight: function(code, lang) {
-        return require('highlight.js').highlight(lang, code).value;
+      highlight: function (code, lang) {
+        return require("highlight.js").highlight(lang, code).value;
       },
     });
   },
 
   render() {
-    const {
-      style,
-      text,
-    } = this.props;
+    const { style, text } = this.props;
 
-/* eslint-disable */
+    /* eslint-disable */
     return (
       <div
         style={StylePropable.mergeStyles(styles.root, style)}
         className="markdown-body"
-        dangerouslySetInnerHTML={{__html: marked(text)}}
+        dangerouslySetInnerHTML={{ __html: marked(text) }}
       />
     );
-/* eslint-enable */
+    /* eslint-enable */
   },
 });
 

@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {Router} from 'react-router';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Router } from "react-router";
 //import AppRoutes from './app-appRoutes.jsx';
-import appRoutes from './app-routes';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-import createHistory from 'history/lib/createHashHistory';
+import appRoutes from "./app-routes";
+import injectTapEventPlugin from "react-tap-event-plugin";
+import createHistory from "history/lib/createHashHistory";
 
 //Helpers for debugging
 window.React = React;
-window.Perf = require('react-addons-perf');
+window.Perf = require("react-addons-perf");
 
 //Needed for onTouchTap
 //Can go away when react 1.0 release
@@ -22,9 +22,9 @@ injectTapEventPlugin();
  */
 ReactDOM.render(
   <Router
-    history={createHistory({queryKey: false})}
+    history={createHistory({ queryKey: false })}
     onUpdate={() => window.scrollTo(0, 0)}
     routes={appRoutes}
   ></Router>,
-  document.getElementById('app')
+  document.getElementById("app")
 );
