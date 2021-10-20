@@ -10,33 +10,33 @@ excerpt: >-
   multifaceted profession that includes conceptual development, communicating
   with the stakeholders of a project and the management and execution of the
   design.
-date: '2017-03-26'
+date: "2017-03-26"
 thumb_img_path: images/1.jpg
 thumb_img_alt: A wooden table and white chairs
 seo:
   title: How To Choose An Interior Designer
   description: Interior design is “the art or process of designing the interior
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: How To Choose An Interior Designer
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Interior design is “the art or process of designing the interior
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/1.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: How To Choose An Interior Designer
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Interior design is “the art or process of designing the interior
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/1.jpg
       relativeUrl: true
 layout: post
