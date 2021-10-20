@@ -35,29 +35,29 @@ You can [create a site](https://app.stackbit.com/create?theme=https://github.com
 
 ## Develop Locally
 
-1. Follow the [installation guide](https://gohugo.io/getting-started/installing/) to install Hugo
+1.  Follow the [installation guide](https://gohugo.io/getting-started/installing/) to install Hugo
 
-1. This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/) to handle SCSS – please ensure you have the Hugo extended version installed:
+1.  This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/) to handle SCSS – please ensure you have the Hugo extended version installed:
 
         hugo version
 
-1. Get "stackbit-api-key" from project menu in [Stackbit dashboard](https://app.stackbit.com/dashboard)
+1.  Get "stackbit-api-key" from project menu in [Stackbit dashboard](https://app.stackbit.com/dashboard)
 
-1. Run the following command to assign this key to `STACKBIT_API_KEY` environment variable:
+1.  Run the following command to assign this key to `STACKBIT_API_KEY` environment variable:
 
         export STACKBIT_API_KEY={stackbit_netlify_api_key}
 
-1. Run the following command to fetch additional site contents from Stackbit if needed:
+1.  Run the following command to fetch additional site contents from Stackbit if needed:
 
         npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/5fcbb38e000ee00015fa2c41
 
-1. Start the Hugo development server:
+1.  Start the Hugo development server:
 
         hugo server
 
-1. Open [http://localhost:1313/](http://localhost:1313/) in the browser
+1.  Open [http://localhost:1313/](http://localhost:1313/) in the browser
 
-1. 🎉
+1.  🎉
 
 ## Editing Content
 
