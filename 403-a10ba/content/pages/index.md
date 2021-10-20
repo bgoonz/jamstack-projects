@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: 'Hi, I’m Alyvia. I help my clients succeed online.'
+    title: "Hi, I’m Alyvia. I help my clients succeed online."
     subtitle: >-
       I will handle your website design and production, social media accounts
       and digital advertisements for you, at an affordable price.
@@ -59,7 +59,7 @@ sections:
     subtitle: What I do
     features:
       - title: Content Creation
-        subtitle: 'Website, blog, social media and more.'
+        subtitle: "Website, blog, social media and more."
         content: >-
           I will handle content writing for your digital assets, from
           newsletters and emails, to Facebook and Google campaigns, whitepapers,
@@ -76,7 +76,7 @@ sections:
         media_position: right
         media_width: sixty
       - title: Online Store Management
-        subtitle: 'Product updates, inventory and pricing.'
+        subtitle: "Product updates, inventory and pricing."
         content: >-
           Managing an online business is a full-time job. I will make sure your
           products look great, sound great, and sell more on your choice of
@@ -93,7 +93,7 @@ sections:
         media_position: right
         media_width: sixty
       - title: Technical Content
-        subtitle: 'Your products and services, at scale.'
+        subtitle: "Your products and services, at scale."
         content: >-
           I will dive into the ins and outs of your product or service and make
           sure the right information is communicated throughout your
@@ -210,26 +210,26 @@ seo:
   title: Stackbit Personal Theme
   description: The preview of the Personal theme
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Stackbit Personal Theme
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: The preview of the Personal theme
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/personal-preview.png
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Stackbit Personal Theme
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: The preview of the Personal theme
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/personal-preview.png
       relativeUrl: true
 layout: advanced
