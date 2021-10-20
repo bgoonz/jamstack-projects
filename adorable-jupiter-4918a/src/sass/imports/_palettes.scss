@@ -23,7 +23,7 @@
     &:active {
       background: transparent;
       border-color: _palette(accent-blue);
-      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-blue),.2);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-blue), 0.2);
     }
   }
 
@@ -36,10 +36,10 @@
   .profile {
     .avatar {
       border-color: _palette(accent-blue);
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-blue),.2);
+      box-shadow: 0 0 1px 7px rgba(_palette(accent-blue), 0.2);
 
       @media only screen and (min-width: 801px) {
-        box-shadow: 0 0 1px 11px rgba(_palette(accent-blue),.2);
+        box-shadow: 0 0 1px 11px rgba(_palette(accent-blue), 0.2);
       }
     }
   }
@@ -56,7 +56,7 @@
         &:hover {
           background: _palette(accent-blue);
           border-color: _palette(accent-blue);
-          box-shadow: 0 0 1px 5px rgba(_palette(accent-blue),.2);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-blue), 0.2);
         }
       }
     }
@@ -103,7 +103,7 @@
     &:active {
       background: transparent;
       border-color: _palette(accent-violet);
-      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-violet),.2);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-violet), 0.2);
     }
   }
 
@@ -116,10 +116,10 @@
   .profile {
     .avatar {
       border-color: _palette(accent-violet);
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-violet),.2);
+      box-shadow: 0 0 1px 7px rgba(_palette(accent-violet), 0.2);
 
       @media only screen and (min-width: 801px) {
-        box-shadow: 0 0 1px 11px rgba(_palette(accent-violet),.2);
+        box-shadow: 0 0 1px 11px rgba(_palette(accent-violet), 0.2);
       }
     }
   }
@@ -136,7 +136,7 @@
         &:hover {
           background: _palette(accent-violet);
           border-color: _palette(accent-violet);
-          box-shadow: 0 0 1px 5px rgba(_palette(accent-violet),.2);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-violet), 0.2);
         }
       }
     }
@@ -183,7 +183,7 @@
     &:active {
       background: transparent;
       border-color: _palette(accent-orange);
-      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-orange),.2);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-orange), 0.2);
     }
   }
 
@@ -196,10 +196,10 @@
   .profile {
     .avatar {
       border-color: _palette(accent-orange);
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-orange),.2);
+      box-shadow: 0 0 1px 7px rgba(_palette(accent-orange), 0.2);
 
       @media only screen and (min-width: 801px) {
-        box-shadow: 0 0 1px 11px rgba(_palette(accent-orange),.2);
+        box-shadow: 0 0 1px 11px rgba(_palette(accent-orange), 0.2);
       }
     }
   }
@@ -216,7 +216,7 @@
         &:hover {
           background: _palette(accent-orange);
           border-color: _palette(accent-orange);
-          box-shadow: 0 0 1px 5px rgba(_palette(accent-orange),.2);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-orange), 0.2);
         }
       }
     }

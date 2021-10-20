@@ -4,7 +4,7 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi, I''m Victor J Jacks.'
+    title: "Hi, I'm Victor J Jacks."
     content: I Love Math !
   - section_id: about
     type: section_content
