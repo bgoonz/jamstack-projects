@@ -166,7 +166,7 @@
   .button-icon {
     background: 0;
     color: inherit;
-  
+
     &:hover,
     &:focus,
     &:active {
@@ -180,19 +180,19 @@
   .layout-list {
     &.palette-black {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-black),0.1);
+        border-color: rgba(_palette(accent-black), 0.1);
       }
     }
 
     &.palette-blue {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-blue),0.1);
+        border-color: rgba(_palette(accent-blue), 0.1);
       }
     }
 
     &.palette-red {
       .post-card-content:only-child {
-        border-color: rgba(_palette(accent-red),0.1);
+        border-color: rgba(_palette(accent-red), 0.1);
       }
     }
   }
