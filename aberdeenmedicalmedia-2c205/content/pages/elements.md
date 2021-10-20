@@ -5,34 +5,39 @@ seo:
   title: UI Kit
   description: This is the UI kit page
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: UI Kit
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: This is the UI kit page
       keyName: property
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: UI Kit
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: This is the UI kit page
 layout: page
 ---
 
 # This is an H1
+
 ## This is an H2
+
 ### This is an H3
+
 #### This is an H4
+
 ##### This is an H5
+
 ###### This is an H6
 
 Donec malesuada, augue eu blandit porta, metus metus auctor leo, non dapibus felis odio non tortor. Mauris sem orci, tristique eget [this is an inline link](https://www.google.com) placerat non, eleifend tempor dolor. Quisque sed nisl elit. Praesent pulvinar id urna quis cursus. In hac habitasse platea dictumst. Mauris sed odio magna. Duis felis turpis, posuere at erat nec, condimentum luctus nibh. Nam leo ante, tempor ut tellus vel, lacinia aliquam velit. Mauris ut purus in nisl suscipit feugiat.
 
-***
+---
 
 Pellentesque tempor aliquet dolor, ac consectetur lorem ornare id. Vestibulum sit amet facilisis elit, sit amet rhoncus felis. Nunc rhoncus porttitor sollicitudin. Quisque eu leo metus. Curabitur gravida nibh eu
 
