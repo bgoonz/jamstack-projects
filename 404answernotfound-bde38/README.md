@@ -35,29 +35,29 @@ You can [create a site](https://app.stackbit.com/create?theme=https://github.com
 
 ## Develop Locally
 
-1. Install [Node.js and npm](https://nodejs.org/en/)
+1.  Install [Node.js and npm](https://nodejs.org/en/)
 
-1. Install npm dependencies:
+1.  Install npm dependencies:
 
         npm install
 
-1. Get the project's `stackbit-api-key` from the [Stackbit dashboard](https://app.stackbit.com/dashboard)
+1.  Get the project's `stackbit-api-key` from the [Stackbit dashboard](https://app.stackbit.com/dashboard)
 
-1. Assign this key to the `STACKBIT_API_KEY` environment variable (replace `{stackbit_api_key}` with the actual key):
+1.  Assign this key to the `STACKBIT_API_KEY` environment variable (replace `{stackbit_api_key}` with the actual key):
 
         export STACKBIT_API_KEY={stackbit_api_key}
 
-1. Fetch the content from Contentful:
+1.  Fetch the content from Contentful:
 
         npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/602bde38f4523700152544e1
 
-1. Start the Gatsby local development server:
+1.  Start the Gatsby local development server:
 
         npm run develop
 
-1. Open [http://localhost:8000/](http://localhost:8000/) in the browser
+1.  Open [http://localhost:8000/](http://localhost:8000/) in the browser
 
-1. 🎉
+1.  🎉
 
 ## Editing Content
 
