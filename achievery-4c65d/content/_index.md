@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: hero_section
     title: Achieve more by tracking your achievements
-    subtitle: 'Keep track of what you''ve done, and be reminded of it periodically'
+    subtitle: "Keep track of what you've done, and be reminded of it periodically"
     actions:
       - label: Learn More
         url: /features
