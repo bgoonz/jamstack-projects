@@ -1,0 +1,48 @@
+{
+    "title": "Almo Trading",
+    "path_prefix": "/",
+    "header": {
+        "title": "Almo Trading",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/",
+                "style": "link",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Contact Us",
+                "url": "/contact",
+                "style": "primary"
+            }
+        ],
+        "logo_alt": "Almo Trading",
+        "logo": "/images/almo-trading-logo-2.png"
+    },
+    "domain": "https://almotrading.com",
+    "footer": {
+        "has_nav": true,
+        "nav_links": [],
+        "has_social": true,
+        "social_links": [],
+        "links": [
+            {
+                "label": "Privacy Policy",
+                "url": "/privacy",
+                "style": "link",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            }
+        ],
+        "type": "footer"
+    }
+}
