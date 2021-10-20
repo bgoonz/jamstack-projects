@@ -15,7 +15,7 @@
 - id: next
   translation: Següent
 - id: figure
-  translation: 'Figura %d:'
+  translation: "Figura %d:"
 - id: btn_preprint
   translation: Preimpresió
 - id: btn_pdf

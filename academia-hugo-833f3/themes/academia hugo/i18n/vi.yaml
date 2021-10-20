@@ -15,7 +15,7 @@
 - id: next
   translation: Sau
 - id: figure
-  translation: 'Figure %d:'
+  translation: "Figure %d:"
 - id: btn_preprint
   translation: Bản Thảo
 - id: btn_pdf

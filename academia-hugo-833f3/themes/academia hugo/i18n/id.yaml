@@ -15,7 +15,7 @@
 - id: next
   translation: Selanjutnya
 - id: figure
-  translation: 'Figure %d:'
+  translation: "Figure %d:"
 - id: btn_preprint
   translation: Pracetak
 - id: btn_pdf

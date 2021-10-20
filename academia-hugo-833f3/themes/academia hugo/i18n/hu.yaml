@@ -15,7 +15,7 @@
 - id: next
   translation: Következő
 - id: figure
-  translation: '%d. ábra:'
+  translation: "%d. ábra:"
 - id: btn_preprint
   translation: Megjelenés előtt
 - id: btn_pdf

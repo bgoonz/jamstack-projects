@@ -15,7 +15,7 @@
 - id: next
   translation: Næste
 - id: figure
-  translation: 'Figur %d:'
+  translation: "Figur %d:"
 - id: btn_preprint
   translation: Eksempel
 - id: btn_pdf

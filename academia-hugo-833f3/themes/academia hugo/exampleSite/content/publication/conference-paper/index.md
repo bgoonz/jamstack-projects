@@ -1,8 +1,8 @@
 ---
 title: "An example conference paper"
 authors:
-- admin
-- Robert Ford
+  - admin
+  - Robert Ford
 date: "2013-07-01T00:00:00Z"
 doi: ""
 
@@ -25,7 +25,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+  - Source Themes
 featured: true
 
 links:
@@ -41,9 +41,9 @@ links:
 # url_video: '#'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
   focal_point: ""
   preview_only: false
 
@@ -64,12 +64,11 @@ projects:
 ---
 
 {{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /alert %}}
 
 {{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
+Click the _Slides_ button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-

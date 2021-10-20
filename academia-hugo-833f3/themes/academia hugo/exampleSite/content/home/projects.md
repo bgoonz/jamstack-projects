@@ -81,4 +81,3 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
  # CSS class.
  css_class = ""
 +++
-

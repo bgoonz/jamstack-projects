@@ -1,7 +1,7 @@
 ---
 title: "An example preprint / working paper"
 authors:
-- admin
+  - admin
 date: "2019-04-07T00:00:00Z"
 doi: ""
 
@@ -24,7 +24,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+  - Source Themes
 featured: false
 
 links:
@@ -40,9 +40,9 @@ links:
 # url_video: '#'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)"
   focal_point: ""
   preview_only: false
 
@@ -63,7 +63,7 @@ projects:
 ---
 
 {{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
+Click the _Slides_ button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

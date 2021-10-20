@@ -15,7 +15,7 @@
 - id: next
   translation: 下一页
 - id: figure
-  translation: '图%d:'
+  translation: "图%d:"
 - id: btn_preprint
   translation: 预印本
 - id: btn_pdf

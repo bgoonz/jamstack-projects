@@ -23,12 +23,12 @@ article {
 
 .page-subtitle {
   font-size: 1.15rem;
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
   margin-bottom: 1rem;
 }
 
 .dark .page-subtitle {
-  color: rgba(255,255,255,0.54);
+  color: rgba(255, 255, 255, 0.54);
 }
 
 .split-header .page-subtitle {
@@ -70,7 +70,7 @@ article {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
-  flex: 1 0 auto
+  flex: 1 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -93,7 +93,7 @@ article {
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
-  font-size: .7em;
+  font-size: 0.7em;
   background: #000;
   text-align: right;
   z-index: 5;
@@ -121,7 +121,7 @@ article {
 }
 
 .dark .text-muted {
-  color: rgba(255,255,255,0.54);
+  color: rgba(255, 255, 255, 0.54);
 }
 
 .article-metadata {
@@ -129,11 +129,11 @@ article {
   overflow: hidden;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: rgba(0,0,0,0.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .dark .article-metadata {
-  color: rgba(255,255,255,0.54);
+  color: rgba(255, 255, 255, 0.54);
 }
 
 .stream-meta.article-metadata {
@@ -147,11 +147,11 @@ article .article-metadata {
 }
 
 .article-metadata a {
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .dark .article-metadata a {
-  color: rgba(255,255,255,0.54);
+  color: rgba(255, 255, 255, 0.54);
 }
 
 .article-metadata a:hover {
@@ -159,13 +159,13 @@ article .article-metadata {
 }
 
 .middot-divider {
-  padding-right: .45em;
-  padding-left: .45em;
+  padding-right: 0.45em;
+  padding-left: 0.45em;
   font-size: 15px;
 }
 
 .middot-divider::after {
-  content: '\00B7';
+  content: "\00B7";
 }
 
 .article-style img,
@@ -202,7 +202,7 @@ article .article-metadata {
 }
 
 .hr-light {
-  border-top: 1px solid rgba(0,0,0,.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -252,11 +252,11 @@ article .article-metadata {
 .author-card {
   margin-top: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(0,0,0,.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .dark .author-card {
-  border-top: 1px solid rgba(255,255,255,.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .author-card .portrait {
@@ -358,5 +358,5 @@ ul.share li a {
 }
 
 ul.share li:hover i {
-  transform: scale(1.4)
+  transform: scale(1.4);
 }

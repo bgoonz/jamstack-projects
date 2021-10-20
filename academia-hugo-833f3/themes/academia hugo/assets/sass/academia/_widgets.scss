@@ -89,7 +89,7 @@
   }
 }
 
-.section-heading{
+.section-heading {
   margin-bottom: 40px;
 }
 
@@ -161,11 +161,11 @@
 .wg-hero .hero-lead a {
   text-decoration: underline;
 }
-.wg-hero .btn i{
+.wg-hero .btn i {
   line-height: 0;
 }
 .wg-hero .btn {
-  padding: .6em 2.1em;
+  padding: 0.6em 2.1em;
 }
 
 .wg-hero.dark .btn {
@@ -175,7 +175,7 @@
 a.hero-cta-alt {
   display: inline-block;
   position: relative;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
   transition-property: transform;
   transition-timing-function: ease-out;
   font-size: 1.1rem;
@@ -285,7 +285,7 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(0,0,0, 0.54);
+  color: rgba(0, 0, 0, 0.54);
   margin: 0px 0 10px 0;
 }
 
@@ -334,7 +334,7 @@ ul.ul-edu li .description p.course {
 
 ul.ul-edu li .description p.institution {
   font-size: 0.75rem;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /*************************************************
@@ -420,13 +420,13 @@ ul.ul-edu li .description p.institution {
   overflow: hidden;
 }
 
-.project-toolbar{
+.project-toolbar {
   margin-bottom: 2rem;
 }
 
 .project-card {
   position: relative;
-  width: calc(33.3% - 2*20px); /* Fluid 3 columns (inc. 20px gutter) */
+  width: calc(33.3% - 2 * 20px); /* Fluid 3 columns (inc. 20px gutter) */
 }
 @media screen and (max-width: 1199px) {
   .project-card {
@@ -463,7 +463,7 @@ ul.ul-edu li .description p.institution {
   z-index: 2;
 }
 
-.isotope-item:hover{
+.isotope-item:hover {
   z-index: 3;
 }
 
