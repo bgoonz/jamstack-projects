@@ -5,13 +5,16 @@ import ProjectIcon from "./project-icon"
 import ProjectStatus from "./project-status"
 import ProjectTags from "./project-tags"
 
-const Project = props => {
+const Project = (props) => {
   const { name, image, url, description, status, tags, icon } = props
   return (
     <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
       {image && (
         <div className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0">
-          <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt={name} />
+          <GatsbyImage
+            image={image.childImageSharp.gatsbyImageData}
+            alt={name}
+          />
         </div>
       )}
       <div className="lg:flex-1">
