@@ -1,46 +1,46 @@
 ---
 title: Time Management and Happiness
 subtitle: >-
-  Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me vocas, eum.
+    Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me vocas, eum.
 date: 2020-12-02
 author: content/data/team/dianne-ameter.yaml
 categories:
-  - content/data/categories/news.yaml
+    - content/data/categories/news.yaml
 tags:
-  - content/data/tags/extensions.yaml
+    - content/data/tags/extensions.yaml
 excerpt: >-
-  Quae diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Levatio igitur vitiorum magna.
+    Quae diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Levatio igitur vitiorum magna.
 thumb_image: images/post-2.jpg
 thumb_image_alt: Post 2 placeholder image
 image: images/post-2.jpg
 image_alt: Post 2 placeholder image
 image_position: left
 seo:
-  title: Time Management and Happiness
-  description: Quae diligentissime contra Aristonem dicuntur a Chryippo
-  extra:
-    - name: og:type
-      value: article
-      keyName: property
-    - name: og:title
-      value: Time Management and Happiness
-      keyName: property
-    - name: og:description
-      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
-      keyName: property
-    - name: og:image
-      value: images/post-2.jpg
-      keyName: property
-      relativeUrl: true
-    - name: twitter:card
-      value: summary_large_image
-    - name: twitter:title
-      value: Time Management and Happiness
-    - name: twitter:description
-      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
-    - name: twitter:image
-      value: images/post-2.jpg
-      relativeUrl: true
+    title: Time Management and Happiness
+    description: Quae diligentissime contra Aristonem dicuntur a Chryippo
+    extra:
+        - name: og:type
+          value: article
+          keyName: property
+        - name: og:title
+          value: Time Management and Happiness
+          keyName: property
+        - name: og:description
+          value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+          keyName: property
+        - name: og:image
+          value: images/post-2.jpg
+          keyName: property
+          relativeUrl: true
+        - name: twitter:card
+          value: summary_large_image
+        - name: twitter:title
+          value: Time Management and Happiness
+        - name: twitter:description
+          value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+        - name: twitter:image
+          value: images/post-2.jpg
+          relativeUrl: true
 layout: post
 ---
 
@@ -58,7 +58,7 @@ Omnes enim iucundum motum, quo sensus hilaretur. Hoc est non dividere, sed frang
 
 Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. **Audeo dicere, inquit.** Perturbationes autem nulla naturae vi commoventur, omniaque ea sunt opiniones ac iudicia levitatis. Nunc haec primum fortasse audientis servire debemus. Nihil ad rem! Ne sit sane; Et certamen honestum et disputatio splendida! omnis est enim de virtutis dignitate contentio. Quonam, inquit, modo? Nullum inveniri verbum potest quod magis idem declaret Latine, quod Graece, quam declarat voluptas. Hoc ille tuus non vult omnibusque ex rebus voluptatem quasi mercedem exigit.
 
-- Fortitudinis quaedam praecepta sunt ac paene leges, quae effeminari - virum vetant in dolore.
-- Non igitur bene.
+-   Fortitudinis quaedam praecepta sunt ac paene leges, quae effeminari - virum vetant in dolore.
+-   Non igitur bene.
 
 Maximas vero virtutes iacere omnis necesse est voluptate dominante.
