@@ -3,7 +3,7 @@ title: A Guide To User Journey Mapping
 subtitle: >-
   Praesent ut cursus enim, sit amet dictum turpis. Etiam justo orci, consectetur
   aliquet rhoncus sed, hendrerit vel odio.
-date: '2019-03-27'
+date: "2019-03-27"
 author: data/authors/jane-doe.json
 excerpt: >-
   Praesent ut cursus enim, sit amet dictum turpis. Etiam justo orci, consectetur
@@ -18,26 +18,26 @@ seo:
   title: A Guide To User Journey Mapping
   description: A tale about Journey Mapping
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: A Guide To User Journey Mapping
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: A tale about Journey Mapping
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/10.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: A Guide To User Journey Mapping
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: A tale about Journey Mapping
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/10.jpg
       relativeUrl: true
 layout: post

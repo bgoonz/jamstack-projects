@@ -3,7 +3,7 @@ title: Release Notes - Azimuth Improvements and New Integrations
 subtitle: >-
   Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
   massa primis.
-date: '2017-03-26'
+date: "2017-03-26"
 author: data/authors/john-doe.json
 excerpt: >-
   Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan
@@ -17,30 +17,30 @@ seo:
     Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
     massa primis.
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Release Notes - Azimuth Improvements and New Integrations
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: >-
         Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum
         massa massa primis.
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/1.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Release Notes - Azimuth Improvements and New Integrations
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: >-
         Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum
         massa massa primis.
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/1.jpg
       relativeUrl: true
 layout: post

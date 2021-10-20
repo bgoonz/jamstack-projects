@@ -1,7 +1,7 @@
 ---
 title: 5 Customer Service Skills that Every Employee Needs
-subtitle: 'Apparently, there are 5 Service Skills that Every Employee Needs'
-date: '2018-01-11'
+subtitle: "Apparently, there are 5 Service Skills that Every Employee Needs"
+date: "2018-01-11"
 author: data/authors/john-doe.json
 excerpt: >-
   Sed nec metus dignissim quam finibus aliquet. Cras luctus, nibh id consequat
@@ -12,28 +12,28 @@ seo:
   type: stackbit_page_meta
   template: stackbit_page_meta
   title: 5 Customer Service Skills that Every Employee Needs
-  description: 'Apparently, there are 5 Service Skills that Every Employee Needs'
+  description: "Apparently, there are 5 Service Skills that Every Employee Needs"
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: 5 Customer Service Skills that Every Employee Needs
       keyName: property
-    - name: 'og:description'
-      value: 'Apparently, there are 5 Service Skills that Every Employee Needs'
+    - name: "og:description"
+      value: "Apparently, there are 5 Service Skills that Every Employee Needs"
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/5.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: 5 Customer Service Skills that Every Employee Needs
-    - name: 'twitter:description'
-      value: 'Apparently, there are 5 Service Skills that Every Employee Needs'
-    - name: 'twitter:image'
+    - name: "twitter:description"
+      value: "Apparently, there are 5 Service Skills that Every Employee Needs"
+    - name: "twitter:image"
       value: images/5.jpg
       relativeUrl: true
 layout: post

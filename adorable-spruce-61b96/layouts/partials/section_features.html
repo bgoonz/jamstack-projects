@@ -1,13 +1,13 @@
 {{ $section := .section }}
-<section id="{{ $section.section_id }}" class="block features-block bg-{{ $section.background }} outer">
+<section
+  id="{{ $section.section_id }}"
+  class="block features-block bg-{{ $section.background }} outer"
+>
   <div class="block-header inner-small">
     {{ if $section.title }}
     <h2 class="block-title">{{ $section.title }}</h2>
-    {{ end }}
-    {{ if $section.subtitle }}
-    <p class="block-subtitle">
-      {{ $section.subtitle | safeHTML }}
-    </p>
+    {{ end }} {{ if $section.subtitle }}
+    <p class="block-subtitle">{{ $section.subtitle | safeHTML }}</p>
     {{ end }}
   </div>
   {{ if $section.features }}
@@ -17,7 +17,10 @@
       <div class="grid">
         {{ if $feature.image }}
         <div class="cell block-preview">
-          <img src="{{ $feature.image | relURL }}" alt="{{ $feature.image_alt }}" />
+          <img
+            src="{{ $feature.image | relURL }}"
+            alt="{{ $feature.image_alt }}"
+          />
         </div>
         {{ end }}
         <div class="cell block-content">
@@ -27,14 +30,15 @@
           </div>
           {{ if $feature.actions }}
           <div class="block-buttons">
-            {{ $include_dict := dict "actions" $feature.actions }}
-            {{ partial "cta_buttons.html" $include_dict }}
+            {{ $include_dict := dict "actions" $feature.actions }} {{ partial
+            "cta_buttons.html" $include_dict }}
           </div>
           {{ end }}
         </div>
       </div>
     </div>
     {{ end }}
-    </div>
+  </div>
   {{ end }}
-</section><!-- .block -->
+</section>
+<!-- .block -->

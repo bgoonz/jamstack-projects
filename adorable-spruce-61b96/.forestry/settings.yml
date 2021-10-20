@@ -4,43 +4,43 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/60a61b96c2f4530016ff90a5/webhook/forestry
 sections:
-- type: document
-  path: config.yaml
-  label: Site Configuration
-  templates:
-  - config
-- type: directory
-  path: data/authors
-  label: Person
-  create: all
-  match: "**/*"
-  new_doc_ext: yaml
-  templates:
-  - person
-- type: document
-  path: content/blog/_index.md
-  label: Blog
-  templates:
-  - blog
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - landing
-  - page
-  - post
+  - type: document
+    path: config.yaml
+    label: Site Configuration
+    templates:
+      - config
+  - type: directory
+    path: data/authors
+    label: Person
+    create: all
+    match: "**/*"
+    new_doc_ext: yaml
+    templates:
+      - person
+  - type: document
+    path: content/blog/_index.md
+    label: Blog
+    templates:
+      - blog
+  - type: directory
+    path: content
+    label: Pages
+    create: all
+    match: "**/*"
+    new_doc_ext: md
+    templates:
+      - landing
+      - page
+      - post
 upload_dir: static/images
 public_path: "/images"
-front_matter_path: ''
+front_matter_path: ""
 use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
-  - HUGO_ENV=staging
-  - HUGO_VERSION=0.47
+    - HUGO_ENV=staging
+    - HUGO_VERSION=0.47
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"

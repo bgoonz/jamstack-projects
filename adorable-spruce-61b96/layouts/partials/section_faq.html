@@ -1,14 +1,14 @@
 {{ $section := .section }}
-<section id="{{ $section.section_id }}" class="block faq-block bg-{{ $section.background }} outer">
+<section
+  id="{{ $section.section_id }}"
+  class="block faq-block bg-{{ $section.background }} outer"
+>
   <div class="inner-small">
     <div class="block-header">
       {{ if $section.title }}
       <h2 class="block-title">{{ $section.title }}</h2>
-      {{ end }}
-      {{ if $section.subtitle }}
-      <p class="block-subtitle">
-        {{ $section.subtitle | safeHTML }}
-      </p>
+      {{ end }} {{ if $section.subtitle }}
+      <p class="block-subtitle">{{ $section.subtitle | safeHTML }}</p>
       {{ end }}
     </div>
     {{ if $section.faq_items }}
@@ -29,4 +29,5 @@
     </div>
     {{ end }}
   </div>
-</section><!-- .block -->
+</section>
+<!-- .block -->

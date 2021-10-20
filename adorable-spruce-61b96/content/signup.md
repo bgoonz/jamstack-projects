@@ -11,20 +11,20 @@ seo:
   title: Sign Up
   description: This is the sign up page
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Sign Up
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: This is the sign up page
       keyName: property
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Sign Up
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: This is the sign up page
 layout: page
 ---

@@ -5,7 +5,7 @@ sections:
     template: section_pricing
     section_id: pricing
     title: Prix
-    subtitle: 'Attention, je coûte très cher'
+    subtitle: "Attention, je coûte très cher"
     background: gray
     pricing_plans:
       - type: pricing_plan
@@ -62,7 +62,7 @@ sections:
     template: section_faq
     section_id: faq
     title: Frequently Asked Questions
-    subtitle: 'Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet.'
+    subtitle: "Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet."
     background: gray
     faq_items:
       - type: faq_item
@@ -98,20 +98,20 @@ seo:
   title: Pricing
   description: This is the pricing page
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Pricing
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: This is the pricing page
       keyName: property
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Pricing
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: This is the pricing page
 layout: landing
 ---
