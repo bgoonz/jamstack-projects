@@ -1,0 +1,52 @@
+{
+    "title": "Stackbit Vanilla Theme",
+    "path_prefix": "/",
+    "favicon": "images/avatar.png",
+    "header": {
+        "title": "KNOWLEDGEABLE BIZNESS TIPS",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "Generic",
+                "url": "/generic/website-visitors",
+                "no_follow": false
+            }
+        ]
+    },
+    "footer": {
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/TrafficPackages",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/websitetraffic",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/jrgnuproject",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/company/buy-seo-traffic/",
+                "new_window": true
+            },
+            {
+                "label": "DEV",
+                "url": "https://www.seo25.com/product-category/website-traffic-packages/",
+                "new_window": true
+            }
+        ],
+        "content": "<p>&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.targetedwebtraffic.com/?ref=134\">TargetedWebTraffic</a>. Create yours and <a href=\"https://www.targetedwebtraffic.com/?p=56 \">order now</a></p>"
+    },
+    "domain": "https://knowledgeable-triceratops-47d5b.netlify.app"
+}
