@@ -4,20 +4,20 @@ seo:
   title: Terms of Service
   description: Terms of service page
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Terms of service
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Terms of service page
       keyName: property
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Terms of service
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Terms of service page
 layout: page
 ---
