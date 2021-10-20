@@ -27,7 +27,7 @@ sections:
         image: images/Untitled_design_720x.jpg
   - type: promotion_section
     section_id: promotion_section
-    title: 'Click, Download, Read'
+    title: "Click, Download, Read"
     subtitle: from $1.99
     image: images/pexels-photo-4855321.jpeg
     cta:

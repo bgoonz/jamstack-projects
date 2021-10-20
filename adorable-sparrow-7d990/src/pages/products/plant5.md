@@ -1,6 +1,6 @@
 ---
-id: '5'
-price: '1.99'
+id: "5"
+price: "1.99"
 title: Influencer Marketing
 description: >-
   Influencer marketing is all about the outreach and foothold you have in your

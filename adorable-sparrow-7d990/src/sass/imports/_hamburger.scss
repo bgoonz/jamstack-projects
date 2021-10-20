@@ -1,5 +1,7 @@
 .hamburger {
-  @include bigger-than-tablet { display: none; }
+  @include bigger-than-tablet {
+    display: none;
+  }
   outline: none;
   padding: 0;
 
@@ -18,13 +20,15 @@
     width: 100vw;
     background-size: auto 250%;
     background-position: center;
-    transition: left .3s ease-in-out;
+    transition: left 0.3s ease-in-out;
 
     &--opened {
       overflow: hidden;
       left: 0;
     }
-    &--closed { left: calc(-100vw + -100vw); }
+    &--closed {
+      left: calc(-100vw + -100vw);
+    }
   }
 
   &__options {
@@ -50,7 +54,7 @@
     margin-bottom: 25px;
     font-weight: bold;
   }
- 
+
   &__nav-link {
     text-align: center;
     font-family: $font_family_primairy;

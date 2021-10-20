@@ -68,24 +68,24 @@
   }
 
   &--large-icon {
-    padding-left: $spacing--unit*3;
-    padding-right: $spacing--unit*3;
+    padding-left: $spacing--unit * 3;
+    padding-right: $spacing--unit * 3;
   }
 
   &--large-icon & {
     &__text {
-        margin-left: $spacing--unit*2;
+      margin-left: $spacing--unit * 2;
     }
 
     &__icon {
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     &__icon svg {
-        height: $spacing--unit*3;
-        width: $spacing--unit*3;
+      height: $spacing--unit * 3;
+      width: $spacing--unit * 3;
     }
   }
 }

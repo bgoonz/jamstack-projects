@@ -1,6 +1,6 @@
 ---
-id: '2'
-price: '1.99'
+id: "2"
+price: "1.99"
 title: Facebook Messenger Bot Marketing Unleashed
 description: "Facebook Messenger has revolutionized how marketers can access and grow their audience.\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ Whatever your installation is, Facebook Messenger is designed in such a way that it can be automated.\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_With this step by step guide you will get to understand the importance of Facebook Messenger bots. You will learn to take advantage of the Facebook Messenger platform automation features. You will understand how it can help your business."
 default_thumbnail_image: images/important-cabbage.jpg

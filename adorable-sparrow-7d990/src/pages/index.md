@@ -33,19 +33,19 @@ sections:
     testimonials:
       - author:
           name: Tony EVANS
-          location: 'Colorado, USA'
+          location: "Colorado, USA"
         text: >-
           Honestly one of the best places to find books that will help you grow
           your business!
       - author:
           name: Sonia howard
-          location: 'VA, USA'
+          location: "VA, USA"
         text: >-
           I recommend OnlyBookFans to anyone that enjoys reading and is looking
           to better themselves... plus amazing deals!
   - type: promotion_section
     section_id: promotion_section
-    title: 'Click, Download, Read'
+    title: "Click, Download, Read"
     subtitle: from $1.99
     image: images/pexels-photo-4855378.jpeg
     cta:

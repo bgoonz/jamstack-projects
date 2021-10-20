@@ -14,7 +14,7 @@ sections:
       - src/pages/products/plant7.md
   - type: promotion_section
     section_id: promotion_section
-    title: 'Click, Download, Read'
+    title: "Click, Download, Read"
     subtitle: from $1.99
     image: images/pexels-photo-4855378.jpeg
     cta:

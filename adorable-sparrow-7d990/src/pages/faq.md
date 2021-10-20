@@ -6,7 +6,7 @@ sections:
     section_id: header_section
     headline: Behold our FAQ
     subtitle: |
-      Frequently asked questions 
+      Frequently asked questions
   - type: faq_section
     section_id: faq_section
     questions:
@@ -125,8 +125,8 @@ sections:
     image: images/pexels-photo-4855378.jpeg
     section_id: contact_section
     address: United States
-    phone: ''
+    phone: ""
     email: support@onlybookfans.com
-    mapUrl: 'https://www.google.com/maps'
+    mapUrl: "https://www.google.com/maps"
 template: advanced
 ---
