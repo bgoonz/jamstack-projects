@@ -260,7 +260,7 @@ models:
           - stackbit_page_meta
   post:
     type: page
-    urlPath: '/blog/{slug}'
+    urlPath: "/blog/{slug}"
     label: Post
     layout: post
     folder: blog
@@ -304,7 +304,7 @@ models:
           - stackbit_page_meta
   project:
     type: page
-    urlPath: '/portfolio/{slug}'
+    urlPath: "/portfolio/{slug}"
     label: Project
     layout: project
     folder: portfolio
@@ -492,7 +492,7 @@ models:
       - type: string
         name: view_all_url
         label: All projects button URL
-        default: '#'
+        default: "#"
   section_posts:
     type: object
     label: Posts Section
@@ -563,7 +563,7 @@ models:
         name: url
         label: URL
         required: true
-        default: '#'
+        default: "#"
       - type: enum
         name: style
         label: Style
@@ -668,12 +668,12 @@ models:
       - type: string
         name: name
         label: Name
-        description: 'The name of the field, submitted with the form.'
+        description: "The name of the field, submitted with the form."
         required: true
       - type: string
         name: label
         label: Label
-        description: 'The caption of the field, shown above the field input.'
+        description: "The caption of the field, shown above the field input."
       - type: string
         name: default_value
         description: The default value for textual field types.
@@ -692,12 +692,12 @@ models:
         name: title
         label: Title
         description: The page title that goes into the <title> tag
-        default: ''
+        default: ""
       - type: string
         name: description
         label: Description
         description: The page description that goes into the <meta name="description"> tag
-        default: ''
+        default: ""
       - type: list
         name: robots
         label: Robots
@@ -725,10 +725,10 @@ models:
           fields:
             - type: string
               name: name
-              default: ''
+              default: ""
             - type: string
               name: value
-              default: ''
+              default: ""
             - type: string
               name: keyName
               default: name
