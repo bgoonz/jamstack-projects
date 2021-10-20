@@ -3,7 +3,7 @@ title: Time Management and Happiness
 subtitle: >-
   Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me
   vocas, eum.
-date: '2020-12-02'
+date: "2020-12-02"
 author: content/data/team/dianne-ameter.yaml
 categories:
   - content/data/categories/news.yaml
@@ -21,26 +21,26 @@ seo:
   title: Time Management and Happiness
   description: Quae diligentissime contra Aristonem dicuntur a Chryippo
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Time Management and Happiness
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Quae diligentissime contra Aristonem dicuntur a Chryippo
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/post-2.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Time Management and Happiness
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Quae diligentissime contra Aristonem dicuntur a Chryippo
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/post-2.jpg
       relativeUrl: true
 layout: post

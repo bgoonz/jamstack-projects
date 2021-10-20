@@ -95,7 +95,7 @@ sections:
       - title: >-
           “I love how lightweight and easy it is to use. It intuitively builds
           into my day-to-day rhythm, and the natural flow of my day.”
-        subtitle: 'Ursula Gurnmeister, Sr. Design Manager at Company'
+        subtitle: "Ursula Gurnmeister, Sr. Design Manager at Company"
         image: images/testimonials.png
         image_alt: Ursula Gurnmeister photo
         media_position: left
@@ -194,26 +194,26 @@ seo:
   title: Stackbit Startup Theme
   description: The preview of the Startup theme
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Stackbit Startup Theme
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: The preview of the Startup theme
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/feature-1.png
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Stackbit Startup Theme
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: The preview of the Startup theme
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/feature-1.png
       relativeUrl: true
 layout: advanced
