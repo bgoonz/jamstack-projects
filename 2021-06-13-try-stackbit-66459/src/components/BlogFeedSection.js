@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, withPrefix, getData, getPageUrl} from '../utils';
+import { Link, withPrefix, getData, getPageUrl } from '../utils';
 import BlogPostCategories from './BlogPostCategories';
 import BlogPostMeta from '../components/BlogPostMeta';
 
@@ -12,7 +12,7 @@ export default class BlogFeedSection extends React.Component {
         const sectionCategoryRef = _.get(section, 'category');
         if (sectionAuthorRef) {
             const sectionAuthor = getData(data, sectionAuthorRef);
-            const postAuthorRef = _.get(post, 'author')
+            const postAuthorRef = _.get(post, 'author');
             const postAuthor = getData(data, postAuthorRef);
             if (postAuthor.id === sectionAuthor.id) {
                 return this.renderBlogFeedItem(post, data, sectionTitle);
@@ -31,7 +31,7 @@ export default class BlogFeedSection extends React.Component {
             return this.renderBlogFeedItem(post, data, sectionTitle);
         }
         return null;
-    } 
+    }
 
     renderBlogFeedItem(post, data, sectionTitle) {
         const postUrl = getPageUrl(post, { withPrefix: true });
@@ -52,10 +52,21 @@ export default class BlogFeedSection extends React.Component {
                     <div className="card__body">
                         <header className="card__header">
                             <BlogPostCategories categories={categories} data={data} containerClass={'card__meta'} />
-                            {sectionTitle ? <h3 className="h4 card__title"><Link href={postUrl}>{title}</Link></h3>
-                                : <h2 className="h4 card__title"><Link href={postUrl}>{title}</Link></h2>}
+                            {sectionTitle ? (
+                                <h3 className="h4 card__title">
+                                    <Link href={postUrl}>{title}</Link>
+                                </h3>
+                            ) : (
+                                <h2 className="h4 card__title">
+                                    <Link href={postUrl}>{title}</Link>
+                                </h2>
+                            )}
                         </header>
-                        {excerpt && (<div className="card__copy"><p>{excerpt}</p></div>)}
+                        {excerpt && (
+                            <div className="card__copy">
+                                <p>{excerpt}</p>
+                            </div>
+                        )}
                         <BlogPostMeta post={post} data={data} containerClass={'card__footer'} />
                     </div>
                 </div>
