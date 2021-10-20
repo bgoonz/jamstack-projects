@@ -1,0 +1,74 @@
+{
+    "description": "An ultra customizable generic theme for Stackbit",
+    "header": {
+        "title": "DON PUSD",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Features",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Blog",
+                "url": "/blog",
+                "style": "link"
+            },
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Style Guide",
+                "url": "/style-guide",
+                "style": "link"
+            },
+            {
+                "label": "Join Us",
+                "url": "/contact",
+                "style": "primary",
+                "new_window": true
+            }
+        ]
+    },
+    "footer": {
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Contact Us",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
+                "label": "Privacy and Terms",
+                "url": "/terms",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/",
+                "style": "secondary",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/",
+                "style": "secondary",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "style": "secondary",
+                "new_window": true
+            }
+        ],
+        "content": "&copy; Diversify Our Narrative PUSD. All rights reserved.",
+        "links": []
+    },
+    "title": "Stackbit Starter Theme"
+}
