@@ -1,6 +1,6 @@
 ---
-id: '4'
-price: '24.99'
+id: "4"
+price: "24.99"
 title: Cras molestie
 description: Maecenas pretium blandit ex id lobortis.
 default_thumbnail_image: images/plant4.jpg

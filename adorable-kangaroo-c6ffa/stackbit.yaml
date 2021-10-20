@@ -137,7 +137,7 @@ models:
     hideContent: true
     layout: category
     folder: category
-    urlPath: 'category/{slug}'
+    urlPath: "category/{slug}"
     fields:
       - type: string
         name: title
@@ -363,7 +363,7 @@ models:
     type: page
     label: Product
     layout: product
-    urlPath: 'products/{slug}'
+    urlPath: "products/{slug}"
     folder: products
     fields:
       - type: string
