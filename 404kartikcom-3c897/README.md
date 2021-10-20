@@ -15,11 +15,11 @@ Live demo at https://jekyll-theme-minimal-resume.netlify.com/
 ![](https://img.shields.io/badge/devicon-✓-blue.svg)
 ![](https://img.shields.io/badge/gulp-✓-blue.svg)
 
-***
+---
 
 <h3 align="center">Please help this repo with a :star: if you find it useful! :blush:</h3>
 
-***
+---
 
 # Screenshot
 
@@ -38,6 +38,7 @@ Live demo at https://jekyll-theme-minimal-resume.netlify.com/
 You have to fill some informations on `_config.yml` to customize your site:
 
 ## Site settings
+
 ```yml
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -45,6 +46,7 @@ url: "http://localhost:3000" # the base hostname & protocol for your site
 ```
 
 ## User settings
+
 ```yml
 username: Lorem Ipsum
 user_description: Software Engineer at Lorem Ipsum Dolor
