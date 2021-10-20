@@ -2,13 +2,13 @@ stackbitVersion: ~0.3.0
 ssgName: jekyll
 publishDir: _site
 dataDir: _data
-pagesDir: ''
+pagesDir: ""
 models:
   post:
     type: page
     label: Post
     folder: _posts
-    match: '*'
+    match: "*"
     exclude:
       - 2018-12-07-welcome-to-jekyll.md
     fields:
