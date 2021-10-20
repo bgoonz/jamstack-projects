@@ -72,7 +72,7 @@ sections:
     bg_color: light
 template: advanced
 seo:
-  title: 'Adrienne Wilson: Professional Editing and Copywriting'
+  title: "Adrienne Wilson: Professional Editing and Copywriting"
   description: >-
     A team of writers that provide professional services for Editing,
     Copywriting and Proofreading
