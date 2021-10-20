@@ -27,7 +27,7 @@ sections:
         url: /signup
         style: primary
       - label: View Demo
-        url: '#'
+        url: "#"
         style: secondary
   - section_id: call-to-action
     type: section_cta
@@ -35,7 +35,7 @@ sections:
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
-        url: '#'
+        url: "#"
         style: secondary
 template: landing
 ---
