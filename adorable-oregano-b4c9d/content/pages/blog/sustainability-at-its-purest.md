@@ -6,7 +6,7 @@ excerpt: |-
   We’re local, seasonal fisherman, supporting fishing restrictions. We fish what the sea has to offer, nothing more, and no cheating.
 thumbImage:
   type: ImageBlock
-  url: "/images/post-3.jpg"
+  url: '/images/post-3.jpg'
   altText: Fisherman
 bottomSections:
   - type: CtaSection
@@ -22,7 +22,7 @@ bottomSections:
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: primary
 ---
 

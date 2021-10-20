@@ -6,7 +6,7 @@ excerpt: |-
   Kayak angling is a fun and affordable way to get out on the water. You can take the plunge of purchasing a kayak or opt for a rental. Renting is a great option for first timers, as it is a good way to try different kinds of kayaks.
 thumbImage:
   type: ImageBlock
-  url: "/images/post-2.jpg"
+  url: '/images/post-2.jpg'
   altText: Raw fish, spices, lemon
 bottomSections:
   - type: CtaSection
@@ -22,7 +22,7 @@ bottomSections:
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: primary
 ---
 

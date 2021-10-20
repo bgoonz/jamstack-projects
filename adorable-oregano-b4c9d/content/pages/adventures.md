@@ -41,7 +41,7 @@ sections:
     actions:
       - type: Button
         label: Contact Us
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: secondary
   - type: FeaturedPostsSection
     variant: variant-a
@@ -67,6 +67,6 @@ sections:
     name: Ray Bergman
     backgroundImage:
       type: ImageBlock
-      url: "/images/quote-bg.jpg"
+      url: '/images/quote-bg.jpg'
       opacity: 80
 ---

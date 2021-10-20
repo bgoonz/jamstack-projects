@@ -60,7 +60,7 @@ sections:
       We will notify you every time a shipment is heading to your neighborhood, and you could immediatly let us know if you want in or not.
     feature:
       type: ImageBlock
-      url: "/images/lobster.jpg"
+      url: '/images/lobster.jpg'
       altText: Fisherman holding lobster
     form:
       type: FormBlock
@@ -102,11 +102,11 @@ sections:
       That kayak fishing community is special, the connection and support the anglers share is unlike anything I have seen before. River Catch has seen this firsthand by participating in events and they’re always spending time with anglers.
     backgroundImage:
       type: ImageBlock
-      url: "/images/cta.jpg"
+      url: '/images/cta.jpg'
       opacity: 20
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: secondary
 ---

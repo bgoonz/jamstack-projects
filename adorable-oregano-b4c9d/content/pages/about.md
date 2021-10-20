@@ -9,7 +9,7 @@ sections:
     height: short
     alignHoriz: center
     topGap: none
-    title: "We love our sea, we care about it, and we want to enjoy it for years to come."
+    title: 'We love our sea, we care about it, and we want to enjoy it for years to come.'
   - type: FeaturedPostsSection
     variant: variant-a
     colors: colors-a
@@ -33,6 +33,6 @@ sections:
     name: Carl Safina
     backgroundImage:
       type: ImageBlock
-      url: "/images/quote.jpg"
+      url: '/images/quote.jpg'
       opacity: 70
 ---

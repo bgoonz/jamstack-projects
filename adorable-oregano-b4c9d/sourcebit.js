@@ -44,7 +44,7 @@ function urlPathFromFilePath(filePath) {
     parts.push(pathObject.name);
   }
   const urlPath = parts.join('/').toLowerCase();
-  return  '/' + urlPath;
+  return '/' + urlPath;
 }
 
 function flattenMarkdownData() {
