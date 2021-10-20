@@ -1,16 +1,16 @@
 title_left: Think
 title_right: space
 description: Minimalist Jekyll theme for technical writing blog.
-keywords: 'Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace'
-url: ''
-baseurl: ''
-cover: ''
+keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url: ""
+baseurl: ""
+cover: ""
 google_analytics: UA-XXXXX-XX
-twitter_username: ''
+twitter_username: ""
 comments_enabled: false
-disqus_shortname: ''
+disqus_shortname: ""
 postshare_enabled: false
-permalink: '/:year/:title/'
+permalink: "/:year/:title/"
 markdown: kramdown
 highlighter: rouge
 source: ./
