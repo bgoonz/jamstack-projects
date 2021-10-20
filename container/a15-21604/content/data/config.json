@@ -1,0 +1,78 @@
+{
+    "title": "Scouting A15",
+    "path_prefix": "/",
+    "description": "De scoutingverening van Hardinxveld en omstreken",
+    "header": {
+        "title": "Scouting A15",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Features",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Blog",
+                "url": "/blog",
+                "style": "link"
+            },
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Style Guide",
+                "url": "/style-guide",
+                "style": "link"
+            },
+            {
+                "label": "Contact Us",
+                "url": "/contact",
+                "style": "link"
+            }
+        ],
+        "logo": "images/Scouting_NL_logo_RGB_transparanteachtergrond (1).png"
+    },
+    "footer": {
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Contact Us",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
+                "label": "Privacy and Terms",
+                "url": "/terms",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter Scouting A15",
+                "url": "https://twitter.com/scoutinga15",
+                "style": "link",
+                "new_window": true
+            }
+        ],
+        "content": "",
+        "links": [
+            {
+                "label": "Scouting Nederland",
+                "url": "https://www.scouting.nl",
+                "style": "link",
+                "new_window": true,
+                "type": "action"
+            },
+            {
+                "label": "Scoutshop",
+                "url": "https://www.scoutshop.nl",
+                "style": "link",
+                "new_window": true,
+                "type": "action"
+            }
+        ]
+    }
+}
