@@ -24,11 +24,7 @@ export default class Portfolio extends React.Component {
                     )}
                     <header className="project-card__header">
                         <h2 className="project-card__title">{title}</h2>
-                        {subtitle && (
-                            <div className="project-card__subtitle">
-                                {subtitle}
-                            </div>
-                        )}
+                        {subtitle && <div className="project-card__subtitle">{subtitle}</div>}
                     </header>
                 </Link>
             </article>

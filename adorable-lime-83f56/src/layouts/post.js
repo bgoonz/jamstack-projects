@@ -14,9 +14,9 @@ export default class Post extends React.Component {
             return null;
         }
         const prevIndex = index - 1;
-        const prevPost = (index !== 0) ? posts[prevIndex] : null;
+        const prevPost = index !== 0 ? posts[prevIndex] : null;
         const nextIndex = index + 1;
-        const nextPost = (index < postCount - 1) ? posts[nextIndex] : null;
+        const nextPost = index < postCount - 1 ? posts[nextIndex] : null;
 
         return (
             <div className="grid post-feed post-feed--col-two">
@@ -48,11 +48,7 @@ export default class Post extends React.Component {
                     <header className="post__header">
                         <div className="container container--md">
                             <h1 className="post__title line-top">{title}</h1>
-                            {subtitle && (
-                                <div className="post__subtitle">
-                                    {subtitle}
-                                </div>
-                            )}
+                            {subtitle && <div className="post__subtitle">{subtitle}</div>}
                         </div>
                     </header>
                     {image && (
@@ -64,25 +60,24 @@ export default class Post extends React.Component {
                     )}
                     {markdownContent && (
                         <div className="post__body text-block">
-                            <div className="container container--md">
-                                {markdownify(markdownContent)}
-                            </div>
+                            <div className="container container--md">{markdownify(markdownContent)}</div>
                         </div>
                     )}
                     <footer className="post__meta">
                         <div className="container container--md">
-                            Posted on <time className="published" dateTime={dateTimeAttr}>{formattedDate}</time>
+                            Posted on{' '}
+                            <time className="published" dateTime={dateTimeAttr}>
+                                {formattedDate}
+                            </time>
                         </div>
                     </footer>
                 </article>
-                {(postCount > 1) && (
+                {postCount > 1 && (
                     <nav className="section section--posts">
                         <div className="container container--lg">
                             <h2 className="section__title line-top">Read Next</h2>
                             {_.map(posts, (post, index) => (
-                                <React.Fragment key={index}>
-                                    {this.renderPostNavLinks(post, index, posts, postCount, postUrl)}
-                                </React.Fragment>
+                                <React.Fragment key={index}>{this.renderPostNavLinks(post, index, posts, postCount, postUrl)}</React.Fragment>
                             ))}
                         </div>
                     </nav>

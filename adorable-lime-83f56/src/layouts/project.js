@@ -13,9 +13,9 @@ export default class Project extends React.Component {
             return null;
         }
         const prevIndex = index - 1;
-        const prevProject = (index !== 0) ? projects[prevIndex] : null;
+        const prevProject = index !== 0 ? projects[prevIndex] : null;
         const nextIndex = index + 1;
-        const nextProject = (index < projectCount - 1) ? projects[nextIndex] : null;
+        const nextProject = index < projectCount - 1 ? projects[nextIndex] : null;
 
         return (
             <div className="grid portfolio-feed portfolio-feed--tiles">
@@ -42,11 +42,7 @@ export default class Project extends React.Component {
                     <header className="project__header">
                         <div className="container container--md">
                             <h1 className="project__title line-top">{title}</h1>
-                            {subtitle && (
-                                <div className="project__subtitle">
-                                    {subtitle}
-                                </div>
-                            )}
+                            {subtitle && <div className="project__subtitle">{subtitle}</div>}
                         </div>
                     </header>
                     <div className="project__body">
@@ -64,14 +60,12 @@ export default class Project extends React.Component {
                         })}
                     </div>
                 </article>
-                {(projectCount > 1) && (
+                {projectCount > 1 && (
                     <nav className="section section--portfolio">
                         <div className="container container--lg">
                             <h2 className="section__title line-top">More Projects</h2>
                             {_.map(projects, (project, index) => (
-                                <React.Fragment key={index}>
-                                    {this.renderProjectNavLinks(project, index, projects, projectCount, projectUrl)}
-                                </React.Fragment>
+                                <React.Fragment key={index}>{this.renderProjectNavLinks(project, index, projects, projectCount, projectUrl)}</React.Fragment>
                             ))}
                         </div>
                     </nav>

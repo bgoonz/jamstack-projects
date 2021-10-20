@@ -19,11 +19,7 @@ export default class ImageSection extends React.Component {
                 })}
             >
                 {image && <img src={withPrefix(image)} alt={imageAlt} />}
-                {caption && (
-                    <figcaption className="image-block__caption">
-                        {caption}
-                    </figcaption>
-                )}
+                {caption && <figcaption className="image-block__caption">{caption}</figcaption>}
             </figure>
         );
     }

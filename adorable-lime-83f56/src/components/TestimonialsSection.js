@@ -17,14 +17,8 @@ export default class TestimonialsSection extends React.Component {
                 <footer className="testimonial__footer">
                     {avatar && <img className="testimonial__avatar" src={withPrefix(avatar)} alt={avatarAlt} />}
                     <div className="testimonial__details">
-                        <div className="testimonial__author">
-                            {author}
-                        </div>
-                        {position && (
-                            <div className="testimonial__position">
-                                {position}
-                            </div>
-                        )}
+                        <div className="testimonial__author">{author}</div>
+                        {position && <div className="testimonial__position">{position}</div>}
                     </div>
                 </footer>
             </blockquote>

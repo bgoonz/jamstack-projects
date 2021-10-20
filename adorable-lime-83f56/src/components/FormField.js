@@ -37,12 +37,18 @@ export default class FormField extends React.Component {
             case 'select':
                 return (
                     <div className="form-group">
-                        {label && <label htmlFor={name} className={classNames({ 'screen-reader-text': hideLabels })}>{label}</label>}
+                        {label && (
+                            <label htmlFor={name} className={classNames({ 'screen-reader-text': hideLabels })}>
+                                {label}
+                            </label>
+                        )}
                         <div className="form-select-wrap">
                             <select id={name} name={name} {...attr}>
                                 {defaultValue && <option value="">{defaultValue}</option>}
                                 {_.map(options, (option, index) => (
-                                    <option key={index} value={option}>{option}</option>
+                                    <option key={index} value={option}>
+                                        {option}
+                                    </option>
                                 ))}
                             </select>
                         </div>
@@ -51,7 +57,11 @@ export default class FormField extends React.Component {
             case 'textarea':
                 return (
                     <div className="form-group">
-                        {label && <label htmlFor={name} className={classNames({ 'screen-reader-text': hideLabels })}>{label}</label>}
+                        {label && (
+                            <label htmlFor={name} className={classNames({ 'screen-reader-text': hideLabels })}>
+                                {label}
+                            </label>
+                        )}
                         <textarea name={name} id={name} rows="5" {...attr} />
                         <span className="animate-border" aria-hidden="true" />
                     </div>
@@ -59,7 +69,11 @@ export default class FormField extends React.Component {
             default:
                 return (
                     <div className="form-group">
-                        {label && <label htmlFor={name} className={classNames({ 'screen-reader-text': hideLabels })}>{label}</label>}
+                        {label && (
+                            <label htmlFor={name} className={classNames({ 'screen-reader-text': hideLabels })}>
+                                {label}
+                            </label>
+                        )}
                         <input type={inputType} name={name} id={name} {...attr} />
                         <span className="animate-border" aria-hidden="true" />
                     </div>
