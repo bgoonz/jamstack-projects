@@ -3,7 +3,7 @@ title: The Benefits and Value of Goal Setting
 subtitle: >-
   Innumerabilia dici possunt in hanc sententiam, sed non necesse est. Putabam
   equidem satis, inquit, me dixisse.
-date: '2020-12-28'
+date: "2020-12-28"
 author: content/data/team/brandon-guidelines.yaml
 categories:
   - content/data/categories/use-cases.yaml
@@ -20,28 +20,28 @@ image_alt: Post 3 placeholder image
 image_position: top
 seo:
   title: The Benefits and Value of Goal Setting
-  description: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
+  description: "Quis est, qui non oderit libidinosam, protervam adolescentiam"
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: The Benefits and Value of Goal Setting
       keyName: property
-    - name: 'og:description'
-      value: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
+    - name: "og:description"
+      value: "Quis est, qui non oderit libidinosam, protervam adolescentiam"
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/post-3.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: The Benefits and Value of Goal Setting
-    - name: 'twitter:description'
-      value: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
-    - name: 'twitter:image'
+    - name: "twitter:description"
+      value: "Quis est, qui non oderit libidinosam, protervam adolescentiam"
+    - name: "twitter:image"
       value: images/post-3.jpg
       relativeUrl: true
 layout: post
