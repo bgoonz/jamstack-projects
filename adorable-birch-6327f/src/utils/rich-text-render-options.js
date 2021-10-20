@@ -38,12 +38,12 @@ const options = {
     [BLOCKS.HEADING_2]: (_node, children) => <H2>{children}</H2>,
     [BLOCKS.HEADING_3]: (_node, children) => <H3>{children}</H3>,
     [BLOCKS.HEADING_4]: (_node, children) => <H4>{children}</H4>,
-    [BLOCKS.EMBEDDED_ASSET]: node => <Img node={node} />,
+    [BLOCKS.EMBEDDED_ASSET]: (node) => <Img node={node} />,
     [INLINES.HYPERLINK]: (_node, children) => (
       <HYPERLINK dataUri={_node.data && _node.data.uri}>{children}</HYPERLINK>
     ),
   },
-  renderText: text => text.replace('!', '?'),
+  renderText: (text) => text.replace('!', '?'),
 }
 
 export default options

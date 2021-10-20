@@ -24,7 +24,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-  result.data.allContentfulBlogPost.nodes.forEach(node => {
+  result.data.allContentfulBlogPost.nodes.forEach((node) => {
     createPage({
       path: `/blog/${node.slug}`,
       component: blogTemplate,
@@ -33,7 +33,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     })
   })
-  result.data.allContentfulTag.nodes.forEach(node => {
+  result.data.allContentfulTag.nodes.forEach((node) => {
     createPage({
       path: `/tags/${node.slug}`,
       component: tagTemplate,

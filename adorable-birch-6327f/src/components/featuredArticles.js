@@ -12,7 +12,7 @@ const FeaturedArticles = ({ featuredArticles }) => {
       </h2>
       <nav aria-labelledby="#featArticles">
         <ul>
-          {featuredArticles.map(featuredArticle => (
+          {featuredArticles.map((featuredArticle) => (
             <li key={featuredArticle.slug}>
               <FeaturedArticleLink featuredArticle={featuredArticle} />
             </li>

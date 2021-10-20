@@ -11,7 +11,7 @@ const TagList = ({ tags }) => {
         {i18n.get('tags', { default: 'Tags' })}
       </h2>
       <ul>
-        {tags.map(tag => (
+        {tags.map((tag) => (
           <li className="inline-block" key={tag.contentful_id}>
             <Tag tag={tag} />
           </li>

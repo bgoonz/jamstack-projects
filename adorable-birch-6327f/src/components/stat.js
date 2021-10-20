@@ -14,7 +14,9 @@ export default ({ summary }) => {
         </div>
         <div className="text-sm">
           <p className="text-gray-900 leading-none">{summary.country}</p>
-          <p className="text-gray-600">{i18n.get('last-updated')}: {summary.lastUpdate}</p>
+          <p className="text-gray-600">
+            {i18n.get('last-updated')}: {summary.lastUpdate}
+          </p>
         </div>
       </div>
 
