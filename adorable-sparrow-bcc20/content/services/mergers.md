@@ -23,7 +23,7 @@ male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
 5. Ardua non igne caelesti coniugis cognovi diversorum
 6. Per nunc pariterque saeva vindicet
 
-Locus evicit __loquuntur Tyrrhena omnes__, obstipui pugnabant temptavit Phoco _vati_
+Locus evicit **loquuntur Tyrrhena omnes**, obstipui pugnabant temptavit Phoco _vati_
 dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
 Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
 esse iam feres mortis Plurima.

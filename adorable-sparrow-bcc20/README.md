@@ -37,7 +37,7 @@ Serif is a modern business theme for Hugo. It contains content types for the arc
 - Override any meta tags on a per page basis
 - Semantic HTML document structure
 
-### Accessibility 
+### Accessibility
 
 - 100/100 Google Lighthouse accessibility score
 - Accessible colors, headings and link text (by design)
@@ -65,8 +65,6 @@ Serif is a modern business theme for Hugo. It contains content types for the arc
 - Set `body` classes from individual layouts - useful for CSS styling.
 - Example of using Hugo custom `layout` for the contact page
 
-
-
 # Hugo Installation
 
 To use this theme you will need to have Hugo installed. If you don't already have Hugo installed please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
@@ -83,10 +81,9 @@ hugo version
 
 This will output the currently installed version of Hugo. Make sure you see `/extended` after the version number, for example `Hugo Static Site Generator v0.51/extended darwin/amd64 BuildDate: unknown` You do not need to use version v0.51 specifically, it just needs to have the `/extended` part
 
-
 # Theme Installation
 
-Download, fork or  clone this repo, it's ready to go. 
+Download, fork or clone this repo, it's ready to go.
 
 ```
 hugo
@@ -124,7 +121,7 @@ Copy your Google Analytics ID into the `config.toml` in the `google_analytics_id
 ```
 
 When your site is running locally using `hugo server` the GA tag is not injected. This prevents polluting your real data.
- 
+
 ### Homepage meta tags
 
 Often a homepage requires special meta tags such as a meta description or og meta data for twitter, facebook etc. You can configure these values in the `config.toml`
@@ -148,10 +145,11 @@ Often a homepage requires special meta tags such as a meta description or og met
 You can set meta tags on a per template basis using a block. For example, you might want to write a custom meta description for the `/services` page. You can insert any valid HTML meta data inside the `{{ define "meta_tags }}` block at the top of a template.
 
 ```html
-// layouts/services/list.html
-
-{{ define "meta_tags" }}
-    <meta name="description" content="We offer a variety of services in the finance industry" />
+// layouts/services/list.html {{ define "meta_tags" }}
+<meta
+  name="description"
+  content="We offer a variety of services in the finance industry"
+/>
 {{ end }}
 ```
 
@@ -159,10 +157,9 @@ You can set meta tags on a per template basis using a block. For example, you mi
 
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
 
-
 ## License
 
 This theme is open source under the MIT license. Please be respectful 🙏🏽
 
-* If you fork or copy this theme please leave me as an original author in the LICENSE file on line 3 where I am listed as the author.
-* Please don't create ports of this theme without at least asking me. Yes this theme is open-source but I've had several people "port" this theme (with only minor changes) and then advertise the theme as their own. Then they don't update it and it starts to get old and break etc. Now lots of people are finding these old crappy versions of the theme.
+- If you fork or copy this theme please leave me as an original author in the LICENSE file on line 3 where I am listed as the author.
+- Please don't create ports of this theme without at least asking me. Yes this theme is open-source but I've had several people "port" this theme (with only minor changes) and then advertise the theme as their own. Then they don't update it and it starts to get old and break etc. Now lots of people are finding these old crappy versions of the theme.

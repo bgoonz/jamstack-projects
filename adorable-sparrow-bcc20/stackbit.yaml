@@ -1,6 +1,6 @@
 stackbitVersion: ~0.3.0
 ssgName: hugo
-ssgVersion: '0.74.3'
+ssgVersion: "0.74.3"
 buildCommand: hugo
 publishDir: public
 uploadDir: images
@@ -159,7 +159,7 @@ models:
     type: object
     label: Site Menu Item
     labelField: name
-    description: 'Site menu item model, defines fields for a single site menu item'
+    description: "Site menu item model, defines fields for a single site menu item"
     fields:
       - type: string
         name: identifier
@@ -211,7 +211,7 @@ models:
         description: Hide the intro image on mobile screen sizes
   pagenotfound:
     type: page
-    label: '404'
+    label: "404"
     file: 404/_index.md
     hideContent: true
     singleInstance: true
@@ -223,7 +223,7 @@ models:
   basicpage:
     type: page
     label: Basic Page
-    match: '*.md'
+    match: "*.md"
     exclude: _index.md
     fields:
       - type: string
