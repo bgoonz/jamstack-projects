@@ -1,6 +1,6 @@
 ---
 title: What are some of the best designed video games
-date: '2018-01-09'
+date: "2018-01-09"
 thumb_image: images/6.jpg
 thumb_image_alt: A handheld game console on a yellow background
 image: images/6.jpg

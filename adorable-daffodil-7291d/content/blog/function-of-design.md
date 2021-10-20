@@ -1,7 +1,7 @@
 ---
 title: The function of design is letting design function
-subtitle: 'A interesting tale about function of design '
-date: '2018-01-15'
+subtitle: "A interesting tale about function of design "
+date: "2018-01-15"
 thumb_image: images/4.jpg
 thumb_image_alt: A table tennis racket on a pink background
 image: images/4.jpg
