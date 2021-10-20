@@ -18,20 +18,16 @@ export default class CtaSection extends React.Component {
         return (
             <section id={sectionId} className="section section--cta">
                 <div className="container container--lg">
-                    <div className={classNames({ 'section__bg': backgroundColor !== 'none' })}>
-                        <div className={classNames({ 'grid': image })}>
+                    <div className={classNames({ section__bg: backgroundColor !== 'none' })}>
+                        <div className={classNames({ grid: image })}>
                             {image && (
                                 <div className="section__image cell">
                                     <img src={withPrefix(image)} alt={imageAlt} />
                                 </div>
                             )}
-                            <div className={classNames('section__content', { 'cell': image })}>
+                            <div className={classNames('section__content', { cell: image })}>
                                 {title && <h2 className="section__title">{title}</h2>}
-                                {content && (
-                                    <div className="section__body text-block">
-                                        {markdownify(content)}
-                                    </div>
-                                )}
+                                {content && <div className="section__body text-block">{markdownify(content)}</div>}
                                 {!_.isEmpty(actions) && (
                                     <div className="section__actions button-group">
                                         <CtaButtons actions={actions} />

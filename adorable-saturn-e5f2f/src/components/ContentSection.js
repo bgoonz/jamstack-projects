@@ -18,11 +18,7 @@ export default class ContentSection extends React.Component {
                 <div className="container container--lg">
                     {title && <h2 className="section__title line-top">{title}</h2>}
                     {subtitle && <p className="section__subtitle">{subtitle}</p>}
-                    {content && (
-                        <div className="section__body text-block">
-                            {markdownify(content)}
-                        </div>
-                    )}
+                    {content && <div className="section__body text-block">{markdownify(content)}</div>}
                     {image && (
                         <figure className="section__image">
                             <img src={withPrefix(image)} alt={imageAlt} />

@@ -23,23 +23,19 @@ export default class FormSection extends React.Component {
         return (
             <section id={sectionId} className="section section--form">
                 <div className="container container--lg">
-                    <div className={classNames({ 'grid': hasText })}>
+                    <div className={classNames({ grid: hasText })}>
                         {hasText && (
                             <div className="section__content cell">
                                 {title && <h2 className="section__title line-top">{title}</h2>}
                                 {subtitle && <p className="section__subtitle">{subtitle}</p>}
-                                {content && (
-                                    <div className="section__body text-block">
-                                        {markdownify(content)}
-                                    </div>
-                                )}
+                                {content && <div className="section__body text-block">{markdownify(content)}</div>}
                             </div>
                         )}
-                        <div className={classNames('section__form-container', { 'cell': hasText })}>
+                        <div className={classNames('section__form-container', { cell: hasText })}>
                             <form
                                 name={formId}
                                 id={formId}
-                                {...(formAction ? ({ action: formAction }) : null)}
+                                {...(formAction ? { action: formAction } : null)}
                                 method="POST"
                                 data-netlify="true"
                                 data-netlify-honeypot={formHoneypotName}
@@ -47,11 +43,7 @@ export default class FormSection extends React.Component {
                                 <div className="screen-reader-text">
                                     <label id={formHoneypotLabelId} htmlFor={formHoneypotInputId}>
                                         Don't fill this out if you're human:
-                                        <input
-                                            aria-labelledby={formHoneypotLabelId}
-                                            id={formHoneypotInputId}
-                                            name={formHoneypotName}
-                                        />
+                                        <input aria-labelledby={formHoneypotLabelId} id={formHoneypotInputId} name={formHoneypotName} />
                                     </label>
                                 </div>
                                 <input type="hidden" name="form-name" value={formId} />

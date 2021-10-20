@@ -8,10 +8,6 @@ export default class TextSection extends React.Component {
         const section = _.get(this.props, 'section');
         const content = _.get(section, 'content');
 
-        return (
-            <div className="text-block container container--md">
-                {markdownify(content)}
-            </div>
-        );
+        return <div className="text-block container container--md">{markdownify(content)}</div>;
     }
 }

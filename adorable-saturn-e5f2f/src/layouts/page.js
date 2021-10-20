@@ -21,11 +21,7 @@ export default class Page extends React.Component {
                     <header className="post__header">
                         <div className="container container--md">
                             <h1 className="post__title line-top">{title}</h1>
-                            {subtitle && (
-                                <div className="post__subtitle">
-                                    {subtitle}
-                                </div>
-                            )}
+                            {subtitle && <div className="post__subtitle">{subtitle}</div>}
                         </div>
                     </header>
                     {image && (
@@ -36,9 +32,7 @@ export default class Page extends React.Component {
                         </div>
                     )}
                     <div className="post__body text-block">
-                        <div className="container container--md">
-                            {markdownify(markdownContent)}
-                        </div>
+                        <div className="container container--md">{markdownify(markdownContent)}</div>
                     </div>
                 </article>
             </Layout>

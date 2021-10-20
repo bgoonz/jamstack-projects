@@ -1,32 +1,32 @@
 ---
 title: Style Guide
 subtitle: >-
-  The style guide provides you with a blueprint of default post and page styles.
-  The style guide is also a great reference for suggested typographic treatment
-  and styles for your content.
+    The style guide provides you with a blueprint of default post and page styles.
+    The style guide is also a great reference for suggested typographic treatment
+    and styles for your content.
 seo:
-  title: Theme Style Guide
-  description: A reference for suggested typographic treatment and styles for your content
-  extra:
-    - name: 'og:type'
-      value: website
-      keyName: property
-    - name: 'og:title'
-      value: Theme Style Guide
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        A reference for suggested typographic treatment and styles for your
-        content
-      keyName: property
-    - name: 'twitter:card'
-      value: summary
-    - name: 'twitter:title'
-      value: Theme Style Guide
-    - name: 'twitter:description'
-      value: >-
-        A reference for suggested typographic treatment and styles for your
-        content
+    title: Theme Style Guide
+    description: A reference for suggested typographic treatment and styles for your content
+    extra:
+        - name: 'og:type'
+          value: website
+          keyName: property
+        - name: 'og:title'
+          value: Theme Style Guide
+          keyName: property
+        - name: 'og:description'
+          value: >-
+              A reference for suggested typographic treatment and styles for your
+              content
+          keyName: property
+        - name: 'twitter:card'
+          value: summary
+        - name: 'twitter:title'
+          value: Theme Style Guide
+        - name: 'twitter:description'
+          value: >-
+              A reference for suggested typographic treatment and styles for your
+              content
 layout: page
 ---
 
@@ -52,21 +52,21 @@ Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, diam sit
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
->Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.
+> Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.
 >
->&mdash; Scott Adams
+> &mdash; Scott Adams
 
 Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
 ## Unordered and Ordered Lists
 
-+ Donec non tortor in arcu mollis feugiat
-+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-+ Donec id eros eget quam aliquam gravida
-+ Vivamus convallis urna id felis
-+ Nulla porta tempus sapien
+-   Donec non tortor in arcu mollis feugiat
+-   Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+-   Donec id eros eget quam aliquam gravida
+-   Vivamus convallis urna id felis
+-   Nulla porta tempus sapien
 
-***
+---
 
 1. Donec non tortor in arcu mollis feugiat
 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -87,9 +87,9 @@ for (let i = 0; i < sequence.length; i++) {
 
 ## Inline Elements
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Emphasis, aka italics, with _asterisks_ or _underscores_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
 Combined emphasis with **_asterisks and underscores_**.
 

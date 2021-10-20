@@ -22,11 +22,7 @@ export default class GridSection extends React.Component {
                 )}
                 {title && <h3 className="card__title">{title}</h3>}
                 {subtitle && <div className="card__subtitle">{subtitle}</div>}
-                {content && (
-                    <div className="card__body">
-                        {markdownify(content)}
-                    </div>
-                )}
+                {content && <div className="card__body">{markdownify(content)}</div>}
                 {!_.isEmpty(actions) && (
                     <div className="card__actions button-group">
                         <CtaButtons actions={actions} />
@@ -50,9 +46,7 @@ export default class GridSection extends React.Component {
                     {title && <h2 className="section__title line-top">{title}</h2>}
                     {subtitle && <p className="section__subtitle">{subtitle}</p>}
                     {!_.isEmpty(gridItems) && (
-                        <div className={`grid grid--col-${colNumber}`}>
-                            {_.map(gridItems, (gridItem, index) => this.renderGridItem(gridItem, index))}
-                        </div>
+                        <div className={`grid grid--col-${colNumber}`}>{_.map(gridItems, (gridItem, index) => this.renderGridItem(gridItem, index))}</div>
                     )}
                 </div>
             </section>

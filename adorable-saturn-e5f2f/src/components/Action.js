@@ -12,7 +12,7 @@ export default class Action extends React.Component {
         const style = _.get(action, 'style', 'link');
         const icon = _.get(action, 'icon', 'dribbble');
         const classes = classNames({
-            'button': style !== 'link',
+            button: style !== 'link',
             'button--primary': style === 'button',
             'button--icon': style === 'icon'
         });
@@ -23,12 +23,12 @@ export default class Action extends React.Component {
             attrs.target = '_blank';
         }
         if (newWindow || noFollow) {
-            attrs.rel = [(newWindow ? 'noopener' : ''), (noFollow ? 'nofollow' : '')].filter(Boolean).join(' ');
+            attrs.rel = [newWindow ? 'noopener' : '', noFollow ? 'nofollow' : ''].filter(Boolean).join(' ');
         }
 
         return (
             <Link href={withPrefix(url)} {...attrs} className={classes}>
-                {(style === 'icon') ? (
+                {style === 'icon' ? (
                     <React.Fragment>
                         <Icon icon={icon} />
                         <span className="screen-reader-text">{label}</span>

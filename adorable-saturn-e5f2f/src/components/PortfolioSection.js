@@ -6,7 +6,7 @@ import PortfolioItem from './PortfolioItem';
 
 export default class PortfolioSection extends React.Component {
     renderProject(project, index, projectCount, viewAllLabel, viewAllUrl) {
-        if ((index === projectCount - 1) && viewAllLabel && viewAllUrl) {
+        if (index === projectCount - 1 && viewAllLabel && viewAllUrl) {
             const thumbImage = _.get(project, 'thumb_image');
             const thumbImageAlt = _.get(project, 'thumb_image_alt', '');
 
@@ -23,9 +23,7 @@ export default class PortfolioSection extends React.Component {
                 </article>
             );
         } else {
-            return (
-                <PortfolioItem key={index} project={project} />
-            );
+            return <PortfolioItem key={index} project={project} />;
         }
     }
 
