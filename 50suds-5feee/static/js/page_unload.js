@@ -1,4 +1,3 @@
-window.onGatsbyPreRouteUpdate = function() {
-window.removeHamburgerMenuHandlers();
-
+window.onGatsbyPreRouteUpdate = function () {
+  window.removeHamburgerMenuHandlers();
 };

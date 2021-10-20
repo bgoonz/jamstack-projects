@@ -1,6 +1,6 @@
 ---
-id: '5'
-price: '220.00'
+id: "5"
+price: "220.00"
 title: Vestibulum eget
 description: >-
   Donec finibus, augue in sagittis auctor, mi neque convallis arcu, quis
@@ -12,28 +12,28 @@ order: 5
 category: src/pages/category/bigplants.md
 seo:
   title: Vestibulum eget
-  description: 'Donec finibus, augue in sagittis auctor, mi neque convallis arcu'
+  description: "Donec finibus, augue in sagittis auctor, mi neque convallis arcu"
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Vestibulum eget
       keyName: property
-    - name: 'og:description'
-      value: 'Donec finibus, augue in sagittis auctor, mi neque convallis arcu'
+    - name: "og:description"
+      value: "Donec finibus, augue in sagittis auctor, mi neque convallis arcu"
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/plant5-lg.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Vestibulum eget
-    - name: 'twitter:description'
-      value: 'Donec finibus, augue in sagittis auctor, mi neque convallis arcu'
-    - name: 'twitter:image'
+    - name: "twitter:description"
+      value: "Donec finibus, augue in sagittis auctor, mi neque convallis arcu"
+    - name: "twitter:image"
       value: images/plant5-lg.jpg
       relativeUrl: true
 template: product

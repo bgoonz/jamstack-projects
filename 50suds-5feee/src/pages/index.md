@@ -37,14 +37,14 @@ sections:
     testimonials:
       - author:
           name: John Dope
-          location: 'Colorado, USA'
+          location: "Colorado, USA"
         text: >-
           I didn't know the Snipcart guys were into herbs as well! How beautiful
           is that Planty theme. I'm going to launch a killer JAMstack e-commerce
           store using this for sure.
       - author:
           name: Major Payne
-          location: 'VA, USA'
+          location: "VA, USA"
         text: >-
           Well I'll be d*mned. These plants really ARE greener than any of my
           recruits.
@@ -63,26 +63,26 @@ seo:
   title: Planty Theme
   description: The preview of the Planty theme
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Planty Theme
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: The preview of the Planty theme
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/header.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Planty Theme
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: The preview of the Planty theme
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/header.jpg
       relativeUrl: true
 template: home

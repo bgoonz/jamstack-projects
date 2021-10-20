@@ -84,13 +84,13 @@
         color: $color_default;
         border-color: $color_default;
       }
-    
+
       &--light-filled {
         background-color: $color_default;
         border-color: $color_default;
         color: map-deep-get($theme-palettes, $palette, "active");
       }
-    
+
       &--light-borderless {
         color: $color_default;
       }

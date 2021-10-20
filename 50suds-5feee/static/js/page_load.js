@@ -1,4 +1,3 @@
-window.onGatsbyRouteUpdate = function() {
-window.addHamburgerMenuHandlers();
-
+window.onGatsbyRouteUpdate = function () {
+  window.addHamburgerMenuHandlers();
 };

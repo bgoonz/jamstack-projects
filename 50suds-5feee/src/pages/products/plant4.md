@@ -1,6 +1,6 @@
 ---
-id: '4'
-price: '24.99'
+id: "4"
+price: "24.99"
 title: Cras molestie
 description: Maecenas pretium blandit ex id lobortis.
 default_thumbnail_image: images/plant4.jpg
@@ -11,26 +11,26 @@ seo:
   title: Cras molestie
   description: Maecenas pretium blandit ex id lobortis
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Cras molestie
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Maecenas pretium blandit ex id lobortis
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/plant4-lg.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Cras molestie
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Maecenas pretium blandit ex id lobortis
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/plant4-lg.jpg
       relativeUrl: true
 template: product

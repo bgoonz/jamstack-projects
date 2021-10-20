@@ -13,7 +13,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  transition: color .2s, background-color .2s;
+  transition: color 0.2s, background-color 0.2s;
 
   svg {
     color: inherit;
@@ -69,24 +69,24 @@
   }
 
   &--large-icon {
-    padding-left: $spacing--unit*3;
-    padding-right: $spacing--unit*3;
+    padding-left: $spacing--unit * 3;
+    padding-right: $spacing--unit * 3;
   }
 
   &--large-icon & {
     &__text {
-        margin-left: $spacing--unit*2;
+      margin-left: $spacing--unit * 2;
     }
 
     &__icon {
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     &__icon svg {
-        height: $spacing--unit*3;
-        width: $spacing--unit*3;
+      height: $spacing--unit * 3;
+      width: $spacing--unit * 3;
     }
   }
 }
@@ -101,9 +101,13 @@
         background-color: map-deep-get($theme-palettes, $palette, "active");
         color: $color_default;
       }
-    
+
       &:active {
-        background-color: map-deep-get($theme-palettes, $palette, "active_medium");
+        background-color: map-deep-get(
+          $theme-palettes,
+          $palette,
+          "active_medium"
+        );
         color: $color_default;
       }
 
@@ -114,16 +118,24 @@
           background-color: transparent;
         }
       }
-    
+
       &--std {
         background-color: map-deep-get($theme-palettes, $palette, "active");
         color: $color_default;
 
         &:hover {
-          background-color: map-deep-get($theme-palettes, $palette, "active_medium");
+          background-color: map-deep-get(
+            $theme-palettes,
+            $palette,
+            "active_medium"
+          );
         }
         &:active {
-          background-color: map-deep-get($theme-palettes, $palette, "active_dark");
+          background-color: map-deep-get(
+            $theme-palettes,
+            $palette,
+            "active_dark"
+          );
         }
       }
     }
