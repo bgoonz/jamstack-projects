@@ -4,9 +4,8 @@ excerpt: Typography
 search_omit: false
 ---
 
-
-* ToC
-{:toc}
+- ToC
+  {:toc}
 
 ## We use kramdown
 
@@ -21,23 +20,24 @@ Math also follows the [`kramdown` syntax](http://kramdown.gettalong.org/syntax.h
 {% highlight text %}
 Some text here some other text here.[^1]
 
-[^1]: Footnote here
-{% endhighlight %}
-
+[^1]:
+    Footnote here
+    {% endhighlight %}
 
 ## Table of Contents
 
-
 {% highlight text %}
-* ToC
-{:toc}
-{% endhighlight %}
+
+- ToC
+  {:toc}
+  {% endhighlight %}
 
 is used to generate table of contents.
 
 ## Figure with Caption
 
 {% highlight html %}
+
 <figure markdown="1">
 ![](../assets/path-to-file.png)
 <figcaption markdown="1">
@@ -45,7 +45,6 @@ Caption here. Please note that Jekyll generate any fild `file.md` to path `file/
 </figcaption>
 </figure>
 {% endhighlight %}
-
 
 <div class="notes--info" markdown="1">
 Please determine the path of the image according to the path of the post itself. Otherwise, an absolute path can be specified,
@@ -55,12 +54,13 @@ Please determine the path of the image according to the path of the post itself.
 ```
 
 where `{{ site.url }}` is the configured url of the site.
-</div>
 
+</div>
 
 ## Notes div
 
 {% highlight html %}
+
 <div class="notes--info" markdown="1">
 Some notes here, with markdown support. markdown="0" will disable markdown support.
 </div>

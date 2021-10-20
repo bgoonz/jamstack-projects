@@ -12,11 +12,11 @@ const operations = {
     let flatNodes = {};
     let nodeInterfaces = {};
 
-    nodes.map(function(node) {
+    nodes.map(function (node) {
       flatNodes[node.id] = JSON.parse(JSON.stringify(node));
 
       if (node.local_addresses) {
-        node.local_addresses.map(address => {
+        node.local_addresses.map((address) => {
           nodeInterfaces[address] = node;
         });
       }
@@ -38,7 +38,7 @@ const operations = {
     let nodeLinks = {};
     let resultNodes = [];
 
-    JSONData.links.map(function(link) {
+    JSONData.links.map(function (link) {
       let sourceNode = JSONData.flatNodes[link.source],
         targetNode = JSONData.flatNodes[link.target];
       if (sourceNode && targetNode && sourceNode.id !== targetNode.id) {
@@ -129,7 +129,7 @@ const operations = {
       }
     }
     return copyArr;
-  }
+  },
 };
 /**
  * @function
@@ -160,7 +160,7 @@ function dealJSONData(JSONData, operations) {
   return JSONData;
 }
 
-self.addEventListener("message", e => {
+self.addEventListener("message", (e) => {
   dealJSONData(e.data, operations);
   postMessage(e.data);
   close();

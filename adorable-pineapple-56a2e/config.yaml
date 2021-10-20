@@ -8,7 +8,6 @@ enableRobotsTXT: true # Suggested, it generates a robots.txt
 googleAnalytics: "" # Optional, add tracking Id for analytics
 SectionPagesMenu: "main" # Enable menu system for lazy bloggers
 
-
 menu:
   main:
     - name: About
@@ -22,8 +21,8 @@ menu:
       url: /posts/
 
 taxonomies:
-    tag: "tags"
-    link: "links"
+  tag: "tags"
+  link: "links"
 
 params:
   theme_variant: "lumen" # possible value for the theme_variant `cerulean,cosmo,cyborg,darkly,flatly,journal,litera,lumen,lux,materia,minty,pulse,sandstone,simplex,slate,solar,spacelab,superhero,united,yeti`
@@ -40,10 +39,9 @@ params:
   author: "KausalFlow" # Default author name and the name to be shown in the footer
   editURL: "https://github.com/kausalflow/hugo-connectome-theme-demo/edit/master/content/"
   utterances: # comment system: utterances (https://utteranc.es/) parameters
-    repo: "kausalflow/hugo-connectome-theme-demo"  # repo="[ENTER REPO HERE]", the comments will appear as issues in this repository on github.
-    term: pathname               # issue-term="pathname"
-    theme: github-light          # theme="github-light"
-
+    repo: "kausalflow/hugo-connectome-theme-demo" # repo="[ENTER REPO HERE]", the comments will appear as issues in this repository on github.
+    term: pathname # issue-term="pathname"
+    theme: github-light # theme="github-light"
 
 outputFormats:
   data:

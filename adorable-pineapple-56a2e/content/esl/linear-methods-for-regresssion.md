@@ -7,9 +7,7 @@ type: project
 weight: 2
 ---
 
-
 ## Some Interesting Points
-
 
 1. Geometrically speaking, linear regression methods finds the closest path from the true data to a hypersuface spanned by the data vectors. By definition, each set of data is viewed as a basis vector. The so called closed path to the hypersuface is basically the path that is perpendicular to the surface. Thus we know the prediction we are looking for is a projection of true data onto the hypersuface.
 2. The argument above also indicates that degenerate data set, which contains data of the same direction, could cause problems since we have a redundant basis.
@@ -20,7 +18,6 @@ weight: 2
    > "Roughly a Z score larger than two in absolute value is significantly nonzero at the p=0.05 level."
    > The author said in the caption of Table 3.2
 7. [F statistic](https://en.wikipedia.org/wiki/F-statistic)
-
 
 Confusion:
 

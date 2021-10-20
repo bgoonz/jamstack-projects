@@ -1,15 +1,10 @@
 <div class="card">
-<details>
+  <details>
     <summary class="card-header-title card-toggle card-header">
-        {{ with (.Get "title") }}
-            {{ . | markdownify }}
-        {{ end }}
+      {{ with (.Get "title") }} {{ . | markdownify }} {{ end }}
     </summary>
     <div class="card-content">
-        <div class="content">
-            {{ .Inner | markdownify}}
-        </div>
+      <div class="content">{{ .Inner | markdownify}}</div>
     </div>
-
-</details>
+  </details>
 </div>

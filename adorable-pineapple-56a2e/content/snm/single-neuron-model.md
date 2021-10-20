@@ -11,7 +11,6 @@ links:
 weight: 2
 ---
 
-
 ## Neuron biological properties
 
 Dendrites receive neurotransmitter and generate local post-synaptic potential (PSP), either excitatory by glutamate or inhibitory by GABA. Soma integrates all PSPs. Once membrane potential reaches the threshold, an action potential is generated. Action potentials are propagated via axon.
@@ -20,9 +19,7 @@ Dendrites receive neurotransmitter and generate local post-synaptic potential (P
 
 In this model, membrane potential is denoted as u(t). When the neuron is at rest state, receiving no external stimulation, the membrane potential is called rest potential.
 
-
 $$u(t_0)=u_{\mathrm{rest}}.$$
-
 
 When a presynaptic spike arrives, there is a local PSP, causing a small disturbance in membrane potential.
 
@@ -41,8 +38,6 @@ However, when an action potential is generated, there is a dramatic membrane pot
 $$u_i(t) =u_{\mathrm{rest}}+ \sum_{j} \sum_f \epsilon_{ij}(t - t_j^{(f)}) + \eta(t-\hat t_i),$$
 
 where $\hat t_i$ is the moment when the action potential is triggered.
-
-
 
 ### Spike train
 

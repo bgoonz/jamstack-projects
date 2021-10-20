@@ -1,9 +1,9 @@
 // version 0.1
-(function() {
+(function () {
   /**
    * vanilla JS implementation of jQuery.extend()
    */
-  d3._extend = function(defaults, options) {
+  d3._extend = function (defaults, options) {
     var extended = {},
       prop;
     for (prop in defaults) {
@@ -27,7 +27,7 @@
    * @param  {string}       val         The value to convert
    * @return {int}              The converted integer
    */
-  d3._pxToNumber = function(val) {
+  d3._pxToNumber = function (val) {
     return parseFloat(val.replace("px"));
   };
 
@@ -39,7 +39,7 @@
    *
    * @return  {int}            The window innerHeight
    */
-  d3._windowHeight = function() {
+  d3._windowHeight = function () {
     return window.innerHeight || document.documentElement.clientHeight || 600;
   };
 
@@ -52,7 +52,7 @@
    * @param  {object}      element
    * @param  {object}      container
    */
-  d3._getPosition = function(element, container) {
+  d3._getPosition = function (element, container) {
     var n = element.node(),
       nPos = n.getBoundingClientRect();
     cPos = container.node().getBoundingClientRect();
@@ -62,7 +62,7 @@
       width: nPos.width,
       bottom: nPos.bottom - cPos.top,
       height: nPos.height,
-      right: nPos.right - cPos.left
+      right: nPos.right - cPos.left,
     };
   };
 
@@ -73,7 +73,7 @@
    * @param  {string}      url             The NetJSON file url
    * @param  {object}      opts            The object with parameters to override {@link d3.netJsonGraph.opts}
    */
-  d3.netJsonGraph = function(url, opts) {
+  d3.netJsonGraph = function (url, opts) {
     /**
      * Default options
      *
@@ -129,7 +129,7 @@
          * @param  {object}         opts    The object of passed arguments
          * @return {function}
          */
-        onInit: function(url, opts) {},
+        onInit: function (url, opts) {},
         /**
          * @function
          * @name onLoad
@@ -139,7 +139,7 @@
          * @param  {object}         opts    The object of passed arguments
          * @return {function}
          */
-        onLoad: function(url, opts) {},
+        onLoad: function (url, opts) {},
         /**
          * @function
          * @name onEnd
@@ -149,14 +149,14 @@
          * @param  {object}         opts    The object of passed arguments
          * @return {function}
          */
-        onEnd: function(url, opts) {},
+        onEnd: function (url, opts) {},
         /**
          * @function
          * @name linkDistanceFunc
          *
          * By default, high density areas have longer links
          */
-        linkDistanceFunc: function(d) {
+        linkDistanceFunc: function (d) {
           var val = opts.linkDistance;
           if (d.source.linkCount >= 4 && d.target.linkCount >= 4) {
             return val * 2;
@@ -169,7 +169,7 @@
          *
          * Called on zoom and pan
          */
-        redraw: function() {
+        redraw: function () {
           panner.attr(
             "transform",
             "translate(" +
@@ -188,7 +188,7 @@
          *
          * @param graph {object}
          */
-        prepareData: function(graph) {
+        prepareData: function (graph) {
           var nodesMap = {},
             nodes = graph.nodes.slice(), // copy
             links = graph.links.slice(), // copy
@@ -224,7 +224,7 @@
          *
          * Called when a node is clicked
          */
-        onClickNode: function(n) {
+        onClickNode: function (n) {
           var overlay = d3.select(".njg-overlay"),
             overlayInner = d3.select(".njg-overlay > .njg-inner"),
             html = "<p><b>id</b>: " + n.id + "</p>";
@@ -266,7 +266,7 @@
          *
          * Called when a node is clicked
          */
-        onClickLink: function(l) {
+        onClickLink: function (l) {
           var overlay = d3.select(".njg-overlay"),
             overlayInner = d3.select(".njg-overlay > .njg-inner"),
             html =
@@ -293,7 +293,7 @@
           // set "open" class to current link
           removeOpenClass();
           d3.select(this).classed("njg-open", true);
-        }
+        },
       },
       opts
     );
@@ -341,16 +341,10 @@
         .style("position", "absolute"),
       svg = d3.select(opts.el + " svg"),
       drag = force.drag(),
-      overlay = d3
-        .select(opts.el)
-        .append("div")
-        .attr("class", "njg-overlay"),
+      overlay = d3.select(opts.el).append("div").attr("class", "njg-overlay"),
       closeOverlay = overlay.append("a").attr("class", "njg-close"),
       overlayInner = overlay.append("div").attr("class", "njg-inner"),
-      metadata = d3
-        .select(opts.el)
-        .append("div")
-        .attr("class", "njg-metadata"),
+      metadata = d3.select(opts.el).append("div").attr("class", "njg-metadata"),
       metadataInner = metadata.append("div").attr("class", "njg-inner"),
       closeMetadata = metadata.append("a").attr("class", "njg-close"),
       // container of ungrouped networks
@@ -362,20 +356,20 @@
        *
        * Remove open classes from nodes and links
        */
-      removeOpenClass = function() {
+      removeOpenClass = function () {
         d3.selectAll("svg .njg-open").classed("njg-open", false);
       };
-    processJson = function(graph) {
+    processJson = function (graph) {
       /**
        * Init netJsonGraph
        */
-      init = function(url, opts) {
+      init = function (url, opts) {
         d3.netJsonGraph(url, opts);
       };
       /**
        * Remove all instances
        */
-      destroy = function() {
+      destroy = function () {
         force.stop();
         d3.select("#selectGroup").remove();
         d3.select(".njg-overlay").remove();
@@ -393,7 +387,7 @@
        * Destroy and e-init all instances
        * @return {[type]} [description]
        */
-      reInit = function() {
+      reInit = function () {
         destroy();
         init(url, opts);
       };
@@ -404,32 +398,29 @@
 
       // disable some transitions while dragging
       drag
-        .on("dragstart", function(n) {
+        .on("dragstart", function (n) {
           d3.event.sourceEvent.stopPropagation();
           zoom.on("zoom", null);
         })
         // re-enable transitions when dragging stops
-        .on("dragend", function(n) {
+        .on("dragend", function (n) {
           zoom.on("zoom", opts.redraw);
         })
-        .on("drag", function(d) {
+        .on("drag", function (d) {
           // avoid pan & drag conflict
           d3.select(this)
             .attr("x", (d.x = d3.event.x))
             .attr("y", (d.y = d3.event.y));
         });
 
-      force
-        .nodes(nodes)
-        .links(links)
-        .start();
+      force.nodes(nodes).links(links).start();
 
       var link = panner
           .selectAll(".link")
           .data(links)
           .enter()
           .append("line")
-          .attr("class", function(link) {
+          .attr("class", function (link) {
             var baseClass = "njg-link",
               addClass = null;
             value = link.properties && link.properties[opts.linkClassProperty];
@@ -447,14 +438,10 @@
             return baseClass;
           })
           .on("click", opts.onClickLink),
-        groups = panner
-          .selectAll(".node")
-          .data(nodes)
-          .enter()
-          .append("g");
+        groups = panner.selectAll(".node").data(nodes).enter().append("g");
       node = groups
         .append("circle")
-        .attr("class", function(node) {
+        .attr("class", function (node) {
           var baseClass = "njg-node",
             addClass = null;
           value = node.properties && node.properties[opts.nodeClassProperty];
@@ -471,7 +458,7 @@
           }
           return baseClass;
         })
-        .attr("r", function(node) {
+        .attr("r", function (node) {
           return typeof opts.circleRadius === "function"
             ? opts.circleRadius(node)
             : opts.circleRadius;
@@ -481,7 +468,7 @@
 
       var labels = groups
         .append("text")
-        .text(function(n) {
+        .text(function (n) {
           return n.label || n.id;
         })
         .attr("dx", opts.labelDx)
@@ -489,12 +476,12 @@
         .attr("class", "njg-tooltip");
 
       // Close overlay
-      closeOverlay.on("click", function() {
+      closeOverlay.on("click", function () {
         removeOpenClass();
         overlay.classed("njg-hidden", true);
       });
       // Close Metadata panel
-      closeMetadata.on("click", function() {
+      closeMetadata.on("click", function () {
         // Reinitialize the page
         if (graph.type === "NetworkCollection") {
           reInit();
@@ -509,10 +496,10 @@
       if (opts.defaultStyle) {
         var colors = d3.scale.category20c();
         node.style({
-          fill: function(d) {
+          fill: function (d) {
             return colors(d.linkCount);
           },
-          cursor: "pointer"
+          cursor: "pointer",
         });
       }
       // Metadata style
@@ -526,7 +513,7 @@
           "revision",
           "metric",
           "router_id",
-          "topology_id"
+          "topology_id",
         ],
         html = "";
       if (graph.label) {
@@ -549,34 +536,34 @@
       opts.onLoad(url, opts);
 
       force
-        .on("tick", function() {
+        .on("tick", function () {
           link
-            .attr("x1", function(d) {
+            .attr("x1", function (d) {
               return d.source.x;
             })
-            .attr("y1", function(d) {
+            .attr("y1", function (d) {
               return d.source.y;
             })
-            .attr("x2", function(d) {
+            .attr("x2", function (d) {
               return d.target.x;
             })
-            .attr("y2", function(d) {
+            .attr("y2", function (d) {
               return d.target.y;
             });
 
           node
-            .attr("cx", function(d) {
+            .attr("cx", function (d) {
               return d.x;
             })
-            .attr("cy", function(d) {
+            .attr("cy", function (d) {
               return d.y;
             });
 
-          labels.attr("transform", function(d) {
+          labels.attr("transform", function (d) {
             return "translate(" + d.x + "," + d.y + ")";
           });
         })
-        .on("end", function() {
+        .on("end", function () {
           force.stop();
           // onEnd callback
           opts.onEnd(url, opts);
@@ -595,7 +582,7 @@
        * @param  {string}     url         The provided json file
        * @param  {function}   error
        */
-      d3.json(url, function(error, graph) {
+      d3.json(url, function (error, graph) {
         if (error) {
           throw error;
         }
@@ -612,10 +599,10 @@
               value: "",
               selected: "selected",
               name: "default",
-              disabled: "disabled"
+              disabled: "disabled",
             })
             .html("Choose the network to display");
-          graph.collection.forEach(function(structure) {
+          graph.collection.forEach(function (structure) {
             select
               .append("option")
               .attr("value", structure.type)
@@ -623,7 +610,7 @@
             // Collect each network json structure
             selected[structure.type] = structure;
           });
-          select.on("change", function() {
+          select.on("change", function () {
             selectGroup.attr("class", "njg-hidden");
             // Call selected json structure
             processJson(selected[this.options[this.selectedIndex].value]);

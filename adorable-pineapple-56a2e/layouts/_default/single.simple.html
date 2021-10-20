@@ -1,28 +1,16 @@
-{{ define "title" -}}
-  {{ .Title }} | {{ .Site.Title }}
-{{- end }}
-
-{{ define "header" }}
-{{ partial "menu" . }}
-{{ end }}
-
-{{ define "main" }}
+{{ define "title" -}} {{ .Title }} | {{ .Site.Title }} {{- end }} {{ define
+"header" }} {{ partial "menu" . }} {{ end }} {{ define "main" }}
 
 <main class="main--content" aria-label="Content">
-<div class="columns is-fullheight">
+  <div class="columns is-fullheight">
     <div class="column">
-        <section class="hero is-default is-bold">
-            <div class="hero-body">
-                <div class="content container">
-                   {{ .Content}}
-                </div>
-                <br>
-            </div>
-        </section>
+      <section class="hero is-default is-bold">
+        <div class="hero-body">
+          <div class="content container">{{ .Content}}</div>
+          <br />
+        </div>
+      </section>
     </div>
-</div>
+  </div>
 </main>
-{{ end }}
-{{ define "footer" }}
-  {{ partial "footer" . }}
-{{ end }}
+{{ end }} {{ define "footer" }} {{ partial "footer" . }} {{ end }}

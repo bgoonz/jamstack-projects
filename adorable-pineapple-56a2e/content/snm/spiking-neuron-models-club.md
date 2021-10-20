@@ -11,7 +11,6 @@ links:
 weight: 1
 ---
 
-
 ## What books are we reading?
 
 1. [Spiking Neuron Models: Single Neurons, Populations,Plasticity](http://lcn.epfl.ch/~gerstner/SPNM/SPNM.html) by Wulfram Gerstner and Werner M. Kistler.

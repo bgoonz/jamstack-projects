@@ -1,29 +1,28 @@
 .highlight,
 pre.highlight {
-    background: whitesmoke;
-    color: #383a42
+  background: whitesmoke;
+  color: #383a42;
 }
 
-
 .highlight pre {
-    background: whitesmoke;
-    font-size: 1em;
+  background: whitesmoke;
+  font-size: 1em;
 }
 
 .highlight span {
-    color: black;
+  color: black;
 }
 
 .highlight .ge {
-    font-style: italic
+  font-style: italic;
 }
 
 .highlight .gs {
-    font-weight: 700
+  font-weight: 700;
 }
 
 .highlight .ow {
-    font-weight: 700
+  font-weight: 700;
 }
 
 .highlight .n,
@@ -31,7 +30,7 @@ pre.highlight {
 .highlight .nn,
 .highlight .o,
 .highlight .p {
-    color: #383a42
+  color: #383a42;
 }
 
 .highlight .c,
@@ -39,13 +38,13 @@ pre.highlight {
 .highlight .cm,
 .highlight .cp,
 .highlight .cs {
-    color: #a0a1a7;
-    font-style: italic
+  color: #a0a1a7;
+  font-style: italic;
 }
 
 .highlight .sr,
 .highlight .ss {
-    color: #0184bc
+  color: #0184bc;
 }
 
 .highlight .k,
@@ -55,7 +54,7 @@ pre.highlight {
 .highlight .kp,
 .highlight .kr,
 .highlight .kt {
-    color: #a626a4
+  color: #a626a4;
 }
 
 .highlight .l,
@@ -70,13 +69,13 @@ pre.highlight {
 .highlight .sh,
 .highlight .si,
 .highlight .sx {
-    color: #50a14f
+  color: #50a14f;
 }
 
 .highlight .nt,
 .highlight .nx,
 .highlight .vi {
-    color: #e45649
+  color: #e45649;
 }
 
 .highlight .il,
@@ -86,7 +85,7 @@ pre.highlight {
 .highlight .mi,
 .highlight .mo,
 .highlight .na {
-    color: #986801
+  color: #986801;
 }
 
 .highlight .bp,
@@ -101,48 +100,48 @@ pre.highlight {
 .highlight .py,
 .highlight .vc,
 .highlight .vg {
-    color: #c18401
+  color: #c18401;
 }
 
 .highlight .err {
-    color: #fff;
-    background-color: #ff1414
+  color: #fff;
+  background-color: #ff1414;
 }
 
 .highlight .gd {
-    color: #ff1414
+  color: #ff1414;
 }
 
 .highlight .gi {
-    color: #2db448
+  color: #2db448;
 }
 
 .highlight .w {
-    color: #f8f8f2
+  color: #f8f8f2;
 }
 
 .highlight .cpf {
-    color: navy
+  color: navy;
 }
 
 .highlight .gu {
-    color: #75715e
+  color: #75715e;
 }
 
 .highlight .lineno {
-    color: #9d9d9f;
-    user-select: none
+  color: #9d9d9f;
+  user-select: none;
 }
 
 .highlight .hll {
-    color: #383a42;
-    background-color: #f2f2f2
+  color: #383a42;
+  background-color: #f2f2f2;
 }
 
-.highlight .language-json .w+.s2 {
-    color: #e45649
+.highlight .language-json .w + .s2 {
+  color: #e45649;
 }
 
 .highlight .language-json .kc {
-    color: #0184bc
+  color: #0184bc;
 }

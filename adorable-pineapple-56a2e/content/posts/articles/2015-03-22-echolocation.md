@@ -2,7 +2,7 @@
 title: 回声定位
 date: 2015-03-22 00:00:00 Z
 categories:
-- 中文科普
+  - 中文科普
 modified: 2015-03-22 00:00:00 Z
 author: neuronstar
 toc: true
@@ -16,10 +16,7 @@ summary: 听觉对于动物来说非常重要，在黑暗的深海里和茫茫�
 
 ![]({{site.url}}/images/posts/echo/echo1.png)
 
-
 $$EL=SL+TS-2TL$$
-
-
 
 通常来说，人类能够听到的声音频率范围是 20Hz-20,000Hz，超过 20,000Hz 的声波即超声波，是人类听觉系统（耳蜗）不能感知的刺激。但是，很多动物能听到超声波。其中的典范就是齿鲸（包括喙鲸和海豚）和蝙蝠，它们能利用超声波进行定位，即回声定位。
 
@@ -30,6 +27,7 @@ $$EL=SL+TS-2TL$$
 ## 海豚与蝙蝠
 
 ### 海豚的发声器官和接受器官
+
 海豚通过挤压空气快速穿过鼻腔内的两对脂肪片而发出超声波（下图的绿色弧线），声音通过头部的脂肪传播。海豚通过下颌的脂肪接收返回的超声波（下图的红色弧线）。
 
 <figure markdown="1">
@@ -39,13 +37,9 @@ Image Credit: <a href="http://commons.wikimedia.org/wiki/User:Malene" target="_b
 ![](http://upload.wikimedia.org/wikipedia/commons/8/82/Delfinekko.gif)
 </figure>
 
-
 ### 蝙蝠的发声器官和接受器官
 
 蝙蝠通过喉头、鼻腔发出超声波，也可以通过翅膀发出微弱的超声波。返回的超声波通过外耳廓进入蝙蝠的听觉系统。
-
-
-
 
 ## 海豚和蝙蝠的捕食过程
 
@@ -53,24 +47,17 @@ Image Credit: <a href="http://commons.wikimedia.org/wiki/User:Malene" target="_b
 
 ![]({{site.url}}/images/posts/echo/echo5.png)
 
-
-
 ## 捕食者-猎物的互动和进化
 
 在齿鲸中，有一对有趣的捕食者-猎物的例子，那就是虎鲸和海豚，他们都能够接受超声波信号，因此，以哺乳动物为食的虎鲸为了避免被海豚“听”到，在接近海豚时会关闭回声定位系统；而海豚在捕食鱼类时，为了避免被虎鲸“听”到而暴露自己，进化出了高于虎鲸听力上限的超声波范围。这就是 predator 和 prey 斗智斗勇的生存游戏。
 
 ![]({{site.url}}/images/posts/echo/echo6.jpg)
 
-
 ## 人类的回声定位
 
 有趣的是，最近的研究发现，回声定位不止存在于齿鲸和蝙蝠中，有的盲人也可以利用回声判断行进过程中的障碍物。
 
-
 <iframe width="960" height="720" src="https://www.youtube.com/embed/r9mvRRwu5Gw" frameborder="0" allowfullscreen></iframe>
-
-
-
 
 ## 回声定位的物理
 
