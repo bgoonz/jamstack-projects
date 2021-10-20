@@ -9,7 +9,7 @@ sections:
   - type: features_section
     features:
       - title: Section Title One
-        subtitle: 'Odio et tortor laoreet, sed interdum augue ornare. '
+        subtitle: "Odio et tortor laoreet, sed interdum augue ornare. "
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -19,7 +19,7 @@ sections:
         media_position: right
         media_width: fifty
       - title: Section Title Two
-        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
+        subtitle: "In fermentum odio et tortor laoreet, sed interdum augue ornare. "
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -29,7 +29,7 @@ sections:
         media_position: left
         media_width: fifty
       - title: Section Title Three
-        subtitle: 'Donec nisl ligula, cursus id molestie vel. '
+        subtitle: "Donec nisl ligula, cursus id molestie vel. "
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -49,7 +49,7 @@ sections:
         content_align: left
         actions:
           - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            url: "https://goo.gl/maps/eh6fn7JjMS4vYs337"
             style: link
             has_icon: true
             icon: arrow-right
@@ -64,7 +64,7 @@ sections:
         content_align: left
         actions:
           - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            url: "https://goo.gl/maps/eh6fn7JjMS4vYs337"
             style: link
             has_icon: true
             icon: arrow-right
@@ -79,7 +79,7 @@ sections:
         content_align: left
         actions:
           - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            url: "https://goo.gl/maps/eh6fn7JjMS4vYs337"
             style: link
             has_icon: true
             icon: arrow-right
@@ -94,7 +94,7 @@ sections:
         content_align: left
         actions:
           - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            url: "https://goo.gl/maps/eh6fn7JjMS4vYs337"
             style: link
             has_icon: true
             icon: arrow-right
