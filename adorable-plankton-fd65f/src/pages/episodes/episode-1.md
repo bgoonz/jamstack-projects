@@ -3,7 +3,7 @@ title: Episode 1 - Utrum Igitur Tibi Litteram Videor An Totas Paginas
 subtitle: >-
   Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil quieti
   videre, nihil tranquilli potest.
-date: '2020-07-15'
+date: "2020-07-15"
 categories:
   - src/data/categories/season-1.yaml
 thumb_image: images/post-1.jpg
@@ -19,26 +19,26 @@ seo:
   title: Episode 1 - Utrum Igitur Tibi Litteram Videor An Totas Paginas
   description: Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Episode 1 - Utrum Igitur Tibi Litteram Videor An Totas Paginas
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/post-1.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Episode 1 - Utrum Igitur Tibi Litteram Videor An Totas Paginas
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/post-1.jpg
       relativeUrl: true
 template: post

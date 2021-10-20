@@ -1,9 +1,9 @@
 ---
-title: 'Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
+title: "Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis"
 subtitle: >-
   Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me
   vocas, eum.
-date: '2020-08-14'
+date: "2020-08-14"
 categories:
   - src/data/categories/season-1.yaml
 thumb_image: images/post-2.jpg
@@ -16,29 +16,29 @@ episode_embed_html: >-
   allow="autoplay"
   src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/387283889&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 seo:
-  title: 'Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
+  title: "Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis"
   description: Quae diligentissime contra Aristonem dicuntur a Chryippo
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
-      value: 'Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
+    - name: "og:title"
+      value: "Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis"
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Quae diligentissime contra Aristonem dicuntur a Chryippo
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/post-2.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
-      value: 'Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
-    - name: 'twitter:description'
+    - name: "twitter:title"
+      value: "Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis"
+    - name: "twitter:description"
       value: Quae diligentissime contra Aristonem dicuntur a Chryippo
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/post-2.jpg
       relativeUrl: true
 template: post

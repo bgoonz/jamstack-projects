@@ -1,5 +1,5 @@
 ---
-title: 'Episodes, Season 2'
+title: "Episodes, Season 2"
 sections:
   - type: hero_section
     title: Episodes
@@ -50,26 +50,26 @@ seo:
   title: Posts in News
   description: This is the author archive page
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Posts in News
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: This is the author archive page
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/post-9.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Posts in News
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: This is the author archive page
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/post-9.jpg
       relativeUrl: true
 template: advanced
