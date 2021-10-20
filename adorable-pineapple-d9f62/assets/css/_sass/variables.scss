@@ -1,14 +1,14 @@
-$base-font-family: 'Work Sans', sans-serif;
-$base-font-size:   20px;
+$base-font-family: "Work Sans", sans-serif;
+$base-font-size: 20px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.7;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 $light-gray: gray;
-$text-color:       #333;
+$text-color: #333;
 $background-color: #fdfdfd;
-$brand-color:      #60c17d;
+$brand-color: #60c17d;
 
 // Color scheme for light
 $body-bg: #fdfdfd;
@@ -21,6 +21,9 @@ $projectbox-dark: lighten($body-bg-dark, 10%);
 $text-color-dark: #777;
 
 // Colour palette for project boxes
-$theme1: ("one",#388087),("two", #6FB3B8),("three",#BADFE7),("four",#C2EDCE),("five",#F6F6F2);
-$theme2: ("one",#E8DFE0),("two", #8D9B6A),("three",#8A9EA7),("four",#DAB692),("five",#8F5B34);
-$theme3: ("one",#78AAC3),("two", #C4DEED),("three",#97C8D6),("four",#EEAB74),("five",#F3CD86), ("six",#F5A280);
+$theme1: ("one", #388087), ("two", #6fb3b8), ("three", #badfe7),
+  ("four", #c2edce), ("five", #f6f6f2);
+$theme2: ("one", #e8dfe0), ("two", #8d9b6a), ("three", #8a9ea7),
+  ("four", #dab692), ("five", #8f5b34);
+$theme3: ("one", #78aac3), ("two", #c4deed), ("three", #97c8d6),
+  ("four", #eeab74), ("five", #f3cd86), ("six", #f5a280);

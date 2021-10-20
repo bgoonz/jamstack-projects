@@ -1,19 +1,19 @@
 title: Your Name
 description: subtitle | affiliations | motto
-baseurl: ''
-url: ''
+baseurl: ""
+url: ""
 email: null
 highlighter: rouge
 markdown: kramdown
 paginate: 4
-permalink: '/blog/:year/:title/'
-paginate_path: '/blog/page:num/'
-facebook: '#'
-twitter: '#'
-linkedin: '#'
-github: '#'
-researchgate: '#'
-orcid: '#'
+permalink: "/blog/:year/:title/"
+paginate_path: "/blog/page:num/"
+facebook: "#"
+twitter: "#"
+linkedin: "#"
+github: "#"
+researchgate: "#"
+orcid: "#"
 analytics: null
 compress_html:
   clippings:
@@ -44,8 +44,8 @@ compress_html:
     - script
     - title
   comments:
-    - '<!-- '
-    - ' -->'
+    - "<!-- "
+    - " -->"
   endings:
     - all
   ignore:
@@ -57,7 +57,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: '/projects/:path/'
+    permalink: "/projects/:path/"
 sass:
   sass_dir: /assets/css/_sass
   style: compressed

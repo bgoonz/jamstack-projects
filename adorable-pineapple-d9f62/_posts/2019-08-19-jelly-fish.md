@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A Jelly-Fish
+title: A Jelly-Fish
 ---
 
 Visible, invisible,  
@@ -22,6 +22,6 @@ The blue
 Surrounding it  
 Grows cloudy, and  
 It floats away  
-From you.  
+From you.
 
 [by Marianne Moore](https://poets.org/anthology/poems-your-poetry-project-public-domain)
