@@ -1,7 +1,7 @@
 ---
 layout: product
-id: '6'
-price: '100.00'
+id: "6"
+price: "100.00"
 title: Donec finibus
 description: Cras molestie faucibus ipsum ut vulputate.
 default_thumbnail_image: images/plant6.jpg
@@ -12,26 +12,26 @@ seo:
   title: Donec finibus
   description: Cras molestie faucibus ipsum ut vulputate
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Donec finibus
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Cras molestie faucibus ipsum ut vulputate
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/plant6-lg.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Donec finibus
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Cras molestie faucibus ipsum ut vulputate
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/plant6-lg.jpg
       relativeUrl: true
 ---

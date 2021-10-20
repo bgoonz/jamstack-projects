@@ -1,7 +1,7 @@
 ---
 layout: product
-id: '1'
-price: '49.40'
+id: "1"
+price: "49.40"
 title: Nulla suscipit
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit velit
@@ -14,28 +14,28 @@ order: 1
 category: content/pages/category/bigplants.md
 seo:
   title: Nulla suscipit
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Nulla suscipit
       keyName: property
-    - name: 'og:description'
-      value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+    - name: "og:description"
+      value: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/plant1-lg.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Nulla suscipit
-    - name: 'twitter:description'
-      value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
-    - name: 'twitter:image'
+    - name: "twitter:description"
+      value: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    - name: "twitter:image"
       value: images/plant1-lg.jpg
       relativeUrl: true
 ---
