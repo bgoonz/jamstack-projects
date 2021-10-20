@@ -1,5 +1,5 @@
 ---
-title:  How to set up the Masonry Layout with an Image Lightbox
+title: How to set up the Masonry Layout with an Image Lightbox
 tags:
   - Friday Theme
   - HTML
@@ -17,7 +17,7 @@ images:
   - https://images.unsplash.com/photo-1500402448245-d49c5229c564?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19c590b253f803a7f9b643c59017160&auto=format&fit=crop&w=1650&q=80
 ---
 
-Here's an example that extends the Masonry layout to add a Lightbox to show each image. 
+Here's an example that extends the Masonry layout to add a Lightbox to show each image.
 
 <!--more-->
 
@@ -57,6 +57,3 @@ Here's the card columns in action. Click each image to open it in a lightbox.
     })
   })
 </script>
-
-
-

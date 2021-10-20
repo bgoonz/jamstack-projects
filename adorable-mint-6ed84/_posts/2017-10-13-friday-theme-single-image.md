@@ -1,5 +1,5 @@
 ---
-title:  How to use Single Images
+title: How to use Single Images
 tags:
   - Friday Theme
   - HTML

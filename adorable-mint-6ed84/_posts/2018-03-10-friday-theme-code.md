@@ -16,11 +16,11 @@ Code blocks are wrapped in the `highlight` liquid tag together with a keyword to
 {% highlight liquid %}
 {% raw %}
 {% highlight javascript %}
-    ...JS here...
+...JS here...
 {% endhighlight %}
 {% endraw %}
 {% endhighlight %}
- 
+
 ## Examples
 
 ### JavaScript
@@ -29,8 +29,8 @@ Here's some JavaScript I borrowed from [this StackOverflow post](https://stackov
 
 {% highlight javascript %}
 var modularpattern = (function() {
-    // your module code goes here
-    var sum = 0 ;
+// your module code goes here
+var sum = 0 ;
 
     return {
         add:function() {
@@ -38,13 +38,14 @@ var modularpattern = (function() {
             return sum;
         },
         reset:function() {
-            return sum = 0;    
-        }  
-    }   
+            return sum = 0;
+        }
+    }
+
 }());
-alert(modularpattern.add());    // alerts: 1
-alert(modularpattern.add());    // alerts: 2
-alert(modularpattern.reset());  // alerts: 0
+alert(modularpattern.add()); // alerts: 1
+alert(modularpattern.add()); // alerts: 2
+alert(modularpattern.reset()); // alerts: 0
 {% endhighlight %}
 
 ### Python
@@ -53,19 +54,19 @@ And here's some Python from [this tutorial](https://www.tutorialspoint.com/pytho
 
 {% highlight python %}
 class Employee:
-   'Common base class for all employees'
-   empCount = 0
+'Common base class for all employees'
+empCount = 0
 
-   def __init__(self, name, salary):
-      self.name = name
-      self.salary = salary
-      Employee.empCount += 1
-   
-   def displayCount(self):
-     print "Total Employee %d" % Employee.empCount
+def **init**(self, name, salary):
+self.name = name
+self.salary = salary
+Employee.empCount += 1
 
-   def displayEmployee(self):
-      print "Name : ", self.name,  ", Salary: ", self.salary
+def displayCount(self):
+print "Total Employee %d" % Employee.empCount
+
+def displayEmployee(self):
+print "Name : ", self.name, ", Salary: ", self.salary
 {% endhighlight %}
 
 ## Supported Languages

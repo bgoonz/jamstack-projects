@@ -1,5 +1,5 @@
 ---
-title:  How to use Icons
+title: How to use Icons
 tags:
   - icons
   - Friday Theme
@@ -62,15 +62,15 @@ The following CSS is already in `theme/css/site.css` and can easily be extended 
 
 {% highlight css %}
 .icon {
-    height: 21px;
-    width: 21px;
+height: 21px;
+width: 21px;
 }
 
 .icon.grey svg path {
-    fill: #999;
+fill: #999;
 }
 
 .icon.red svg path {
-    fill: #A00;
+fill: #A00;
 }
 {% endhighlight %}

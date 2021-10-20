@@ -1,5 +1,5 @@
 ---
-title:  How to use Multiple Images in a Carousel
+title: How to use Multiple Images in a Carousel
 tags:
   - Friday Theme
   - HTML
@@ -50,9 +50,10 @@ To create this, put a list of image URLs in your page's front matter, like this:
 {% raw %}
 
 images:
-  - http://www.something.com/path/to/image1.jpg
-  - http://www.something.com/path/to/image2.jpg
-  - http://www.something.com/path/to/image3.jpg
+
+- http://www.something.com/path/to/image1.jpg
+- http://www.something.com/path/to/image2.jpg
+- http://www.something.com/path/to/image3.jpg
 
 {% endraw %}
 {% endhighlight %}

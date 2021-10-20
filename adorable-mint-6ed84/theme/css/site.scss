@@ -2,10 +2,10 @@
 ---
 
 // Customise bootstrap, and set site-wide variables.
-@import 'variables';
+@import "variables";
 
 // Include Bootstrap.
-@import 'bootstrap/bootstrap';
+@import "bootstrap/bootstrap";
 
 // Include SCSS for the theme itself.
-@import 'theme';
+@import "theme";

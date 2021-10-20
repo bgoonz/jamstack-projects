@@ -55,8 +55,8 @@ Here's some quick examples of what it can do.
 
 {% highlight javascript %}
 var modulePattern = (function() {
-    // your module code goes here
-    var sum = 0 ;
+// your module code goes here
+var sum = 0 ;
 
     return {
         add:function() {
@@ -67,6 +67,7 @@ var modulePattern = (function() {
             return sum = 0;
         }
     }
+
 }());
 {% endhighlight %}
 
@@ -125,5 +126,3 @@ There's a suite of hundreds of Entypo icons included, here's just a few.
         {% include entypo/shopping-cart.svg %}
     </span>
 </div>
-
-

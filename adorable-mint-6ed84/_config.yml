@@ -1,11 +1,11 @@
-permalink: '/:categories/:year/:month/:day/:title.html'
+permalink: "/:categories/:year/:month/:day/:title.html"
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
 title: Friday Theme
 name: Friday Theme
 avatar: /theme/img/avatar.jpg
-baseurl: ''
+baseurl: ""
 include:
   - _pages
   - _portfolio
@@ -16,14 +16,14 @@ collections:
   projects:
     output: true
     title: Projects
-    permalink: '/:collection/:name.html'
+    permalink: "/:collection/:name.html"
   portfolio:
     output: true
     title: portfolio
-    permalink: '/:collection/:name.html'
+    permalink: "/:collection/:name.html"
 defaults:
   - scope:
-      path: ''
+      path: ""
     values:
       show_profile: true
   - scope:
@@ -46,4 +46,4 @@ defaults:
     values:
       show_profile: false
       layout: defaults/list
-url: ''
+url: ""

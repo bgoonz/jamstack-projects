@@ -1,5 +1,5 @@
 ---
-title:  How to use Multiple Images in a Masonry-style layout
+title: How to use Multiple Images in a Masonry-style layout
 tags:
   - Friday Theme
   - HTML
@@ -34,6 +34,3 @@ Here's the card columns in action.
 </div>
 
 (The photos are from [Unsplash](http://www.unsplash.com)!)
-
-
-
