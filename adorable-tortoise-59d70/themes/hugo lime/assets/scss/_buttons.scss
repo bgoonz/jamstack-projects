@@ -12,9 +12,15 @@
   vertical-align: middle;
   user-select: none;
   border: $btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+  @include button-size(
+    $btn-padding-y,
+    $btn-padding-x,
+    $font-size-base,
+    $btn-line-height,
+    $btn-border-radius
+  );
   @include transition($btn-transition);
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 
   // Share hover and focus styles
   @include hover-focus {
@@ -56,7 +62,6 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-
 //
 // Alternate buttons
 //
@@ -72,7 +77,6 @@ fieldset:disabled a.btn {
     @include button-outline-variant($value);
   }
 }
-
 
 //
 // Link buttons
@@ -106,19 +110,29 @@ fieldset:disabled a.btn {
   // No need for an active state here
 }
 
-
 //
 // Button Sizes
 //
 
 .btn-lg {
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $btn-line-height-lg, $btn-border-radius-lg);
+  @include button-size(
+    $btn-padding-y-lg,
+    $btn-padding-x-lg,
+    $font-size-lg,
+    $btn-line-height-lg,
+    $btn-border-radius-lg
+  );
 }
 
 .btn-sm {
-  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $btn-line-height-sm, $btn-border-radius-sm);
+  @include button-size(
+    $btn-padding-y-sm,
+    $btn-padding-x-sm,
+    $font-size-sm,
+    $btn-line-height-sm,
+    $btn-border-radius-sm
+  );
 }
-
 
 //
 // Block button
@@ -143,86 +157,84 @@ input[type="button"] {
   }
 }
 
-.navbar-light{
-
+.navbar-light {
   background-color: #fff;
   box-shadow: 0 3px 10px #0000001a;
 
-  .btn-facebook{
+  .btn-facebook {
     color: #3b5998 !important;
   }
 
-  .btn-instagram{
+  .btn-instagram {
     color: #fd5d58 !important;
   }
-  .btn-linkedin{
+  .btn-linkedin {
     color: #0077b5 !important;
   }
-  .btn-twitter{
-    color: #1da1f3 !important; 
+  .btn-twitter {
+    color: #1da1f3 !important;
   }
-  .btn-snapchat{
+  .btn-snapchat {
     color: #000 !important;
   }
-  .btn-google-plus{
+  .btn-google-plus {
     color: #dd483c !important;
   }
-  .btn-google{
+  .btn-google {
     color: #4c8cf6 !important;
   }
-  .btn-dribbble{
+  .btn-dribbble {
     color: #eb4c88 !important;
   }
-  .btn-youtube{
+  .btn-youtube {
     color: #dd483c !important;
   }
-  .btn-behance{
+  .btn-behance {
     color: #1669ff !important;
   }
-  .btn-medium{
+  .btn-medium {
     color: #000 !important;
   }
 }
 
-.btn-filled{
+.btn-filled {
   color: #fff !important;
 
-  &.btn-facebook{
+  &.btn-facebook {
     background-color: #3b5998 !important;
   }
 
-  &.btn-instagram{
+  &.btn-instagram {
     background-color: #fd5d58 !important;
   }
-  &.btn-linkedin{
+  &.btn-linkedin {
     background-color: #0077b5 !important;
   }
-  &.btn-twitter{
-    background-color: #1da1f3 !important; 
+  &.btn-twitter {
+    background-color: #1da1f3 !important;
   }
-  &.btn-snapchat{
+  &.btn-snapchat {
     background-color: #000 !important;
   }
-  &.btn-google-plus{
+  &.btn-google-plus {
     background-color: #dd483c !important;
   }
-  &.btn-google{
+  &.btn-google {
     background-color: #4c8cf6 !important;
   }
-  &.btn-dribbble{
+  &.btn-dribbble {
     background-color: #eb4c88 !important;
   }
-  &.btn-youtube{
+  &.btn-youtube {
     background-color: #dd483c !important;
   }
-  &.btn-behance{
+  &.btn-behance {
     background-color: #1669ff !important;
   }
-  &.btn-medium{
+  &.btn-medium {
     background-color: #000 !important;
   }
-  &.btn-pinterest{
+  &.btn-pinterest {
     background-color: #bd081a !important;
   }
-
 }

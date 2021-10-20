@@ -6,21 +6,21 @@ You can build your business website within minutes, all you have to download and
 
 Feature comparison of free and pro versions:
 
-| Free Version  | Pro Version   |
-| ------------- |-------------|
-| 1 Illustration | 3 Illustrations |
-| Cover      | Cover      |
+| Free Version      | Pro Version       |
+| ----------------- | ----------------- |
+| 1 Illustration    | 3 Illustrations   |
+| Cover             | Cover             |
 | Features/Services | Features/Services |
-| Pricing | Pricing |
-| Team | Team |
+| Pricing           | Pricing           |
+| Team              | Team              |
 | Clients/Parteners | Clients/Parteners |
-| Contact | Contact |
-| GA | GA |
-|  | FAQ |
-| | Blog |
-| | Work/Portfolio |
-| | Disqus |
-| | Documentation |
+| Contact           | Contact           |
+| GA                | GA                |
+|                   | FAQ               |
+|                   | Blog              |
+|                   | Work/Portfolio    |
+|                   | Disqus            |
+|                   | Documentation     |
 
 For more information or for any help, [visit this link](https://uicard.io/products/hugo-lime-free)
 
