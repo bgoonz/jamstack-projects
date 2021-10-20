@@ -9,7 +9,7 @@
   height: #{$height}px;
 }
 
-@mixin center($max-width: map-get($jeet, 'max-width'), $pad: 0) {
+@mixin center($max-width: map-get($jeet, "max-width"), $pad: 0) {
   @include clearfix;
   width: auto;
   max-width: $max-width;
@@ -17,12 +17,12 @@
   display: block;
   margin: {
     right: auto;
-    left:  auto;
-  };
+    left: auto;
+  }
   padding: {
-    left:  $pad;
+    left: $pad;
     right: $pad;
-  };
+  }
 }
 
 @mixin align($direction: both) {
@@ -44,7 +44,7 @@
 
 @mixin clearfix() {
   &::after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
   }
