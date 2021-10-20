@@ -1,0 +1,46 @@
+{
+    "title": "NhSupa",
+    "favicon": "images/favicon.png",
+    "logo_dark": "images/spectacular-pluto.webp",
+    "logo_light": "images/logo.webp",
+    "hamburger_background_image": "/images/leaf-light-grey.svg",
+    "bg_image_primary": "/images/header.jpg",
+    "bg_image_primary_opacity": 60,
+    "bg_image_secondary": "/images/leaf-light-grey.svg",
+    "bg_image_product": "/images/leaf.svg",
+    "snipcart_api_key": "ZmZhZGM2YTItMDk5Zi00MGMwLTkyMWEtMTUwOGM2Yzc5ZTk3NjM3NTQxOTY2NTQ1MjcyNzc0",
+    "footer_text": "Copyright 2021 Planty Inc. All rights reserved.",
+    "palette": "yellow",
+    "main_menu": [
+        {
+            "title": "Store",
+            "url": "/store",
+            "style": "link"
+        },
+        {
+            "title": "About",
+            "url": "/about",
+            "style": "link"
+        },
+        {
+            "title": "Contact",
+            "url": "/faq",
+            "style": "link"
+        },
+        {
+            "title": "YouTube",
+            "url": "https://www.youtube.com/channel/UC1U42vKBiLHgvYh-uI-tKoA/playlists",
+            "style": "primary",
+            "arrow": false,
+            "type": "action"
+        },
+        {
+            "title": "Soundcloud",
+            "url": "https://soundcloud.com/halftime-caribean/sets",
+            "style": "primary",
+            "arrow": false,
+            "type": "action"
+        }
+    ],
+    "domain": "https://adorable-sun-3f751.netlify.app"
+}
