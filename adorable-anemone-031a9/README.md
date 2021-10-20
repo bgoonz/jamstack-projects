@@ -8,78 +8,77 @@
     OneShopper
   </h1>
   <img src="https://github.com/rohitguptab/OneShopper/blob/master/docs/screenshot.jpg" />
-  
-
-  Kick off your Ecommerce Website with OneShopper project you can build you site with this, We have used [Gatsby](https://www.gatsbyjs.org/) + [Contenful](https://www.gatsbyjs.org/packages/gatsby-source-contentful/?=Contenful) and [snipcart](https://www.gatsbyjs.org/packages/gatsby-plugin-snipcart/?=snipcart).
-  
-  Live Demo:
-  https://oneshopper.netlify.com
 
 
-  ## 🚀 Quick start
+Kick off your Ecommerce Website with OneShopper project you can build you site with this, We have used [Gatsby](https://www.gatsbyjs.org/) + [Contenful](https://www.gatsbyjs.org/packages/gatsby-source-contentful/?=Contenful) and [snipcart](https://www.gatsbyjs.org/packages/gatsby-plugin-snipcart/?=snipcart).
 
-  1.  **Setup this site.**
+Live Demo:
+https://oneshopper.netlify.com
 
-      Use the Gatsby CLI to Clone this site.
+## 🚀 Quick start
 
-      ```sh
-      # Clone this Repositories
-      gatsby new OneShopper https://github.com/Rohitguptab/OneShopper.git
-      ```
+1.  **Setup this site.**
 
-  1.  **Setup Contentful Models**
+    Use the Gatsby CLI to Clone this site.
 
-      Use [contentful-cli](https://github.com/contentful/contentful-cli) to import the models from oneshopper.json
+    ```sh
+    # Clone this Repositories
+    gatsby new OneShopper https://github.com/Rohitguptab/OneShopper.git
+    ```
 
-      ```
-      contentful space --space-id <CONTENTFUL_SPACE_ID> import --content-file oneshopper.json
-      ```
-      
-      Checkout my below blog how to Import and Export data from ContentFul
-      
-      [https://rohitgupta.netlify.app/import-and-export-data-with-contentful-cli](https://rohitgupta.netlify.app/import-and-export-data-with-contentful-cli)
+1.  **Setup Contentful Models**
 
-  1.  **Setup your Own Configure Projects.**
+    Use [contentful-cli](https://github.com/contentful/contentful-cli) to import the models from oneshopper.json
 
-      Enter your own key
+    ```
+    contentful space --space-id <CONTENTFUL_SPACE_ID> import --content-file oneshopper.json
+    ```
 
-      [ContentFul](https://be.contentful.com/login):
-      - spaceId = **Key**
-      - accessToken = **Key**
+    Checkout my below blog how to Import and Export data from ContentFul
 
-      [snipcart](https://app.snipcart.com/):
-      - snipcart = **Key**
+    [https://rohitgupta.netlify.app/import-and-export-data-with-contentful-cli](https://rohitgupta.netlify.app/import-and-export-data-with-contentful-cli)
 
-  1.  **Start developing.**
+1.  **Setup your Own Configure Projects.**
 
-      Navigate into your new site’s directory and start it up.
+    Enter your own key
 
-      ```sh
-      cd OneShopper
-      npm install
-      gatsby develop
-      ```
+    [ContentFul](https://be.contentful.com/login):
 
+    - spaceId = **Key**
+    - accessToken = **Key**
 
-  1.  **Open the source code and start editing!**
+    [snipcart](https://app.snipcart.com/):
 
-      Your site is now running at `http://localhost:8000`!
+    - snipcart = **Key**
 
-      _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+1.  **Start developing.**
 
-      Open the `OneShopper` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Navigate into your new site’s directory and start it up.
 
+    ```sh
+    cd OneShopper
+    npm install
+    gatsby develop
+    ```
 
-  ## 🎓 Learning Gatsby
+1.  **Open the source code and start editing!**
 
-  Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+    Your site is now running at `http://localhost:8000`!
 
-  - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-  - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+    Open the `OneShopper` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-  ## 💫 Deploy
+## 🎓 Learning Gatsby
 
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Rohitguptab/OneShopper)
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Rohitguptab/OneShopper)
 
   <!-- AUTO-GENERATED-CONTENT:END -->
