@@ -6,26 +6,26 @@ seo:
   title: Stackbit Fjord Theme
   description: The preview of the Fjord theme
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Stackbit Fjord Theme
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: The preview of the Fjord theme
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/home.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Stackbit Fjord Theme
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: The preview of the Fjord theme
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/home.jpg
       relativeUrl: true
 layout: home
