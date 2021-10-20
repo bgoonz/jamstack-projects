@@ -1,0 +1,115 @@
+{
+    "title": "Encyklopedisté",
+    "path_prefix": "/",
+    "description": "Stránky spolku Encyklopedisté",
+    "layout": "boxed",
+    "style": "classic",
+    "palette": "blue",
+    "mode": "light",
+    "base_font": "serif",
+    "header": {
+        "title": "Encyklopedisté",
+        "logo": "images/Screenshot 2020-12-28 at 13.45.31.png",
+        "has_primary_nav": false,
+        "primary_nav_links": [
+            {
+                "label": "Features",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Pricing",
+                "url": "/pricing",
+                "style": "link"
+            },
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Blog",
+                "url": "/blog",
+                "style": "link"
+            },
+            {
+                "label": "Style Guide",
+                "url": "/style-guide",
+                "style": "link"
+            }
+        ],
+        "has_secondary_nav": false,
+        "secondary_nav_links": [
+            {
+                "label": "Contact",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
+                "label": "Get Started",
+                "url": "/pricing",
+                "style": "primary"
+            }
+        ],
+        "has_anncmnt": true,
+        "anncmnt_content": "",
+        "anncmnt_align": "left",
+        "anncmnt_is_home_only": false,
+        "anncmnt_has_close": false,
+        "anncmnt_id": "new-features"
+    },
+    "footer": {
+        "logo": "images/remarkable-olive.png",
+        "has_primary_nav": false,
+        "primary_nav_title": "Company",
+        "primary_nav_links": [
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Style Guide",
+                "url": "/style-guide",
+                "style": "link"
+            }
+        ],
+        "has_secondary_nav": false,
+        "secondary_nav_title": "Blog",
+        "secondary_nav_links": [
+            {
+                "label": "News",
+                "url": "/blog/category/news",
+                "style": "link"
+            },
+            {
+                "label": "General",
+                "url": "/blog/category/general",
+                "style": "link"
+            },
+            {
+                "label": "Tutorials",
+                "url": "/blog/category/tutorials",
+                "style": "link"
+            }
+        ],
+        "has_tertiary_nav": false,
+        "tertiary_nav_title": "Legal",
+        "tertiary_nav_links": [
+            {
+                "label": "Terms & Conditions",
+                "url": "/terms-conditions",
+                "style": "link"
+            },
+            {
+                "label": "Privacy Policy",
+                "url": "/privacy-policy",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [],
+        "content": "&copy; Spolek ENCYKLOPEDISTÉ, IČ: 22745521, Sídlo: Hubenov 46, 263 01 Borotice. Zapsaná v OR MS v Praze, \tL 24216",
+        "links": []
+    }
+}
