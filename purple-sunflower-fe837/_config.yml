@@ -1,0 +1,79 @@
+title: LBLB - IT
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+layout_style: overflow
+palette: blue
+header:
+  title: LBLB - Struggle.Zone
+  tagline: '#LBLB'
+  profile_img: images/lblbl.png
+  profile_img_alt: Author avatar
+  background: dark
+  has_nav: true
+  nav_links:
+    - label: Home
+      url: /
+      style: link
+    - label: Blog
+      url: /blog/
+      style: link
+    - label: SonstigES
+      url: /style-guide/
+      style: link
+    - label: Über
+      url: /about/
+      style: link
+    - url: /contact/
+      style: link
+      label: Kontakt
+  has_social: true
+  social_links:
+    - label: Twitter
+      url: 'https://twitter.com/lukasdmo'
+      style: icon
+      icon_class: twitter
+      new_window: true
+    - label: YT
+      url: 'https://www.youtube.com/eskiDMO'
+      style: link
+      icon_class: youtube
+      new_window: true
+      no_follow: false
+      type: action
+    - label: Twitch
+      url: 'https://www.twitch.tv/eskimoooPlay'
+      style: icon
+      icon_class: dev
+      new_window: true
+      no_follow: false
+      type: action
+footer:
+  content: >-
+    &copy; LBLB <a href="https://www.stackbit.com/?utm_source=deployed-footer"
+    target="_blank" rel="no<a
+    href="https://app.stackbit.com/create?theme=fresh&utm_source=deployed-footer"
+    target="_blank" rel="noopener"></a>
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
+domain: 'https://purple-sunflower-fe837.netlify.app'
+favicon: images/lblbl.png
