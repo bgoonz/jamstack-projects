@@ -70,7 +70,7 @@
 
     path {
       @include smaller-than-tablet {
-        transition: .1s;
+        transition: 0.1s;
       }
     }
   }
@@ -97,7 +97,7 @@
     .button--transparent {
       path {
         @include smaller-than-tablet {
-          transition: .1s .2s;
+          transition: 0.1s 0.2s;
         }
       }
     }

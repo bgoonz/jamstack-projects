@@ -1,7 +1,7 @@
 ---
 layout: product
-id: '8'
-price: '50.00'
+id: "8"
+price: "50.00"
 title: Fusce sed
 description: In cursus sagittis eros non congue.
 default_thumbnail_image: images/plant8.jpg
@@ -12,26 +12,26 @@ seo:
   title: Fusce sed
   description: In cursus sagittis eros non congue
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Fusce sed
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: In cursus sagittis eros non congue
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/plant8-lg.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Fusce sed
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: In cursus sagittis eros non congue
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/plant8-lg.jpg
       relativeUrl: true
 ---
