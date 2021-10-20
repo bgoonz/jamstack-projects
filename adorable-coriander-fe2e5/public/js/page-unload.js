@@ -1,5 +1,5 @@
-window.onNextjsRouteChangeStart = function() {
-window.removeMainNavigationHandlers();
-window.removeDocsNavigationHandlers();
-window.removePageNavLinks();
+window.onNextjsRouteChangeStart = function () {
+  window.removeMainNavigationHandlers();
+  window.removeDocsNavigationHandlers();
+  window.removePageNavLinks();
 };
