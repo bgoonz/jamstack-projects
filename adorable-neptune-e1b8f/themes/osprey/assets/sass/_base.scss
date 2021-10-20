@@ -14,7 +14,7 @@ dfn {
 }
 
 a {
-  transition: color .2s ease-out;
+  transition: color 0.2s ease-out;
   text-decoration: none;
 
   img {
@@ -25,7 +25,6 @@ a {
     color: $accent;
   }
 }
-
 
 // Code
 pre {
@@ -83,7 +82,6 @@ tt {
   font-family: $font-code;
 }
 
-
 // Quotes
 q {
   @extend em;
@@ -124,14 +122,12 @@ blockquote {
   }
 }
 
-
 // Images
 img {
   display: inline-block;
   max-width: 100%;
   vertical-align: middle;
 }
-
 
 // Lists
 ul,
@@ -150,7 +146,6 @@ ol {
 ul li {
   list-style-type: disc;
 }
-
 
 // Show or hide elements
 .show {

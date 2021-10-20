@@ -4,7 +4,6 @@
   <body>
     {{ partial "body-top" . }}
     <main>
-
       <section class="blog" id="blog">
         <div class="container">
           <div class="row center-xs">
@@ -13,20 +12,19 @@
           <div class="row">
             <div class="col-xs-12 posts-list">
               {{ range .Data.Pages }}
-                <article>
-                  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                  <div class=sub-header>
-                    {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ i18n "minuteRead" .ReadingTime }}
-                  </div>
-                </article>
+              <article>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <div class="sub-header">
+                  {{ .Date.Format (.Site.Params.dateform | default "January 2,
+                  2006") }} · {{ i18n "minuteRead" .ReadingTime }}
+                </div>
+              </article>
               {{ end }}
             </div>
           </div>
         </div>
       </section>
-
     </main>
-    {{ partial "footer.html" . }}
-    {{ partial "body-bottom" . }}
+    {{ partial "footer.html" . }} {{ partial "body-bottom" . }}
   </body>
 </html>
