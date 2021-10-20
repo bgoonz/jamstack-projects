@@ -3,10 +3,10 @@ ssgName: jekyll
 ssgVersion: 3.8.4
 buildCommand: jekyll build
 publishDir: _site
-staticDir: ''
+staticDir: ""
 uploadDir: images
 dataDir: _data
-pagesDir: ''
+pagesDir: ""
 pageLayoutKey: layout
 logicFields:
   - blog_feed_section.recent_count
@@ -34,8 +34,8 @@ models:
       - type: string
         name: permalink
         label: Permalink
-        description: 'The output path for your pages, posts, or collections.'
-        default: '/posts/:slug:output_ext'
+        description: "The output path for your pages, posts, or collections."
+        default: "/posts/:slug:output_ext"
         hidden: true
       - type: string
         name: domain
@@ -392,7 +392,7 @@ models:
           - stackbit_page_meta
   post:
     type: page
-    urlPath: '/blog/{slug}'
+    urlPath: "/blog/{slug}"
     label: Post
     layout: post
     folder: blog
@@ -684,7 +684,7 @@ models:
           - right
           - center
         default: center
-        description: 'The horizontal alignment of the section content (title, subtitle)'
+        description: "The horizontal alignment of the section content (title, subtitle)"
       - type: enum
         name: padding_top
         label: Section top padding
@@ -1237,7 +1237,7 @@ models:
         description: The subtitle of the section displayed below the title
       - type: enum
         name: title_align
-        label: 'Title, subtitle alignment'
+        label: "Title, subtitle alignment"
         options:
           - left
           - right
@@ -1489,7 +1489,7 @@ models:
         description: The subtitle of the item displayed below the title
       - type: enum
         name: title_align
-        label: 'Title, subtitle alignment'
+        label: "Title, subtitle alignment"
         options:
           - left
           - right
@@ -1601,12 +1601,12 @@ models:
       - type: string
         name: name
         label: Name
-        description: 'The name of the field, submitted with the form'
+        description: "The name of the field, submitted with the form"
         required: true
       - type: string
         name: label
         label: Label
-        description: 'The caption of the field, shown above the field input'
+        description: "The caption of the field, shown above the field input"
       - type: string
         name: default_value
         label: Placeholder text or default value
@@ -1686,12 +1686,12 @@ models:
         name: title
         label: Title
         description: The page title that goes into the <title> tag
-        default: ''
+        default: ""
       - type: string
         name: description
         label: Description
         description: The page description that goes into the <meta name="description"> tag
-        default: ''
+        default: ""
       - type: list
         name: robots
         label: Robots
@@ -1720,10 +1720,10 @@ models:
           fields:
             - type: string
               name: name
-              default: ''
+              default: ""
             - type: string
               name: value
-              default: ''
+              default: ""
             - type: string
               name: keyName
               default: name

@@ -1,9 +1,9 @@
 title: Stackbit DIY Theme
 baseurl: /
-permalink: '/:title/'
+permalink: "/:title/"
 collections:
   posts:
-    permalink: '/posts/:title/'
+    permalink: "/posts/:title/"
 layout_type: boxed
 style: classic
 palette: green
@@ -82,35 +82,35 @@ footer:
   has_social: true
   social_links:
     - label: Twitter
-      url: 'https://twitter.com/'
+      url: "https://twitter.com/"
       style: link
       has_icon: true
       icon: twitter
       icon_position: center
       new_window: true
     - label: GitHub
-      url: 'https://github.com/'
+      url: "https://github.com/"
       style: link
       has_icon: true
       icon: github
       icon_position: center
       new_window: true
     - label: LinkedIn
-      url: 'https://www.linkedin.com/'
+      url: "https://www.linkedin.com/"
       style: link
       has_icon: true
       icon: linkedin
       icon_position: center
       new_window: true
     - label: YouTube
-      url: 'https://www.youtube.com/'
+      url: "https://www.youtube.com/"
       style: link
       has_icon: true
       icon: youtube
       icon_position: center
       new_window: true
     - label: Vimeo
-      url: 'https://vimeo.com/'
+      url: "https://vimeo.com/"
       style: link
       has_icon: true
       icon: vimeo
