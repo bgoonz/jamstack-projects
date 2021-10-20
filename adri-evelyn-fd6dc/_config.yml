@@ -1,5 +1,5 @@
-baseurl: ''
-url: ''
+baseurl: ""
+url: ""
 title: Type on Strap
 description: A website with blog posts and pages
 avatar: assets/img/triangle.png
@@ -20,11 +20,11 @@ disqus_shortname: null
 cusdis_app_id: null
 color_theme: auto
 paginate: 5
-paginate_path: '/blog/page:num'
+paginate_path: "/blog/page:num"
 collections:
   portfolio:
     output: true
-    permalink: '/:collection/:name'
+    permalink: "/:collection/:name"
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag

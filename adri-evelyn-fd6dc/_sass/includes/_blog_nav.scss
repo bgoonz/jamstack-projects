@@ -8,7 +8,7 @@
   clear: both;
 
   &:before {
-    content: '';
+    content: "";
     display: inline-block;
     height: 100%;
     vertical-align: middle;
@@ -28,7 +28,8 @@
     display: inline-block;
 
     .fa {
-      &.fa-chevron-right, &.fa-chevron-left {
+      &.fa-chevron-right,
+      &.fa-chevron-left {
         font-size: initial;
       }
     }

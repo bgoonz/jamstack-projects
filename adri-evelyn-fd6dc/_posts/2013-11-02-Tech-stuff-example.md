@@ -6,7 +6,6 @@ thumbnail: "assets/img/thumbnails/feature-img/circuit.jpeg"
 tags: [Test, Markdown]
 ---
 
-
 Because if you put some code in your blog, you would at least make it:
 
 1. Searchable
@@ -66,9 +65,7 @@ html example
 <!DOCTYPE html>
 <html lang="en">
   <body>
-    <div class="content">
-        This is an example
-    </div>
+    <div class="content">This is an example</div>
   </body>
 </html>
 ```
@@ -84,7 +81,7 @@ function helloWorld(param1, param2) {
 
   // Do something
   if (2.0 % 2 == something) {
-    console.log('Hello, world!');
+    console.log("Hello, world!");
   } else {
     return null;
   }
@@ -106,7 +103,7 @@ def some_function(param_one="", param_two=0):
 
 class SomeClass:
     """ dunno what I am doing """
-    
+
     def __init__(self):
         pass
 ```
@@ -116,7 +113,6 @@ class SomeClass:
 You can also render some yaml, like this `_config.yml`:
 
 ```yml
-
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -138,12 +134,12 @@ baseurl: "/Type-on-Strap"
 url: "https://sylhare.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+title: Type on Strap # site's title
+description: "A website with blog posts and pages" # used by search engines
+avatar: assets/img/triangle.png # Empty for no avatar in navbar
+favicon: assets/favicon.ico # Icon displayed in the tab
 
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
 ```
 
 ### Mermaid
@@ -154,9 +150,7 @@ Here is a simple example using:
 
 ```html
 <div class="mermaid">
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
+  sequenceDiagram Alice->>John: Hello John, how are you? John-->>Alice: Great!
 </div>
 ```
 

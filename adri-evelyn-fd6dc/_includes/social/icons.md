@@ -1,4 +1,5 @@
 {% if site.data.social.rss or site.theme_settings.rss %}
+
 <li>
     <a feed.xml href="{{ site.data.social.feed.path | default: 'feed.xml' | relative_url }}"
        title="{{ site.data.language.str_rss_follow | default: 'Follow RSS feed' }}">
@@ -11,6 +12,7 @@
 {% endif %}
 
 {% if site.data.social.email_address or site.theme_settings.email_address %}
+
 <li>
     <a href="mailto:{{ site.data.social.email_address }}"
        title="{{ site.data.language.str_email }}">

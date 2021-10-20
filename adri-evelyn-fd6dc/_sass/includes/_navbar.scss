@@ -41,7 +41,6 @@
     border-radius: 0.2em;
     margin-right: 0.5em;
     padding: 10px 10px;
-
   }
 
   .site-title {
@@ -84,9 +83,7 @@ nav {
         margin-right: 10px;
         float: right;
       }
-
     }
-
   }
 }
 
@@ -101,7 +98,7 @@ nav {
 @media screen and (max-width: $break) {
   .site-header {
     img.avatar {
-      margin-top: -7px
+      margin-top: -7px;
     }
 
     .site-title {
@@ -121,7 +118,7 @@ nav {
       overflow: hidden;
 
       /* fade out, then shrink */
-      transition: opacity .25s 0s, font-size .25s 0s;
+      transition: opacity 0.25s 0s, font-size 0.25s 0s;
       transition-delay: 0s;
 
       &.hide {
@@ -149,7 +146,6 @@ nav {
         margin: 0;
         display: block;
       }
-
     }
   }
 }

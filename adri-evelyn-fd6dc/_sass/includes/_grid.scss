@@ -4,10 +4,9 @@
   padding-bottom: 6%;
   padding-top: 1%;
 
-
   /* clear fix */
   &:after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
   }

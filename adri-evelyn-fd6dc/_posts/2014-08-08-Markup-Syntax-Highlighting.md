@@ -5,9 +5,8 @@ author: mmistakes
 tags: [code]
 ---
 
-Syntax highlighting[^1] is a feature that displays source code. 
+Syntax highlighting[^1] is a feature that displays source code.
 This feature facilitates writing in a structured language such as a programming language or a markup language as it makes import things visually distinct.
-
 
 ### GFM Code Blocks
 
@@ -23,23 +22,34 @@ GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/c
 
 {% highlight scss linenos %}
 .highlight {
-  margin: 0;
-  padding: 1em;
-  font-family: $monospace;
-  font-size: $type-size-7;
-  line-height: 1.8;
+margin: 0;
+padding: 1em;
+font-family: $monospace;
+font-size: $type-size-7;
+line-height: 1.8;
 }
 {% endhighlight %}
 
 ```html
-{% raw %}<nav class="pagination" role="navigation">
+{% raw %}
+<nav class="pagination" role="navigation">
   {% if page.previous %}
-    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+  <a
+    href="{{ site.url }}{{ page.previous.url }}"
+    class="btn"
+    title="{{ page.previous.title }}"
+    >Previous article</a
+  >
+  {% endif %} {% if page.next %}
+  <a
+    href="{{ site.url }}{{ page.next.url }}"
+    class="btn"
+    title="{{ page.next.title }}"
+    >Next article</a
+  >
   {% endif %}
-  {% if page.next %}
-    <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-  {% endif %}
-</nav><!-- /.pagination -->{% endraw %}
+</nav>
+<!-- /.pagination -->{% endraw %}
 ```
 
 ```ruby
@@ -76,7 +86,7 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
    print_hi('Tom')
    #=> prints 'Hi, Tom' to STDOUT.
    ```
-        
+
 3. Now you can do this.
 
 ### GitHub Gist Embed
@@ -89,12 +99,12 @@ You can use `defer=true` so that the loading of the gist doesn't prevent the loa
 
 {% highlight html %}
 {% raw %}
+
    <script defer=true 
            src="https://gist.github.com/sylhare/dad7ed1ef3d13614c77c4ebadf8a11c3.js">
    </script>
+
 {% endraw %}
 {% endhighlight %}
 
-
-[^1]: 
-    {% include citation.html key="highlight" %}
+[^1]: {% include citation.html key="highlight" %}

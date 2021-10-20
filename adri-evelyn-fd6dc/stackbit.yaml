@@ -2,7 +2,7 @@ stackbitVersion: ~0.3.0
 ssgName: jekyll
 publishDir: _site
 dataDir: _data
-pagesDir: ''
+pagesDir: ""
 models:
   page_1:
     type: page
@@ -15,7 +15,7 @@ models:
     type: page
     label: Layout
     folder: _layouts
-    match: '*'
+    match: "*"
     fields:
       - type: string
         name: layout
