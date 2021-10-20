@@ -11,11 +11,11 @@ pageLayoutKey: template
 pageData:
   - pagePath: /
     initialExpandedPaths:
-      - '[0]'
-      - '[0].fields.sections'
-      - '[0].fields.sections.items[0]'
-      - '[0].fields.sections.items[0].fields.title'
-      - '[0].fields.sections.items[0].fields.subtitle'
+      - "[0]"
+      - "[0].fields.sections"
+      - "[0].fields.sections.items[0]"
+      - "[0].fields.sections.items[0].fields.title"
+      - "[0].fields.sections.items[0].fields.subtitle"
 sourceMapping:
   - source:
       fieldPath: author.name
@@ -36,103 +36,103 @@ sourceMapping:
       fieldPath: author.avatar
     target:
       file: content/index.md
-      fieldPath: 'sections[0].image'
+      fieldPath: "sections[0].image"
   - action: delete
     condition: context.author.name
     target:
       file: content/index.md
-      fieldPath: 'sections[3].content'
+      fieldPath: "sections[3].content"
   - action: delete
     condition: context.author.name
     target:
       file: content/index.md
-      fieldPath: 'sections[3].image'
+      fieldPath: "sections[3].image"
   - action: delete
     condition: context.author.name
     target:
       file: content/index.md
-      fieldPath: 'sections[1].content'
+      fieldPath: "sections[1].content"
   - action: delete
     condition: context.author.name
     target:
       file: content/index.md
-      fieldPath: 'sections[0].subtitle'
+      fieldPath: "sections[0].subtitle"
   - source:
       fieldPath: author.tagline
     target:
       file: content/index.md
-      fieldPath: 'sections[0].title'
+      fieldPath: "sections[0].title"
   - source:
-      fieldPath: 'social.links[0].url'
+      fieldPath: "social.links[0].url"
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[0].url'
+      fieldPath: "params.footer.social_links[0].url"
   - source:
       fieldPath: social.twitter.url
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[0].url'
+      fieldPath: "params.footer.social_links[0].url"
   - source:
       fieldPath: social.instagram.url
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[1].url'
+      fieldPath: "params.footer.social_links[1].url"
   - source:
       fieldPath: social.github.url
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[2].url'
+      fieldPath: "params.footer.social_links[2].url"
   - source:
       fieldPath: social.linkedin.url
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[3].url'
+      fieldPath: "params.footer.social_links[3].url"
   - source:
       fieldPath: social.devto.url
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[4].url'
+      fieldPath: "params.footer.social_links[4].url"
   - action: delete
     condition: context.social && !context.social.devto
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[4]'
+      fieldPath: "params.footer.social_links[4]"
   - action: delete
     condition: context.social && !context.social.linkedin
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[3]'
+      fieldPath: "params.footer.social_links[3]"
   - action: delete
     condition: context.social && !context.social.github
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[2]'
+      fieldPath: "params.footer.social_links[2]"
   - action: delete
     condition: context.social && !context.social.instagram
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[1]'
+      fieldPath: "params.footer.social_links[1]"
   - action: delete
     condition: context.social && !context.social.twitter
     target:
       file: config.yml
-      fieldPath: 'params.footer.social_links[0]'
+      fieldPath: "params.footer.social_links[0]"
   - source:
       fieldPath: source.title
     target:
       file: config.yml
-      fieldPath: 'params.footer.links[0].label'
+      fieldPath: "params.footer.links[0].label"
   - source:
       fieldPath: source.url
     target:
       file: config.yml
-      fieldPath: 'params.footer.links[0].url'
+      fieldPath: "params.footer.links[0].url"
   - source:
       value: true
     condition: context.source.url
     target:
       file: config.yml
-      fieldPath: 'params.footer.links[0].new_window'
+      fieldPath: "params.footer.links[0].new_window"
 models:
   config:
     type: config
@@ -280,7 +280,7 @@ models:
           - stackbit_page_meta
   post:
     type: page
-    urlPath: '/posts/{slug}'
+    urlPath: "/posts/{slug}"
     label: Post
     folder: posts
     layout: post
@@ -420,12 +420,12 @@ models:
         name: title
         label: Title
         description: The page title that goes into the <title> tag
-        default: ''
+        default: ""
       - type: string
         name: description
         label: Description
         description: The page description that goes into the <meta name="description"> tag
-        default: ''
+        default: ""
       - type: list
         name: robots
         label: Robots
@@ -454,10 +454,10 @@ models:
           fields:
             - type: string
               name: name
-              default: ''
+              default: ""
             - type: string
               name: value
-              default: ''
+              default: ""
             - type: string
               name: keyName
               default: name

@@ -3,27 +3,27 @@ title: New
 excerpt: >-
   Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum
   blandit dolor elementum viverra.
-date: '2016-08-28'
+date: "2016-08-28"
 thumb_img_path: images/logo.svg
 thumb_img_alt: Geometric pattern
 seo:
   title: Sed feugiat et mauris adipiscing dolor
   description: Phasellus in ante vitae nibh porttitor tempus vitae ut ante
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Sed feugiat et mauris adipiscing dolor
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Phasellus in ante vitae nibh porttitor tempus vitae ut ante
       keyName: property
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Sed feugiat et mauris adipiscing dolor
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Phasellus in ante vitae nibh porttitor tempus vitae ut ante
 template: post
 ---
