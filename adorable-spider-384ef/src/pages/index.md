@@ -58,7 +58,7 @@ sections:
     subtitle: Features Section Example
     features:
       - title: The Big Title For the Feature
-        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
+        subtitle: "In fermentum odio et tortor laoreet, sed interdum augue ornare. "
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -91,7 +91,7 @@ sections:
         media_position: left
         media_width: fifty
       - title: The Big Title For the Feature
-        subtitle: 'Sed sed commodo turpis, eget rutrum dui.'
+        subtitle: "Sed sed commodo turpis, eget rutrum dui."
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
@@ -115,7 +115,7 @@ sections:
       - title: >-
           “Stackbit is fast! Themes are always up to date. It’s easy to use
           across the organization, and collaboration is easy.”
-        subtitle: 'Brandon Guidelines, Sr. Design Manager at Company'
+        subtitle: "Brandon Guidelines, Sr. Design Manager at Company"
         image: images/brandon-guidelines.png
         image_alt: Brandon Guidelines
         media_position: right
