@@ -1,0 +1,137 @@
+{
+    "description": "",
+    "layout": "boxed",
+    "style": "classic",
+    "palette": "red",
+    "mode": "light",
+    "base_font": "serif",
+    "header": {
+        "title": "Home",
+        "logo": "images/index.jpg",
+        "has_primary_nav": true,
+        "primary_nav_links": [
+            {
+                "label": "Services",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Get Involved",
+                "url": "/pricing",
+                "style": "link"
+            },
+            {
+                "label": "Blog",
+                "url": "/blog",
+                "style": "link"
+            },
+            {
+                "label": "About Us",
+                "url": "/about",
+                "style": "link"
+            }
+        ],
+        "has_secondary_nav": true,
+        "secondary_nav_links": [
+            {
+                "label": "Contact",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
+                "label": "Submit Referral",
+                "url": "/pricing",
+                "style": "primary"
+            },
+            {
+                "label": "Staff Login",
+                "url": "Example.com",
+                "style": "link",
+                "has_icon": true,
+                "icon": "arrow-left",
+                "icon_position": "right",
+                "new_window": true,
+                "type": "action"
+            }
+        ],
+        "has_anncmnt": true,
+        "anncmnt_content": "Baked Bean Charity is doing something very special this season. Click to **[Learn More](/pricing/)**",
+        "anncmnt_align": "left",
+        "anncmnt_is_home_only": true,
+        "anncmnt_has_close": true,
+        "anncmnt_id": "new-features"
+    },
+    "footer": {
+        "logo": "images/important-olive.jpg",
+        "has_primary_nav": true,
+        "primary_nav_title": "Company",
+        "primary_nav_links": [
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            }
+        ],
+        "has_secondary_nav": true,
+        "secondary_nav_title": "Blog",
+        "secondary_nav_links": [
+            {
+                "label": "News",
+                "url": "/blog/category/news",
+                "style": "link"
+            },
+            {
+                "label": "Resources",
+                "url": "/blog/category/tutorials",
+                "style": "link"
+            }
+        ],
+        "has_tertiary_nav": false,
+        "tertiary_nav_title": "Legal",
+        "tertiary_nav_links": [
+            {
+                "label": "Terms & Conditions",
+                "url": "/terms-conditions",
+                "style": "link"
+            },
+            {
+                "label": "Privacy Policy",
+                "url": "/privacy-policy",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "twitter",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "linkedin",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.youtube.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "youtube",
+                "icon_position": "center",
+                "new_window": true
+            }
+        ],
+        "content": "",
+        "links": []
+    },
+    "title": "Support Us"
+}
