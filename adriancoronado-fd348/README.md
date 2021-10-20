@@ -8,30 +8,33 @@
 </h3>
 
 ## Features
-* Light & dark mode with theme switcher
-* Vertical list, horizontal list, card list
-* Landing page with navbar, footer, portfolio
-* Fast (very minimal CSS) - 100/100 on performance, accessibility, best practices and SEO, please see [Lighthouse Report](https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png) for more details
-* Responsive and mobile friendly
-* SEO optimized (uses [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag))
-* RSS feed (uses [Jekyll Feed](https://github.com/jekyll/jekyll-feed))
-* Easy to extend
-* Fully compatible with [GitHub Pages](https://pages.github.com/) (see [GitHub Pages installation](#github-pages-installation))
 
+- Light & dark mode with theme switcher
+- Vertical list, horizontal list, card list
+- Landing page with navbar, footer, portfolio
+- Fast (very minimal CSS) - 100/100 on performance, accessibility, best practices and SEO, please see [Lighthouse Report](https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png) for more details
+- Responsive and mobile friendly
+- SEO optimized (uses [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag))
+- RSS feed (uses [Jekyll Feed](https://github.com/jekyll/jekyll-feed))
+- Easy to extend
+- Fully compatible with [GitHub Pages](https://pages.github.com/) (see [GitHub Pages installation](#github-pages-installation))
 
 #### Lighthouse
 
 <img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png" />
 
 ## Quick Installation
+
 1. [Fork this repository](https://github.com/abhinavs/moonwalk/fork).
 2. `cd moonwalk`
 3. `bin/bootstrap`
 
 ## Starting Server
+
 `bin/start` - development server will start at http://127.0.0.1:4000
 
 ## Deployment
+
 Moonwalk can be easily deployed on all the cloud providers (AWS etc.), and on static website hosting services like Netlify & Vercel. You can also use this button to do one click deploy
 <br />
 <br />
@@ -52,58 +55,69 @@ In order to add/edit/delete entries in the home page, you can copy the `home.yml
 The `home.yml` file accepts the following fields:
 
 1. Vertical list
-  - `entries` define a new unordered list that will contain menu entries
-  - each entry is marked by a `-` at the beginning of the line
-  - each entry has the following attributes:
-    - `title`, which defines the text to render for that menu entry
-    - `url`, which can either be a URL or `false`. If it is `false`, the entry will be rendered as plain text; otherwise the entry will be rendered as a link pointing to the specified URL. Note that the URL can either be relative or absolute.
-    - `post_list`, which can be `true` or `false`. If it is true, the entry will have all posts in the site as subentries. This is used to render your post list.
-    - `entries`, yes, you can have entries inside entries. In this way you can create nested sublists!
-2. Card list - cards are used to showcase portfolio projects. Please see `project_entries` in `_data/home.yml` file
-  - each entry is marked by a `-` at the beginning of the line
-  - each entry has the following attributes:
-    - `title` defines the header of the card
-    - `desc` is the body of the card
-    - `url` is a relative or absolute link which this card can point to.
-    - `highlight` in case you want to highlight something, keep the text short though
-3. Horizontal list - moonwalk uses horizontal lists to create navbar and footer. Please see `navbar_entries` and `footer_entries` in `data/home.yml` file
-  - each entry is marked by a `-` at the beginning of the line
-  - each entry has the following attributes:
-    - `title` defines the header of the card
-    - `url` is a relative or absolute link which this card can point to.
 
+- `entries` define a new unordered list that will contain menu entries
+- each entry is marked by a `-` at the beginning of the line
+- each entry has the following attributes:
+  - `title`, which defines the text to render for that menu entry
+  - `url`, which can either be a URL or `false`. If it is `false`, the entry will be rendered as plain text; otherwise the entry will be rendered as a link pointing to the specified URL. Note that the URL can either be relative or absolute.
+  - `post_list`, which can be `true` or `false`. If it is true, the entry will have all posts in the site as subentries. This is used to render your post list.
+  - `entries`, yes, you can have entries inside entries. In this way you can create nested sublists!
+
+2. Card list - cards are used to showcase portfolio projects. Please see `project_entries` in `_data/home.yml` file
+
+- each entry is marked by a `-` at the beginning of the line
+- each entry has the following attributes:
+  - `title` defines the header of the card
+  - `desc` is the body of the card
+  - `url` is a relative or absolute link which this card can point to.
+  - `highlight` in case you want to highlight something, keep the text short though
+
+3. Horizontal list - moonwalk uses horizontal lists to create navbar and footer. Please see `navbar_entries` and `footer_entries` in `data/home.yml` file
+
+- each entry is marked by a `-` at the beginning of the line
+- each entry has the following attributes:
+  - `title` defines the header of the card
+  - `url` is a relative or absolute link which this card can point to.
 
 ### Pro tips
+
 1. Moonwalk has 3 in-built layouts:
-  - post - for content
-  - blog - for listing blog posts
-  - home - for landing page
+
+- post - for content
+- blog - for listing blog posts
+- home - for landing page
   you can change your `index.md` file to use either home or blog layout.
 
-2. It is extremely easy to tweak the color scheme. 
-  - for light mode, customize these css variables
+2. It is extremely easy to tweak the color scheme.
+
+- for light mode, customize these css variables
+
 ```css
 html {
-    --bg: #fff;
-    --bg-secondary: #f8f9fa;
-    --headings: #000;
-    --text: #333;
-    --links: blue;
-    --highlight: #ffecb2; // light yellow
+  --bg: #fff;
+  --bg-secondary: #f8f9fa;
+  --headings: #000;
+  --text: #333;
+  --links: blue;
+  --highlight: #ffecb2; // light yellow
 }
 ```
-  - for dark mode customize these css variables
+
+- for dark mode customize these css variables
+
 ```css
 @mixin dark-appearance {
-  html, body  {
-      --bg: #1f242A;
-      --bg-secondary: #323945;
-      --headings: #3D9970;
-      --text: #adb5bd;
-      --links: #91a7ff;
-      --highlight: #ffd8a8;
-      --highlight: #ffd43b;
-  };
+  html,
+  body {
+    --bg: #1f242a;
+    --bg-secondary: #323945;
+    --headings: #3d9970;
+    --text: #adb5bd;
+    --links: #91a7ff;
+    --highlight: #ffd8a8;
+    --highlight: #ffd43b;
+  }
 }
 ```
 
@@ -121,23 +135,26 @@ When your theme is released, only the files in `_layouts`, `_includes`, `_sass` 
 To add a custom directory to your theme-gem, please edit the regexp in `moonwalk.gemspec` accordingly.
 
 ## Acknowledgement
-This theme's original base is [no style please!](https://github.com/riggraz/no-style-please) theme created by  [Riccardo Graziosi](https://riggraz.dev/) - many thanks to him for creating a wonderful theme with nearly no css. 
+
+This theme's original base is [no style please!](https://github.com/riggraz/no-style-please) theme created by [Riccardo Graziosi](https://riggraz.dev/) - many thanks to him for creating a wonderful theme with nearly no css.
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Other Projects
+
 If you like Moonwalk, do check out my other projects
-*   [cookie](https://github.com/abhinavs/cookie) - a free landing website boilerplate using Jekyll and Tailwind CSS
-*   [scoop](https://github.com/abhinavs/scoop) - a Sinatra boilerplate project using Corneal, ActiveRecord, Capistrano, Puma & Nginx
-*   [soopr](https://www.soopr.co) - a tool that supports you in content marketing
-*   [apicagent](https://www.apicagent.com) - a FREE API that extracts device details from user-agent string
-*   [pincodr](https://pincodr.apiclabs.com) - a FREE API for Indian pincodes
-*   [humangous](https://www.humangous.co) - create public and private 'working with you' guides
-*   [blockr](https://www.abhinav.co/blockr) - a CLI tool to help you easily block and unblock websites
-*   [microrequests](https://www.abhinav.co/microrequests) - a Python library to help you consume microservice efficiently
+
+- [cookie](https://github.com/abhinavs/cookie) - a free landing website boilerplate using Jekyll and Tailwind CSS
+- [scoop](https://github.com/abhinavs/scoop) - a Sinatra boilerplate project using Corneal, ActiveRecord, Capistrano, Puma & Nginx
+- [soopr](https://www.soopr.co) - a tool that supports you in content marketing
+- [apicagent](https://www.apicagent.com) - a FREE API that extracts device details from user-agent string
+- [pincodr](https://pincodr.apiclabs.com) - a FREE API for Indian pincodes
+- [humangous](https://www.humangous.co) - create public and private 'working with you' guides
+- [blockr](https://www.abhinav.co/blockr) - a CLI tool to help you easily block and unblock websites
+- [microrequests](https://www.abhinav.co/microrequests) - a Python library to help you consume microservice efficiently
 
 ✨⚡You can read more about me on my [blog](https://www.abhinav.co/about/) or follow me on Twitter - [@abhinav](https://twitter.com/abhinav)
 
-✨⚡If you like my work, you can [buy me a coffee](https://buymeacoffee.com/abhinavs)                
+✨⚡If you like my work, you can [buy me a coffee](https://buymeacoffee.com/abhinavs)

@@ -1,19 +1,19 @@
 title: Moonwalk
 author: Abhinav Saxena
-url: ''
+url: ""
 description: >
   Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes
   with horizontal list (for navbar and footer), card list (for portfolio), and a
   generic vertical list. It is very easy to modify in case you want to build
   over it - please see _layouts/home.html to do that.
-permalink: '/:slug.html'
+permalink: "/:slug.html"
 favicon: ./logo.png
 remote_theme: abhinavs/moonwalk
 theme_config:
   appearance: dark
   appearance_toggle: true
   back_home_text: home..
-  date_format: '%Y-%m-%d'
+  date_format: "%Y-%m-%d"
   show_description: true
   show_navbar: true
   show_footer: true
@@ -28,11 +28,11 @@ theme_config:
     title_blog: Blog
     title_old_projects: Old Projects
 soopr:
-  publish_token: ''
+  publish_token: ""
 highlighter: rouge
 sass:
-  style: ':compressed'
+  style: ":compressed"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-baseurl: ''
+baseurl: ""

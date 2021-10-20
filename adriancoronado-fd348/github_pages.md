@@ -29,5 +29,3 @@ Or install it yourself as:
 ### GitHub Pages installation
 
 If you want to use this theme for your Jekyll's site deployed on [GitHub Pages](https://pages.github.com/), follow the instructions on [this page](https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme).
-
-

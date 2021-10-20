@@ -2,12 +2,12 @@ stackbitVersion: ~0.3.0
 ssgName: jekyll
 publishDir: _site
 dataDir: _data
-pagesDir: ''
+pagesDir: ""
 models:
   page_1:
     type: page
     label: Page 1
-    match: '**/*'
+    match: "**/*"
     exclude:
       - index.md
     fields:
@@ -20,7 +20,7 @@ models:
   page_2:
     type: page
     label: Page 2
-    match: '*'
+    match: "*"
     exclude:
       - about.md
     fields:
