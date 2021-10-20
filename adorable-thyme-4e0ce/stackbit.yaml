@@ -3,10 +3,10 @@ ssgName: jekyll
 ssgVersion: 3.8.4
 buildCommand: jekyll build
 publishDir: _site
-staticDir: ''
+staticDir: ""
 uploadDir: images
 dataDir: _data
-pagesDir: ''
+pagesDir: ""
 pageLayoutKey: layout
 logicFields:
   - doc_sections.root_docs_path
@@ -15,13 +15,13 @@ logicFields:
 pageData:
   - pagePath: /
     initialExpandedPaths:
-      - '[0]'
-      - '[0].fields.sections'
-      - '[0].fields.sections.items[0]'
-      - '[0].fields.sections.items[0].fields.title'
-      - '[0].fields.sections.items[0].fields.content'
-      - '[1]'
-      - '[1].fields.palette'
+      - "[0]"
+      - "[0].fields.sections"
+      - "[0].fields.sections.items[0]"
+      - "[0].fields.sections.items[0].fields.title"
+      - "[0].fields.sections.items[0].fields.content"
+      - "[1]"
+      - "[1].fields.palette"
 models:
   config:
     type: config
@@ -40,8 +40,8 @@ models:
       - type: string
         name: permalink
         label: Permalink
-        description: 'The output path for your pages, posts, or collections.'
-        default: '/posts/:slug:output_ext'
+        description: "The output path for your pages, posts, or collections."
+        default: "/posts/:slug:output_ext"
         hidden: true
       - type: image
         name: favicon
@@ -197,7 +197,7 @@ models:
           type: string
   docs:
     type: page
-    urlPath: '/docs/{slug}'
+    urlPath: "/docs/{slug}"
     label: Documentation Pages
     layout: docs
     folder: docs
@@ -308,7 +308,7 @@ models:
         description: The image shown in the background of the page header
   post:
     type: page
-    urlPath: '/blog/{slug}'
+    urlPath: "/blog/{slug}"
     label: Post
     layout: post
     folder: blog
@@ -354,7 +354,7 @@ models:
       - type: string
         name: section_id
         label: Section ID
-        description: 'A unique identifier of the section, must not contain whitespace'
+        description: "A unique identifier of the section, must not contain whitespace"
   section_content:
     type: object
     label: Content Section

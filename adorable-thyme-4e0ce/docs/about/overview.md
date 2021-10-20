@@ -13,7 +13,7 @@ layout: docs
 
 <hr>
 
-There are two types of callouts available in this theme, **note** and **important**. To add a callout to your documentation simply add the following `html` code with class `important` or `note`. Like in the example bellow. 
+There are two types of callouts available in this theme, **note** and **important**. To add a callout to your documentation simply add the following `html` code with class `important` or `note`. Like in the example bellow.
 
 ### HTML example
 
@@ -21,20 +21,19 @@ Copy the code and modify these blocks according to your needs.
 
 ```html
 <div class="important">
-  <strong>Important:</strong> 
-  This is an "Important" callout block of text.
-  This block indicates a warning or caution. 
-  Use it for an important message. 
+  <strong>Important:</strong>
+  This is an "Important" callout block of text. This block indicates a warning
+  or caution. Use it for an important message.
 </div>
 ```
 
 ```html
 <div class="note">
-  <strong>Note:</strong> 
-  This is a "Note" callout block of text. 
-  This block signifies a general note.
+  <strong>Note:</strong>
+  This is a "Note" callout block of text. This block signifies a general note.
 </div>
 ```
+
 ### Live example
 
 <div class="important">
@@ -111,7 +110,7 @@ You can build tables with markdown to help you organize information. To add a ta
 </pre>
 
 | Title | Title |
-| ------| ----- |
+| ----- | ----- |
 | Text  | Text  |
 | Text  | Text  |
 
