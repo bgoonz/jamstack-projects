@@ -1,9 +1,9 @@
 title: Stackbit Exto Theme
 baseurl: /
-permalink: '/:title/'
+permalink: "/:title/"
 collections:
   posts:
-    permalink: '/posts/:title/'
+    permalink: "/posts/:title/"
 color_scheme: light
 accent_color: pink
 header:
@@ -38,22 +38,22 @@ footer:
   has_social: true
   social_links:
     - label: Twitter
-      url: 'https://twitter.com/'
+      url: "https://twitter.com/"
       style: icon
       icon: twitter
       new_window: true
     - label: Instagram
-      url: 'https://www.instagram.com/'
+      url: "https://www.instagram.com/"
       style: icon
       icon: instagram
       new_window: true
     - label: Dribbble
-      url: 'https://dribbble.com/'
+      url: "https://dribbble.com/"
       style: icon
       icon: dribbble
       new_window: true
     - label: LinkedIn
-      url: 'https://www.linkedin.com/'
+      url: "https://www.linkedin.com/"
       style: icon
       icon: linkedin
       new_window: true
