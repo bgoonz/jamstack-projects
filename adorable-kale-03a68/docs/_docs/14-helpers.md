@@ -66,7 +66,10 @@ Will output the following:
 
 ```html
 <figure>
-  <img src="/assets/images/unsplash-image-10.jpg" alt="this is a placeholder image">
+  <img
+    src="/assets/images/unsplash-image-10.jpg"
+    alt="this is a placeholder image"
+  />
   <figcaption>This is a figure caption.</figcaption>
 </figure>
 ```
@@ -127,7 +130,7 @@ Designed to compliment the [`splash`]({{ "/docs/layouts/#splash-page-layout" | r
 To add a feature row containing three content blocks with text and image, add the following YAML Front Matter
 
 | Name              | Required     | Description                                                                                          | Default                            |
-| ----------------- | ------------ | ---------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| ----------------- | ------------ | ---------------------------------------------------------------------------------------------------- | ---------------------------------- | ----- |
 | **image_path**    | **Required** | Full path to image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. |                                    |
 | **image_caption** | Optional     | Caption for image, Markdown is supported eg: `"Image from [Unsplash](https://unsplash.com)"          |
 | **alt**           | Optional     | Alternate text for image.                                                                            |                                    |
@@ -175,11 +178,11 @@ And then drop-in the feature row include in the body where you'd like it to appe
 
 Embed a video from YouTube, Vimeo, Google Drive, or bilibili that responsively sizes to fit the width of its parent. To help with GDPR compliance, the theme is using the privacy enhanced version of YouTube and Vimeo providers out of the box.
 
-| Parameter  | Required     | Description                                                |
-| ---------- | ------------ | ---------------------------------------------------------- |
-| `id`       | **Required** | ID of the video                                            |
+| Parameter  | Required     | Description                                                                      |
+| ---------- | ------------ | -------------------------------------------------------------------------------- |
+| `id`       | **Required** | ID of the video                                                                  |
 | `provider` | **Required** | Hosting provider of the video: `youtube`, `vimeo`, `google-drive`, or `bilibili` |
-| `danmaku`  | Optional     | Bilibili only, [details below](#Bilibili)                  |
+| `danmaku`  | Optional     | Bilibili only, [details below](#Bilibili)                                        |
 
 ### YouTube
 
@@ -289,7 +292,6 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 ---
-
 ```
 
 **Note:** using both methods will have unintended results. Be sure to remove `{% raw %}{% include toc %}{% endraw %}` placed table of contents from your content when using `toc: true`.

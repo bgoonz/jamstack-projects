@@ -40,29 +40,29 @@ minimal-mistakes
 
 ## Customizing
 
-To override the default [Sass](http://sass-lang.com/guide) (located in theme's 
+To override the default [Sass](http://sass-lang.com/guide) (located in theme's
 `_sass` directory), do one of the following:
 
 1. Copy directly from the Minimal Mistakes theme gem
 
-   - Go to your local Minimal Mistakes gem installation directory (run 
+   - Go to your local Minimal Mistakes gem installation directory (run
      `bundle show minimal-mistakes-jekyll` to get the path to it).
-   - Copy the contents of `/assets/css/main.scss` from there to 
+   - Copy the contents of `/assets/css/main.scss` from there to
      `<your_project>`.
    - Customize what you want inside `<your_project>/assets/css/main.scss`.
 
 2. Copy from this repo.
 
-   - Copy the contents of [assets/css/main.scss](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss) 
+   - Copy the contents of [assets/css/main.scss](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss)
      to `<your_project>`.
    - Customize what you want inside `<your_project/assets/css/main.scss`.
 
-**Note:** To make more extensive changes and customize the Sass partials bundled 
-in the gem. You will need to copy the complete contents of the `_sass` directory 
+**Note:** To make more extensive changes and customize the Sass partials bundled
+in the gem. You will need to copy the complete contents of the `_sass` directory
 to `<your_project>` due to the way Jekyll currently reads those files.
 
-To make basic tweaks to theme's style Sass variables can be overridden by adding 
-to `<your_project>/assets/css/main.scss`. For instance, to change the 
+To make basic tweaks to theme's style Sass variables can be overridden by adding
+to `<your_project>/assets/css/main.scss`. For instance, to change the
 link color used throughout the theme add:
 
 ```scss
@@ -71,7 +71,7 @@ $link-color: red;
 
 Before any `@import` lines.
 
-### Paragraph indention 
+### Paragraph indention
 
 To mimic the look of type set in a printed book or manuscript you may want to enable paragraph indention. When `$paragraph-indent` is set to `true` indents are added to each sibling and the margin below each paragraph is removed.
 
@@ -88,9 +88,10 @@ By default the theme uses [system fonts](https://medium.com/designing-medium/sys
 
 ```scss
 /* system typefaces */
-$serif      : Georgia, Times, serif;
-$sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+$serif: Georgia, Times, serif;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace: Monaco, Consolas, "Lucida Console", monospace;
 ```
 
 Sans-serif fonts have been used for most of the type, with serifs reserved for captions. If you wish to change this you'll need to poke around the various `SCSS` partials and modify `font-family` declarations.
@@ -105,22 +106,27 @@ Not a fan of the refreshed typography of the theme and want to revert back an ol
 **1.** Add this Google Fonts script to [`_includes/head/custom.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/head/custom.html):
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+<link
+  href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic"
+  rel="stylesheet"
+  type="text/css"
+/>
 ```
 
 **2.** Update the following SCSS variables:
 
 ```scss
-$serif              : "PT Serif", Georgia, Times, serif;
-$sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$serif: "PT Serif", Georgia, Times, serif;
+$sans-serif-narrow: "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto",
+  "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
-$global-font-family : $serif;
-$header-font-family : $sans-serif-narrow;
+$global-font-family: $serif;
+$header-font-family: $sans-serif-narrow;
 ```
 
 ### Type scale
 
-Wherever possible type scale variables have been used instead of writing out fixed sizes. This makes updating much easier by changing values in one file. 
+Wherever possible type scale variables have been used instead of writing out fixed sizes. This makes updating much easier by changing values in one file.
 
 Example:
 
@@ -135,14 +141,14 @@ Type sizes are set in ems to proportional scale as the screen size changes. Larg
 
 ```scss
 /* type scale */
-$type-size-1 : 2.441em;  // ~39.056px
-$type-size-2 : 1.953em;  // ~31.248px
-$type-size-3 : 1.563em;  // ~25.008px
-$type-size-4 : 1.25em;   // ~20px
-$type-size-5 : 1em;      // ~16px
-$type-size-6 : 0.75em;   // ~12px
-$type-size-7 : 0.6875em; // ~11px
-$type-size-8 : 0.625em;  // ~10px
+$type-size-1: 2.441em; // ~39.056px
+$type-size-2: 1.953em; // ~31.248px
+$type-size-3: 1.563em; // ~25.008px
+$type-size-4: 1.25em; // ~20px
+$type-size-5: 1em; // ~16px
+$type-size-6: 0.75em; // ~12px
+$type-size-7: 0.6875em; // ~11px
+$type-size-8: 0.625em; // ~10px
 ```
 
 ### Colors
@@ -370,7 +376,7 @@ $base0c: #8abeb7;
 $base0d: #81a2be;
 $base0e: #b294bb;
 $base0f: #a3685a;
-```  
+```
 
 ### Breakpoints and grid stuff
 
@@ -388,6 +394,6 @@ And `$susy` is used for setting [the grid](http://susy.oddbird.net/) the theme u
 You can disable either the fade-in intro animation, element transition animations, or both by overriding the corresponding variables. For example if you wanted to disable all animations you could include the following lines:
 
 ```scss
-$intro-transition  : none;
-$global-transition : none;
+$intro-transition: none;
+$global-transition: none;
 ```

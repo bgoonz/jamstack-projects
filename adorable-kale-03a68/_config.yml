@@ -1,12 +1,12 @@
 minimal_mistakes_skin: default
 locale: en-US
 title: Site Title
-title_separator: '-'
+title_separator: "-"
 subtitle: null
 name: Your Name
 description: An amazing website.
-url: ''
-baseurl: ''
+url: ""
+baseurl: ""
 repository: null
 teaser: null
 logo: null
@@ -102,8 +102,8 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - '*.sublime-project'
-  - '*.sublime-workspace'
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
@@ -132,7 +132,7 @@ keep_files:
   - .git
   - .svn
 encoding: utf-8
-markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -147,14 +147,14 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  smart_quotes: 'lsquo,rsquo,ldquo,rdquo'
+  smart_quotes: "lsquo,rsquo,ldquo,rdquo"
   enable_coderay: false
 sass:
   sass_dir: _sass
   style: compressed
-permalink: '/:categories/:title/'
+permalink: "/:categories/:title/"
 paginate: 5
-paginate_path: '/page:num/'
+paginate_path: "/page:num/"
 timezone: null
 plugins:
   - jekyll-paginate
@@ -180,7 +180,7 @@ compress_html:
     envs: development
 defaults:
   - scope:
-      path: ''
+      path: ""
       type: posts
     values:
       layout: single
