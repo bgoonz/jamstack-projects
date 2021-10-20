@@ -3,10 +3,10 @@ ssgName: jekyll
 ssgVersion: 3.8.4
 buildCommand: jekyll build
 publishDir: _site
-staticDir: ''
+staticDir: ""
 uploadDir: images
 dataDir: _data
-pagesDir: ''
+pagesDir: ""
 pageLayoutKey: layout
 logicFields:
   - order
@@ -151,7 +151,7 @@ models:
     hideContent: true
     layout: category
     folder: category
-    urlPath: 'category/{slug}'
+    urlPath: "category/{slug}"
     fields:
       - type: string
         name: title
@@ -381,7 +381,7 @@ models:
     type: page
     label: Product
     layout: product
-    urlPath: 'products/{slug}'
+    urlPath: "products/{slug}"
     folder: products
     fields:
       - type: string
@@ -432,7 +432,7 @@ models:
         name: url
         label: URL
         required: true
-        default: '#'
+        default: "#"
       - type: enum
         name: style
         label: Style
@@ -453,12 +453,12 @@ models:
         name: title
         label: Title
         description: The page title that goes into the <title> tag
-        default: ''
+        default: ""
       - type: string
         name: description
         label: Description
         description: The page description that goes into the <meta name="description"> tag
-        default: ''
+        default: ""
       - type: list
         name: robots
         label: Robots
@@ -486,10 +486,10 @@ models:
           fields:
             - type: string
               name: name
-              default: ''
+              default: ""
             - type: string
               name: value
-              default: ''
+              default: ""
             - type: string
               name: keyName
               default: name

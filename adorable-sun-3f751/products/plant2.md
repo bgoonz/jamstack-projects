@@ -1,7 +1,7 @@
 ---
 layout: product
-id: '2'
-price: '??'
+id: "2"
+price: "??"
 title: One Time | Trap
 description: Suspendisse efficitur eget erat sit amet efficitur.
 default_thumbnail_image: images/famous-rosemary.webp
@@ -12,26 +12,26 @@ seo:
   title: Integer porta
   description: Suspendisse efficitur eget erat sit amet efficitur
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Integer porta
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: Suspendisse efficitur eget erat sit amet efficitur
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/plant2-lg.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Integer porta
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: Suspendisse efficitur eget erat sit amet efficitur
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/plant2-lg.jpg
       relativeUrl: true
 ---

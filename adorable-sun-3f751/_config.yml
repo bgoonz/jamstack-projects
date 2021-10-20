@@ -1,11 +1,11 @@
 title: Planty
 baseurl: /
-permalink: '/:title/'
+permalink: "/:title/"
 plugins:
   - jekyll-menus
 collections:
   posts:
-    permalink: '/posts/:title/'
+    permalink: "/posts/:title/"
 sass:
   style: nested
   precision: 10

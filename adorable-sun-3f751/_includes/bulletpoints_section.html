@@ -1,10 +1,13 @@
 {% assign section = include.section %}
 
-<section class="content__row bulletpoints__section" data-id="{{ section.section_id }}">
-{% for bulletpoint in section.bulletpoints %}
+<section
+  class="content__row bulletpoints__section"
+  data-id="{{ section.section_id }}"
+>
+  {% for bulletpoint in section.bulletpoints %}
   <section class="content__row bulletpoint__section">
-    
-    {% include picture.html image=bulletpoint.image alt=bulletpoint.title cssClass='bulletpoint__section-image' %}
+    {% include picture.html image=bulletpoint.image alt=bulletpoint.title
+    cssClass='bulletpoint__section-image' %}
     <div class="bulletpoint__section-content-container">
       <h2 class="bulletpoint__section-title">{{ bulletpoint.title }}</h2>
       <div class="bulletpoint__section-content">
@@ -12,5 +15,5 @@
       </div>
     </div>
   </section>
-{% endfor %}
+  {% endfor %}
 </section>
