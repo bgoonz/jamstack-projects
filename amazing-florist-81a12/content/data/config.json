@@ -1,0 +1,58 @@
+{
+    "title": "Best Flower Delivery Companies Directory | Amazing Florist",
+    "path_prefix": "/",
+    "header": {
+        "title": "AMAZING FLORIST",
+        "has_nav": false,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "Generic",
+                "url": "/generic/"
+            },
+            {
+                "label": "Elements",
+                "url": "/elements/"
+            },
+            {
+                "label": "Ipsum",
+                "url": "/ipsum/"
+            }
+        ]
+    },
+    "footer": {
+        "content": "&copy; 2021 Amazing Florist. All rights reserved. The referred trademarks belong to their respective owners.",
+        "has_social": false,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "new_window": true
+            },
+            {
+                "label": "DEV",
+                "url": "https://dev.to/",
+                "new_window": true
+            }
+        ]
+    },
+    "domain": "https://amazing-florist.netlify.app"
+}
