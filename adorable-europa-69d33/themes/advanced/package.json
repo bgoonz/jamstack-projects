@@ -107,7 +107,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-testing-library": "^4.10.1",
     "fetch-mock": "^9.11.0",
-    "gatsby": "^3.11.0",
+    "gatsby": "^4.0.0",
     "gh-pages": "^3.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.6",

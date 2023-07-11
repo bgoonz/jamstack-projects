@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
-    "gatsby": "^3.11.0",
+    "gatsby": "^4.0.0",
     "gatsby-plugin-styled-components": "^4.11.0",
     "gatsby-theme-amaranth": "workspace:*",
     "react": "^17.0.2",
